@@ -13,7 +13,8 @@
 
 * 活動:
    * Sphinxメンテナ, Sphinx-users.jp会長
-   * Python系, XP系, PyConJP 2012 副座長
+   * PyCon JP 2011,2012 副座長
+
 * 言語:
    * C++/C/8086/**Python**/Rails/chef
 
