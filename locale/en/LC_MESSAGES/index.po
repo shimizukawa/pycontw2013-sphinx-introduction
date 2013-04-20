@@ -1,0 +1,144 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: ドキュメントジェネレータ Sphinx 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-20 17:40\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ..\..\index.rst:3
+msgid "ドキュメントジェネレータSphinx"
+msgstr "Document Generator Sphinx"
+
+#: ..\..\index.rst:11
+msgid "おまえ、誰よ"
+msgstr "Who are You?"
+
+#: ..\..\index.rst:16
+msgid "活動:"
+msgstr "Activity:"
+
+#: ..\..\index.rst:15
+msgid "Sphinxメンテナ, Sphinx-users.jp会長"
+msgstr "Sphinx Maintainer, Sphinx-users.jp Chairman"
+
+#: ..\..\index.rst:16
+msgid "PyCon JP 2011,2012 副座長"
+msgstr "PyConJP 2011,2012 Vice Chairman"
+
+#: ..\..\index.rst:19
+msgid "言語:"
+msgstr "Languages:"
+
+#: ..\..\index.rst:19
+msgid "C++/C/8086/**Python**/Rails/chef"
+msgstr ""
+
+#: ..\..\index.rst:30 ..\..\index.rst:39
+msgid "重要情報"
+msgstr "IMPORTANT"
+
+#: ..\..\index.rst:41
+msgid "PyCon APAC 2013"
+msgstr ""
+
+#: ..\..\index.rst:42 ..\..\index.rst:176
+msgid "2013年9月開催予定！"
+msgstr ""
+
+#: ..\..\index.rst:48
+msgid "ということで"
+msgstr "Then,"
+
+#: ..\..\index.rst:58
+msgid "Sphinxです"
+msgstr "The Sphinx"
+
+#: ..\..\index.rst:75
+msgid "Sphinxとは？"
+msgstr "What is Sphinx?"
+
+#: ..\..\index.rst:77
+msgid "ドキュメント生成のツール"
+msgstr "Document generator tool"
+
+#: ..\..\index.rst:78
+msgid "reStructuredText記法(Wikiっぽい?"
+msgstr "reStructuredText markup (like wiki)"
+
+#: ..\..\index.rst:79
+msgid "ページ間のリンクを自動生成"
+msgstr "Auto linking to other pages"
+
+#: ..\..\index.rst:80
+msgid "強力なコードハイライト"
+msgstr "Powerful code highlighting"
+
+#: ..\..\index.rst:81
+msgid "出力形式: HTML, PDF, ePub, htmlhelp, latex, man..."
+msgstr "Many outputs: HTML, PDF, ePub, htmlhelp, latex, man..."
+
+#: ..\..\index.rst:85
+msgid "Sphinxの記入の例"
+msgstr "Sphinx documented cases"
+
+#: ..\..\index.rst:110
+msgid "Sphinx 1.2b1 リリース"
+msgstr "Sphinx 1.2b1 Released"
+
+#: ..\..\index.rst:112
+msgid "**3/31に1年ぶりにリリース！**"
+msgstr "**Released in one year at Mar 31**"
+
+#: ..\..\index.rst:114
+msgid "複数メンテナ体制で最初のリリース"
+msgstr ""
+
+#: ..\..\index.rst:115
+msgid "国際化(i18n)機能の大幅強化"
+msgstr ""
+
+#: ..\..\index.rst:116
+msgid "マルチバイト言語対応強化"
+msgstr ""
+
+#: ..\..\index.rst:126
+msgid "Sphinxの国際化(i18n)機能の強化"
+msgstr ""
+
+#: ..\..\index.rst:128
+msgid "翻訳対象となっていなかった多くの箇所の対応"
+msgstr ""
+
+#: ..\..\index.rst:129
+msgid "公式ドキュメント多言語化(進行中) Sphinx国際化機能の **モデルケース**"
+msgstr ""
+
+#: ..\..\index.rst:136
+msgid "公式ドキュメント多言語化計画"
+msgstr ""
+
+#: ..\..\index.rst:138
+msgid "日本語公式ドキュメントは今まで直接書き換えていました:"
+msgstr ""
+
+#: ..\..\index.rst:149
+msgid "今は翻訳を Transifex_ で行っています"
+msgstr ""
+
+#: ..\..\index.rst:156
+msgid "デモ"
+msgstr ""
+
+#: ..\..\index.rst:166
+msgid "さいごに"
+msgstr ""
+
+#: ..\..\index.rst:174
+msgid "PyCon APAC 2013 in Japan"
+msgstr ""
