@@ -12,7 +12,6 @@ else:
 copyright = u'2013, Takayuki SHIMIZUKAWA'
 version = release = '1.0'
 exclude_patterns = ['_build']
-templates_path = ['_templates']
 locale_dirs = ['locale']
 pygments_style = 'sphinx'
 extensions = ['sphinxjp.themecore']
