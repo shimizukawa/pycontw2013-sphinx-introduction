@@ -357,6 +357,14 @@ Simple and beautiful html themes. Detail information is here: :ref:`builtin-them
    pyramid
 
 
+.. speech::
+
+   Sphinx includes simple and beautiful html themes.
+   default, sphinxdoc, scrolls, agogo, traditional, nature, haiku and pyramid.
+
+   Detail information is written at builtin themes page.
+
+
 .. s6:: styles
 
    'div[0]': {width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
