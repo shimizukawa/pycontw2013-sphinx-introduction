@@ -82,10 +82,11 @@ body {
 	border: 1px solid black;
 	width: 80%;
 }
-.s6.sphinx .page.default .admonition.speech > * {
-	font-size: 60%;
+.s6.sphinx .page.default .admonition.speech ul {
+	font-size: 80%;
 }
 .s6.sphinx .page.default .admonition.speech p {
+	font-size: 60%;
 	margin-bottom: 1em;
 }
 

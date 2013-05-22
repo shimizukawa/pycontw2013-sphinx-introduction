@@ -110,6 +110,11 @@ Table of contents
 2. Demonstration
 3. Case studies
 
+.. speech::
+
+   I will introduce by three parts.
+   Introduction, Demonstration and Case studies.
+
 .. s6:: effect slide
 
 Table of contents
@@ -123,6 +128,11 @@ Table of contents
 2. Demonstration
 3. Case studies
 
+.. speech::
+
+   First, I introduce "what is Sphinx" and "what is reStructuredText".
+
+
 .. s6:: styles
 
    'ol': {color: 'gray'},
@@ -134,12 +144,20 @@ What **IS** Sphinx?
 
 Sphinx is a tool that makes it easy to create intelligent and beautiful documentation. Sphinx generates various formats such as HTML, ePub, PDF from the documentation of reStructuredText (reST) markup like Wiki and/or Python source code.
 
+.. speech::
+
+   Sphinx is a tool that makes it easy to create intelligent and beautiful documentation. Sphinx generates various formats such as HTML, ePub, PDF from the documentation of reStructuredText (reST) markup like Wiki and/or Python source code.
+
 .. s6:: effect slide
 
 Hummm???
 ==========
 
 .. figure:: hummm.png
+
+.. speech::
+
+   (TBD)
 
 .. s6:: styles
 
@@ -156,127 +174,136 @@ Sphinx **IS**
 
 .. figure:: sphinx-generate-several-formats.png
 
+.. speech::
+
+   * Sphinx is a documentation generator.
+     Sphinx generate documentation from reStructuredText markup.
+
+     In other words, Sphinx reads reStructuredText format text file and
+     outputs html, epub, pdf, or other several format.
+
+   * Sphinx is extensible, so you can also output in a different format,
+     or read the file in a different format.
+
+
 .. s6:: styles
 
    'div': {width:'55%', position:'absolute', right:'0', bottom:'1em', backgroundColor:'white'}
 
 .. s6:: effect slide
 
-and reStructuredText(reST) **IS**
+And reStructuredText(reST) **IS**
 ==================================
 
 * Markup language.
-* Similer to several wiki markups.
 * Written with plain text.
+* Similer to several wiki markups.
 * Extensible **(important!)**
 
-.. s6:: effect slide
+.. speech::
 
-Sphinx provides
-================
-Useful *reST extensions*
+   And reStructuredText(reST) is markup language.
 
-* Many useful **directives**.
-* Many language **roles**.
+   * It was written with plain text.
+   * reST is similer to other wiki like markups.
+     But reST is different from others, it is extensible syntax.
+     It's a important point.
 
-.. s6:: effect slide
-
-Sphinx provides
-================
-Powerful *code highlighting*
-
-.. directive.
-
-
-.. code-block:: rst
-
-   .. code-block:: python
-      :linenos:
-
-      SPAM = 'spam'  #: nice meat.
-
-      class Egg(object):
-          "Delicious egg!"
-
-          def __init__(self, ham):
-              self.ham = ham
-
-
-.. code-block:: python
-   :linenos:
-
-   SPAM = 'spam'  #: nice meat.
-
-   class Egg(object):
-       "Delicious egg!"
-
-       def __init__(self, ham):
-           self.ham = ham
-
-.. s6:: styles
-
-   'div[0]': {width:'80%', fontSize: '90%'},
-   'div[0]/div':     {backgroundColor: '#fff'},
-   'div[0]/div/pre': {backgroundColor: '#fff'},
-   'div[1]': {position:'absolute', right:'0em', bottom:'0.5em'},
 
 .. s6:: effect slide
 
+.. Sphinx provides
+.. ================
+.. Useful *reST extensions*
+.. 
+.. * Many useful **directives**.
+.. * Many language **roles**.
+.. 
+.. .. s6:: effect slide
+.. 
+.. Sphinx provides
+.. ================
+.. Powerful *code highlighting*
+.. 
+.. .. directive.
+.. 
+.. 
+.. .. code-block:: rst
+.. 
+..    .. code-block:: python
+..       :linenos:
+.. 
+..       SPAM = 'spam'  #: nice meat.
+.. 
+..       class Egg(object):
+..           "Delicious egg!"
+.. 
+..           def __init__(self, ham):
+..               self.ham = ham
+.. 
+.. 
+.. .. code-block:: python
+..    :linenos:
+.. 
+..    SPAM = 'spam'  #: nice meat.
+.. 
+..    class Egg(object):
+..        "Delicious egg!"
+.. 
+..        def __init__(self, ham):
+..            self.ham = ham
+.. 
+.. .. s6:: styles
+.. 
+..    'div[0]': {width:'80%', fontSize: '90%'},
+..    'div[0]/div':     {backgroundColor: '#fff'},
+..    'div[0]/div/pre': {backgroundColor: '#fff'},
+..    'div[1]': {position:'absolute', right:'0em', bottom:'0.5em'},
+.. 
+.. .. s6:: effect slide
+.. 
+.. 
+.. Sphinx provides
+.. ================
+.. *Internal links*
+.. 
+.. .. role.
+.. 
+.. * Linking between internal pages.
+.. 
+.. .. todo:: glossary, doc, ref
+.. 
+.. .. s6:: effect slide
+.. 
+.. Sphinx provides
+.. ================
+.. *Language domains*
+.. 
+.. .. directive & role.
+.. 
+.. * C, C++, JavaScript, Python, reST.
+.. 
+.. What is domain?
+.. 
+.. .. s6:: effect slide
+.. 
+.. Sphinx provides
+.. ================
+.. *External links*
+.. 
+.. .. extension.
+.. 
+.. * Linking to other published Sphinx document.
+.. 
+.. .. todo:: intersphinx の例
+.. 
+.. .. s6:: effect slide
 
-Sphinx provides
-================
-*Internal links*
-
-.. role.
-
-* Linking between internal pages.
-
-.. todo:: glossary, doc, ref
-
-.. s6:: effect slide
-
-Sphinx provides
-================
-*Language domains*
-
-.. directive & role.
-
-* C, C++, JavaScript, Python, reST.
-
-What is domain?
-
-.. s6:: effect slide
-
-Sphinx provides
-================
-*External links*
-
-.. extension.
-
-* Linking to other published Sphinx document.
-
-.. todo:: intersphinx の例
-
-.. s6:: effect slide
-
-
-Sphinx generates
-=================
-several output formats as:
-
-* HTML
-* PDF
-* ePub
-* htmlhelp
-* latex
-* man
-
-.. s6:: effect slide
 
 Sphinx includes
 ====================
 
-* Simple and beautiful html themes.
+Simple and beautiful html themes.
 
 .. todo:: テーマの例をいくつか
 
@@ -361,15 +388,6 @@ Table of contents
    'ol/li[0]/ul/li[2]': {color: 'white'},
 
 .. s6:: effect slide
-
-Compare with other tools
-=========================
-
-.. s6:: effect fadeScaleFromUp
-
-.. s6:: styles
-
-   'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}
 
 Compare with other tools
 =========================
