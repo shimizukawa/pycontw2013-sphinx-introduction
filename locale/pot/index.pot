@@ -1,9 +1,14 @@
-# 
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013, Takayuki SHIMIZUKAWA
+# This file is distributed under the same license as the Introduction to Sphinx documentation generator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: ドキュメントジェネレータ Sphinx 1.0\n"
+"Project-Id-Version: Introduction to Sphinx documentation generator 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-20 17:40\n"
+"POT-Creation-Date: 2013-05-21 19:34\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,701 +16,799 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ..\..\index.rst:872
-msgid "さいごに"
-msgstr ""
-
-#: ..\..\index.rst:58 ..\..\index.rst:880
-msgid "PyCon APAC 2013 in Japan"
-msgstr ""
-
 #: ..\..\index.rst:3
+# 329cfb67c4c2480ea0269643f022d0cc
 msgid "Introduction to **Sphinx** documentation generator"
 msgstr ""
 
 #: ..\..\index.rst:9
+# 3bf5d5a1817f4938a400374cdf82a1ea
 msgid "Who are you?"
 msgstr ""
 
 #: ..\..\index.rst:26
+# 182153339076444387f49047462c27b8
 msgid "http://about.me/shimizukawa, @shimizukawa"
 msgstr ""
 
 #: ..\..\index.rst:29
+# 06c5604f5bed4e90a5e6d431ae67a5b9
 msgid "Activity:"
 msgstr ""
 
 #: ..\..\index.rst:31
+# 252c275c01a048658faed66703ca5888
 msgid "Sphinx co-maintainer"
 msgstr ""
 
 #: ..\..\index.rst:32
+# 0947499892ec45a88e7f7d7a9bd9ca43
 msgid "Sphinx-users.jp chairman"
 msgstr ""
 
 #: ..\..\index.rst:33
+# 1a6159c083ad409f956f467d9cb8ee75
 msgid "PyCon JP 2011,2012 vice-chairman"
 msgstr ""
 
 #: ..\..\index.rst:35
+# 2be227fe4649432dadc64286f8157d1d
 msgid "Books:"
 msgstr ""
 
 #: ..\..\index.rst:37
+# 50b32bee239d42a6be1f6b3325e91846
 msgid "Expert Python Programming (translation by 4 members)"
 msgstr ""
 
 #: ..\..\index.rst:38
+# 960a172a89e6482e96d5fbea1e07e868
 msgid "Python Professional Programming (Chap 4,7)"
 msgstr ""
 
+#: ..\..\index.rst:58
+#: ..\..\index.rst:880
+# febfbc9c65dc43aabca56a3423aa5932
+# febfbc9c65dc43aabca56a3423aa5932
+msgid "PyCon APAC 2013 in Japan"
+msgstr ""
+
 #: ..\..\index.rst:66
+# cee5c2b3396a4365a1328ec61ad897b2
 msgid "Schedule:"
 msgstr ""
 
 #: ..\..\index.rst:68
+# fe06d12d3c2e4395925c6a8e2b2c79c8
 msgid "Conference: Sep, 14(Sat) 15(Sun)"
 msgstr ""
 
 #: ..\..\index.rst:69
+# 4412153a668a4dfeaaf7d5bff87f38dd
 msgid "Sprint: Sep, 16(Mon)"
 msgstr ""
 
 #: ..\..\index.rst:71
+# 9511d2cb6cfc4211a8771b83aa8bec10
 msgid "Location:"
 msgstr ""
 
 #: ..\..\index.rst:73
+# 74d22c63957e417cb5c8ecfb3db1266c
 msgid "Tokyo Shinjuku, Japan"
 msgstr ""
 
 #: ..\..\index.rst:75
+# b03eaa246fde46ecab8ba58503ccd32b
 msgid "Registration:"
 msgstr ""
 
 #: ..\..\index.rst:77
+# 189a0dc493ee446a9778bd9b170eddff
 msgid "Start at middle of June, (maybe)"
 msgstr ""
 
 #: ..\..\index.rst:86
+# 0947499892ec45a88e7f7d7a9bd9ca43
 msgid "Sphinx-users.jp"
 msgstr ""
 
 #: ..\..\index.rst:96
+# 0947499892ec45a88e7f7d7a9bd9ca43
 msgid "Managing http://sphinx-users.jp"
 msgstr ""
 
 #: ..\..\index.rst:98
+# 85d19f3a7871476c8d25912a5dd02524
 msgid "Full-translated reference : http://docs.sphinx-users.jp/"
 msgstr ""
 
 #: ..\..\index.rst:99
+# 2f3be1473b5945a9820d8af27506cee6
 msgid "Original tutorial contents"
 msgstr ""
 
 #: ..\..\index.rst:100
+# d1b477dfabe742f38ca46db0a4f6a391
 msgid "Reverse dictionary"
 msgstr ""
 
 #: ..\..\index.rst:102
+# 468167f998f24b478849ecd7e79c19c0
 msgid "Holding events"
 msgstr ""
 
 #: ..\..\index.rst:104
+# f6266e1718d24365abfcfd621afd7e38
 msgid "Sphinx & translation hack-a-thon"
 msgstr ""
 
 #: ..\..\index.rst:105
+# ba76e4d6adb34c21a5a4236672aca8d4
 msgid "SphinxCon JP"
 msgstr ""
 
 #: ..\..\index.rst:115
+# b06adbc1031c4a12a8621d098af7f949
 msgid "SphinxCon JP in PyCon JP 2012"
 msgstr ""
 
 #: ..\..\index.rst:128
+# f0f72f6f844b4318889820ed4f2e5b96
 msgid "The first Sphinx event in the world!"
 msgstr ""
 
 #: ..\..\index.rst:141
+# 5dce38ea13bd4699b9b439cc4e421ab6
 msgid "anyway."
 msgstr ""
 
 #: ..\..\index.rst:150
+# 23105509d9614437b79070197284f461
 msgid "The Sphinx"
 msgstr ""
 
-#: ..\..\index.rst:166 ..\..\index.rst:175 ..\..\index.rst:368
-#: ..\..\index.rst:407 ..\..\index.rst:515
+#: ..\..\index.rst:166
+#: ..\..\index.rst:175
+#: ..\..\index.rst:368
+#: ..\..\index.rst:407
+#: ..\..\index.rst:515
+# 2f3be1473b5945a9820d8af27506cee6
+# 2f3be1473b5945a9820d8af27506cee6
+# 2f3be1473b5945a9820d8af27506cee6
+# 2f3be1473b5945a9820d8af27506cee6
+# 2f3be1473b5945a9820d8af27506cee6
 msgid "Table of contents"
 msgstr ""
 
-#: ..\..\index.rst:168 ..\..\index.rst:176 ..\..\index.rst:369
-#: ..\..\index.rst:408 ..\..\index.rst:516
+#: ..\..\index.rst:168
+#: ..\..\index.rst:176
+#: ..\..\index.rst:369
+#: ..\..\index.rst:408
+#: ..\..\index.rst:516
+# 5c8e5768fb244d39a2fde49ab93904e6
+# 5c8e5768fb244d39a2fde49ab93904e6
+# 5c8e5768fb244d39a2fde49ab93904e6
+# 5c8e5768fb244d39a2fde49ab93904e6
+# 5c8e5768fb244d39a2fde49ab93904e6
 msgid "Introduction"
 msgstr ""
 
-#: ..\..\index.rst:169 ..\..\index.rst:182 ..\..\index.rst:375
-#: ..\..\index.rst:414 ..\..\index.rst:517
+#: ..\..\index.rst:169
+#: ..\..\index.rst:182
+#: ..\..\index.rst:375
+#: ..\..\index.rst:414
+#: ..\..\index.rst:517
+# 85846bef35ea46219bc3bb0533ff2a12
+# 85846bef35ea46219bc3bb0533ff2a12
+# 85846bef35ea46219bc3bb0533ff2a12
+# 85846bef35ea46219bc3bb0533ff2a12
+# 85846bef35ea46219bc3bb0533ff2a12
 msgid "Demonstration"
 msgstr ""
 
-#: ..\..\index.rst:170 ..\..\index.rst:183 ..\..\index.rst:376
-#: ..\..\index.rst:415 ..\..\index.rst:518
+#: ..\..\index.rst:170
+#: ..\..\index.rst:183
+#: ..\..\index.rst:376
+#: ..\..\index.rst:415
+#: ..\..\index.rst:518
+# d320cc2981b84a4592efd231de95e06c
+# d320cc2981b84a4592efd231de95e06c
+# d320cc2981b84a4592efd231de95e06c
+# d320cc2981b84a4592efd231de95e06c
+# d320cc2981b84a4592efd231de95e06c
 msgid "Case studies"
 msgstr ""
 
-#: ..\..\index.rst:178 ..\..\index.rst:371 ..\..\index.rst:410
+#: ..\..\index.rst:178
+#: ..\..\index.rst:371
+#: ..\..\index.rst:410
+# bba6890d461a4d50bbd35f3e7516b409
+# bba6890d461a4d50bbd35f3e7516b409
+# bba6890d461a4d50bbd35f3e7516b409
 msgid "Introduces the Sphinx and reStructuredText."
 msgstr ""
 
-#: ..\..\index.rst:179 ..\..\index.rst:372 ..\..\index.rst:411
+#: ..\..\index.rst:179
+#: ..\..\index.rst:372
+#: ..\..\index.rst:411
+# aa7c0efafa5341d889ed4174c27cf9be
+# 63c808db8db04cff9ed7e0e4159e16e8
+# aa7c0efafa5341d889ed4174c27cf9be
 msgid "Sphinx extensions."
 msgstr ""
 
-#: ..\..\index.rst:180 ..\..\index.rst:373 ..\..\index.rst:412
+#: ..\..\index.rst:180
+#: ..\..\index.rst:373
+#: ..\..\index.rst:412
+# bdcc292e990b42c5af4da4daf6873916
+# bdcc292e990b42c5af4da4daf6873916
+# bdcc292e990b42c5af4da4daf6873916
 msgid "Comparison with other documentation tools."
 msgstr ""
 
 #: ..\..\index.rst:192
+# 69199c434c9741eb92e65b9cc14de359
 msgid "What **IS** Sphinx?"
 msgstr ""
 
 #: ..\..\index.rst:194
-msgid ""
-"Sphinx is a tool that makes it easy to create intelligent and beautiful "
-"documentation. Sphinx generates various formats such as HTML, ePub, PDF from"
-" the documentation of reStructuredText (reST) markup like Wiki and/or Python"
-" source code."
+# 348179eaaaa143ab85c9a3c1c8d64430
+msgid "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation. Sphinx generates various formats such as HTML, ePub, PDF from the documentation of reStructuredText (reST) markup like Wiki and/or Python source code."
 msgstr ""
 
 #: ..\..\index.rst:199
+# 69d23f31cdea4e7f89c89a8ff4d81322
 msgid "Hummm???"
 msgstr ""
 
 #: ..\..\index.rst:210
+# 31b44c5bab124659a61815709ce2848a
 msgid "Sphinx **IS**"
 msgstr ""
 
 #: ..\..\index.rst:212
+# 503db3032cdd44a98f302a83d9fe0edc
 msgid "Documentation generator."
 msgstr ""
 
 #: ..\..\index.rst:213
+# 80410fa08aa54cd2a6baae47d08f3af4
 msgid "Sphinx generate documentation from reStructuredText markup."
 msgstr ""
 
 #: ..\..\index.rst:214
+# caeeec5ab84c4c908992ec0c56e9653a
 msgid "Extensible."
 msgstr ""
 
 #: ..\..\index.rst:225
+# 9d2b1a695153447e8b20c70c3c31ad1d
 msgid "and reStructuredText(reST) **IS**"
 msgstr ""
 
 #: ..\..\index.rst:227
+# 7ca4f10998124bed8efce1f73a6bbe1f
 msgid "Markup language."
 msgstr ""
 
 #: ..\..\index.rst:228
+# a407bd79b2004cf6a08966b8a0450add
 msgid "Similer to several wiki markups."
 msgstr ""
 
 #: ..\..\index.rst:229
+# 8968ec40a2e94c909da82d249a1866da
 msgid "Written with plain text."
 msgstr ""
 
 #: ..\..\index.rst:230
+# 9fb6f203466445b5a8b9a9a50705904c
 msgid "Extensible **(important!)**"
 msgstr ""
 
-#: ..\..\index.rst:235 ..\..\index.rst:244 ..\..\index.rst:286
-#: ..\..\index.rst:298 ..\..\index.rst:310
+#: ..\..\index.rst:235
+#: ..\..\index.rst:244
+#: ..\..\index.rst:286
+#: ..\..\index.rst:298
+#: ..\..\index.rst:310
+# 31b44c5bab124659a61815709ce2848a
+# 31b44c5bab124659a61815709ce2848a
+# 31b44c5bab124659a61815709ce2848a
+# 31b44c5bab124659a61815709ce2848a
+# 31b44c5bab124659a61815709ce2848a
 msgid "Sphinx provides"
 msgstr ""
 
 #: ..\..\index.rst:236
+# 63c808db8db04cff9ed7e0e4159e16e8
 msgid "Useful *reST extensions*"
 msgstr ""
 
 #: ..\..\index.rst:238
+# 794fceef6d144be8a5232cec4b1e989b
 msgid "Many useful **directives**."
 msgstr ""
 
 #: ..\..\index.rst:239
+# 7bd7e5127da343d08e706706a06fb763
 msgid "Many language **roles**."
 msgstr ""
 
 #: ..\..\index.rst:245
+# de391e5f0dfa4139bb12059c547b50ca
 msgid "Powerful *code highlighting*"
 msgstr ""
 
 #: ..\..\index.rst:287
+# 80aedd0732f54e91a173b3e7f2824567
 msgid "*Internal links*"
 msgstr ""
 
 #: ..\..\index.rst:291
+# 05ae4070ddd54622ae9b50a8fd16c457
 msgid "Linking between internal pages."
 msgstr ""
 
 #: ..\..\index.rst:299
+# 5bbfa5d273994ebf9ded1c54ee48457d
 msgid "*Language domains*"
 msgstr ""
 
 #: ..\..\index.rst:303
+# de6c45278725446e8bb480c924f04728
 msgid "C, C++, JavaScript, Python, reST."
 msgstr ""
 
 #: ..\..\index.rst:305
+# de400659bfc64f92a2648d0f2e02b106
 msgid "What is domain?"
 msgstr ""
 
 #: ..\..\index.rst:311
+# a273008d96ca4d7a9ea40165d5dc88dc
 msgid "*External links*"
 msgstr ""
 
 #: ..\..\index.rst:315
+# d86ae68bcb104f91bdbe84678e72a34f
 msgid "Linking to other published Sphinx document."
 msgstr ""
 
 #: ..\..\index.rst:323
+# 31b44c5bab124659a61815709ce2848a
 msgid "Sphinx generates"
 msgstr ""
 
 #: ..\..\index.rst:324
+# 333bad967d29478dbc7232344b08a911
 msgid "several output formats as:"
 msgstr ""
 
 #: ..\..\index.rst:326
+# cca1bac4e53d44dda95c5c473e28a60a
 msgid "HTML"
 msgstr ""
 
 #: ..\..\index.rst:327
+# e05658cb69e242f7b5de1247bc3c15cb
 msgid "PDF"
 msgstr ""
 
 #: ..\..\index.rst:328
+# 8a4022510ef9432aa6511807d062ee01
 msgid "ePub"
 msgstr ""
 
 #: ..\..\index.rst:329
+# bb36035e67204245a123cd05264d9e50
 msgid "htmlhelp"
 msgstr ""
 
 #: ..\..\index.rst:330
+# a3940f337f564a0a9cc556c95a59be6c
 msgid "latex"
 msgstr ""
 
 #: ..\..\index.rst:331
+# 2ac06db8adae4458b18dfd886d5cad2a
 msgid "man"
 msgstr ""
 
 #: ..\..\index.rst:336
+# 0947499892ec45a88e7f7d7a9bd9ca43
 msgid "Sphinx includes"
 msgstr ""
 
 #: ..\..\index.rst:338
+# 626528188a06495381992ff0bf89e64c
 msgid "Simple and beautiful html themes."
 msgstr ""
 
 #: ..\..\index.rst:385
+# 8cd63995e50141a1946a2067f385d482
 msgid "Sphinx include official extensions"
 msgstr ""
 
 #: ..\..\index.rst:387
+# 734647977dd340b59067465f4f0621ce
 msgid "autodoc:"
 msgstr ""
 
 #: ..\..\index.rst:388
+# 39294a76cdaf41c5968229d534141602
 msgid "pngmath or jsmath:"
 msgstr ""
 
 #: ..\..\index.rst:389
+# b221a88eda204e0bb25cdea8530af34f
 msgid "intersphinx:"
 msgstr ""
 
 #: ..\..\index.rst:390
+# 99a2965813ec4d2d9d4b0588443ad105
 msgid "graphviz:"
 msgstr ""
 
 #: ..\..\index.rst:391
+# d06286f433074dfd911d05bc11dabe57
 msgid "todo:"
 msgstr ""
 
 #: ..\..\index.rst:392
+# 2285fb839d6f44deabab806cce909901
 msgid "doctest:"
 msgstr ""
 
 #: ..\..\index.rst:393
+# d3187a301faa46a1be3810a5b3fc6b5f
 msgid "coverage:"
 msgstr ""
 
 #: ..\..\index.rst:398
+# 3ddba4a8f87e49c19dbdc8dab4f72523
 msgid "There are many 3rd-party extensions"
 msgstr ""
 
 #: ..\..\index.rst:400
+# a348cb62b79f415a9bb6fe8538fb773e
 msgid "Rendering diagrams from plain-text."
 msgstr ""
 
 #: ..\..\index.rst:401
+# d9e56bc325e443f7bdb200ca15cae44e
 msgid "Some type of html theme."
 msgstr ""
 
 #: ..\..\index.rst:402
+# 6d145627cf28478fbad739629b371a8c
 msgid "Language domains: ada, coffee, erlan, http, php, ruby."
 msgstr ""
 
-#: ..\..\index.rst:425 ..\..\index.rst:434
+#: ..\..\index.rst:425
+#: ..\..\index.rst:434
+# bdcc292e990b42c5af4da4daf6873916
+# bdcc292e990b42c5af4da4daf6873916
 msgid "Compare with other tools"
 msgstr ""
 
 #: ..\..\index.rst:436
+# e4e8fd9c9df24beb920c4d24e4840d88
 msgid "Word"
 msgstr ""
 
 #: ..\..\index.rst:437
+# 7f5dad9a99ba40a3bfaecd8939083113
 msgid "Excel"
 msgstr ""
 
 #: ..\..\index.rst:438
+# 795270391ac5457ebf728477cb65a25c
 msgid "Wiki"
 msgstr ""
 
 #: ..\..\index.rst:443
+# 31b44c5bab124659a61815709ce2848a
 msgid "Sphinx vs Word"
 msgstr ""
 
-#: ..\..\index.rst:445 ..\..\index.rst:454 ..\..\index.rst:463
+#: ..\..\index.rst:445
+#: ..\..\index.rst:454
+#: ..\..\index.rst:463
+# 3e34963898c641ef9d6dd89a564ec0ad
+# 3e34963898c641ef9d6dd89a564ec0ad
+# 3e34963898c641ef9d6dd89a564ec0ad
 msgid "TBD"
 msgstr ""
 
 #: ..\..\index.rst:452
+# 31b44c5bab124659a61815709ce2848a
 msgid "Sphinx vs Excel"
 msgstr ""
 
 #: ..\..\index.rst:461
+# 31b44c5bab124659a61815709ce2848a
 msgid "Sphinx vs Wiki"
 msgstr ""
 
 #: ..\..\index.rst:472
+# c95b8476ee6e4539a3dde183fd3c9adf
 msgid "By The Way"
 msgstr ""
 
-#: ..\..\index.rst:482 ..\..\index.rst:490 ..\..\index.rst:498
+#: ..\..\index.rst:482
+#: ..\..\index.rst:490
+#: ..\..\index.rst:498
 #: ..\..\index.rst:506
+# 10e99573ef5247e39df728090d248c56
+# 10e99573ef5247e39df728090d248c56
+# 10e99573ef5247e39df728090d248c56
+# 10e99573ef5247e39df728090d248c56
 msgid "What **IS NOT** Sphinx?"
 msgstr ""
 
 #: ..\..\index.rst:485
+# 147dc658a4194cc290291ddc4f50a0e1
 msgid "Are there *GUI frontend editor?*"
 msgstr ""
 
 #: ..\..\index.rst:485
+# 21ee67b4f859426c9a9a210ed3004c15
 msgid "**NO!**"
 msgstr ""
 
 #: ..\..\index.rst:493
+# 51a8ee34e13a46ceb8a07a857237a4ef
 msgid "Are there a way to import *Word*?"
 msgstr ""
 
 #: ..\..\index.rst:493
+# 21ee67b4f859426c9a9a210ed3004c15
 msgid "**NO!!**"
 msgstr ""
 
 #: ..\..\index.rst:501
+# 25ec4b7e17cc49fb9f5aa640c86d36b9
 msgid "Are there a way to export to *PowerPoint*?"
 msgstr ""
 
 #: ..\..\index.rst:501
+# d7c2a541bb7e470ab121c2b1449cd5a5
 msgid "**NO!!!**"
 msgstr ""
 
 #: ..\..\index.rst:509
+# 2a95456ad604499aaf787a79688c4013
 msgid "Are there a way to export to *Excel*?"
 msgstr ""
 
 #: ..\..\index.rst:509
+# 831e3cc8720846559f10e1c8667fd584
 msgid "**What are you saying???**"
 msgstr ""
 
 #: ..\..\index.rst:529
+# f6266e1718d24365abfcfd621afd7e38
 msgid "Sphinx installation"
 msgstr ""
 
 #: ..\..\index.rst:534
+# ff02d512abef4a0fb73330d9f4d4c246
 msgid "Install from PyPI:"
 msgstr ""
 
 #: ..\..\index.rst:545
-msgid ""
-"Sphinx and other dependency packages are installed. Sphinx 1.2b1 is current "
-"newest version."
+# d9020cd0276c48099384166c59c60d14
+msgid "Sphinx and other dependency packages are installed. Sphinx 1.2b1 is current newest version."
 msgstr ""
 
 #: ..\..\index.rst:556
+# 252c275c01a048658faed66703ca5888
 msgid "Sphinx quick start"
 msgstr ""
 
 #: ..\..\index.rst:558
+# de328d6cbdf943489f830513e776cc56
 msgid "Generate scaffold by sphinx-quickstart:"
 msgstr ""
 
 #: ..\..\index.rst:565
+# a098e606c3ce4326bf6ac90998641b11
 msgid "Make html:"
 msgstr ""
 
 #: ..\..\index.rst:582
+# 8926f5d3b11f45c08cca00047961f4b9
 msgid "*demo:* menu"
 msgstr ""
 
 #: ..\..\index.rst:584
+# 9cd0eb196a7b4ebfb7392aed963ac882
 msgid "Bullet list"
 msgstr ""
 
 #: ..\..\index.rst:585
+# 80aedd0732f54e91a173b3e7f2824567
 msgid "Numbered list"
 msgstr ""
 
 #: ..\..\index.rst:586
+# 9c64802f5d58412cb47d1fff7fcd80f5
 msgid "Code highlight"
 msgstr ""
 
 #: ..\..\index.rst:587
+# 05ae4070ddd54622ae9b50a8fd16c457
 msgid "Link to other files"
 msgstr ""
 
 #: ..\..\index.rst:588
+# 197a3d2a1ebb4f89816377f990ca8f3d
 msgid "Numerical formula"
 msgstr ""
 
 #: ..\..\index.rst:589
+# aa7c0efafa5341d889ed4174c27cf9be
 msgid "autodoc extension"
 msgstr ""
 
 #: ..\..\index.rst:590
+# 62baebb64b3e44e1aab61809386ff2f2
 msgid "blockdiag extension"
 msgstr ""
 
 #: ..\..\index.rst:595
+# 9a3f62e530784ee7a7294171f9bd58fe
 msgid "*demo:* Bullet list"
 msgstr ""
 
 #: ..\..\index.rst:610
-msgid ""
-"Need blank line before and after nested items. And nested items need 2 "
-"spaces before ``*``."
+# e34299be7485403e87657a359cb1a160
+msgid "Need blank line before and after nested items. And nested items need 2 spaces before ``*``."
 msgstr ""
 
 #: ..\..\index.rst:621
+# 4460ae548ce7441b91b593f70d891d1b
 msgid "*demo:* Numbered list"
 msgstr ""
 
 #: ..\..\index.rst:636
+# 1dcc4aeabee849e3999c24ffe68c6979
 msgid "`#.` rendering auto numbered list. but it is not human readable."
 msgstr ""
 
 #: ..\..\index.rst:642
+# de391e5f0dfa4139bb12059c547b50ca
 msgid "*demo:* Code highlight"
 msgstr ""
 
 #: ..\..\index.rst:644
+# ba4ef503186148828c5e5de84b5ddf7d
 msgid "Use ``code-block`` directive to rendering code with highlighting."
 msgstr ""
 
 #: ..\..\index.rst:656
-msgid ""
-"This directive was provided by sphinx. Since docutils-0.9 provides "
-":rst:dir:`code` directive that provides same feature."
+# 20bedaf8fbb74f15b9369e2682f015ca
+msgid "This directive was provided by sphinx. Since docutils-0.9 provides :rst:dir:`code` directive that provides same feature."
 msgstr ""
 
 #: ..\..\index.rst:667
+# 22d42d5bfe0f4cb8a7c3a96f6f876e20
 msgid "*demo:* Link to other files"
 msgstr ""
 
 #: ..\..\index.rst:669
+# 7e18b782df2c4f8c8a7530ba82baa112
 msgid "Use :rst:dir:`toctree` directive to build a tree structure."
 msgstr ""
 
 #: ..\..\index.rst:680
+# 12ef58b66cfe45d1b815be9fac06dfd9
 msgid "This directive was provided by sphinx."
 msgstr ""
 
 #: ..\..\index.rst:685
+# bc5f8d00ade44304b1d2c2c740faf270
 msgid "*demo:* Numerical formula"
 msgstr ""
 
 #: ..\..\index.rst:687
+# 80121430686949cfa981090b88219c50
 msgid "Use :rst:dir:`math` directive to rendering numerical formula."
 msgstr ""
 
 #: ..\..\index.rst:703
-msgid ""
-"This directive was provided by sphinx. Same name directive was provided by "
-"docutils-0.8 or later, but it is bit different."
+# 48aee875a893480f8c55314623f0e524
+msgid "This directive was provided by sphinx. Same name directive was provided by docutils-0.8 or later, but it is bit different."
 msgstr ""
 
 #: ..\..\index.rst:714
+# 3ddba4a8f87e49c19dbdc8dab4f72523
 msgid "*demo:* todo extension"
 msgstr ""
 
 #: ..\..\index.rst:716
+# 449fd084ac2945758fc50cc9faf25df8
 msgid "Add :mod:`sphinx.ext.todo` extention in conf.py:"
 msgstr ""
 
 #: ..\..\index.rst:724
+# 5882a6da29de44f7acdc274bbacc5950
 msgid "Then you can use :rst:dir:`todo` directive:"
 msgstr ""
 
 #: ..\..\index.rst:730
+# c499184cb44a467cb0a6f78a55eabd90
 msgid "and  :rst:dir:`todolist` directive:"
 msgstr ""
 
 #: ..\..\index.rst:741
+# 3ddba4a8f87e49c19dbdc8dab4f72523
 msgid "*demo:* autodoc extension"
 msgstr ""
 
 #: ..\..\index.rst:743
+# 9974f335f89c4cd0a4ffda51db70f58a
 msgid "Add :mod:`sphinx.ext.autodoc` extention in conf.py:"
 msgstr ""
 
 #: ..\..\index.rst:751
+# e2a44f5d46e642edabd93ad8df6de0ad
 msgid "Then you can use :rst:dir:`automodule` directive:"
 msgstr ""
 
 #: ..\..\index.rst:761
+# 8cd63995e50141a1946a2067f385d482
 msgid "*demo:* blockdiag extensions"
 msgstr ""
 
 #: ..\..\index.rst:763
-msgid ""
-"Blockdiag extensions is 3rd party extension for sphinx. Install :ref"
-":`sphinxcontrib-blockdiag` extension:"
+# cbed786a33c04ccfa4fba0a3960898bd
+msgid "Blockdiag extensions is 3rd party extension for sphinx. Install :ref:`sphinxcontrib-blockdiag` extension:"
 msgstr ""
 
 #: ..\..\index.rst:777
-msgid ""
-"Pillow is successor of PIL (Python Imaging Library) that support Python3 and"
-" 64bit binary distributions."
+# c708f99c6e7b434ebb06b3f082f2aefe
+msgid "Pillow is successor of PIL (Python Imaging Library) that support Python3 and 64bit binary distributions."
 msgstr ""
 
 #: ..\..\index.rst:788
+# 8cd63995e50141a1946a2067f385d482
 msgid "*demo:* blockdiag extension"
 msgstr ""
 
 #: ..\..\index.rst:790
+# e96d755619294614aee275f75a6e6d82
 msgid "Add ``sphinxcontrib.blockdiag`` extention in conf.py:"
 msgstr ""
 
 #: ..\..\index.rst:799
+# 82aac34dad224869a2cb465ed587a6b9
 msgid "Then you can use ``blockdiag`` directive:"
 msgstr ""
 
 #: ..\..\index.rst:822
+# 3ddba4a8f87e49c19dbdc8dab4f72523
 msgid "*demo:* seqdiag extension"
 msgstr ""
 
 #: ..\..\index.rst:824
+# df40c2315ff34b89b0a0f8e3a967339a
 msgid "Add ``sphinxcontrib.seqdiag`` extention in conf.py:"
 msgstr ""
 
 #: ..\..\index.rst:834
+# 6f30f1527b8642aab993eb477ce8b114
 msgid "Then you can use ``seqdiag`` directive:"
 msgstr ""
 
+#: ..\..\index.rst:872
+# 8c67aaab18a046249c7da60ae93697f8
+msgid "さいごに"
+msgstr ""
+
 #: ..\..\index.rst:882
+# 1329eea95556403984979c9cd48b2eef
 msgid "Sep, 14(Sat), 15(Sun), 16(Mon)"
 msgstr ""
 
-#~ msgid "ドキュメントジェネレータSphinx"
-#~ msgstr "Document Generator Sphinx"
-
-#~ msgid "おまえ、誰よ"
-#~ msgstr "Who are You?"
-
-#~ msgid "活動:"
-#~ msgstr "Activity:"
-
-#~ msgid "Sphinxメンテナ, Sphinx-users.jp会長"
-#~ msgstr "Sphinx Maintainer, Sphinx-users.jp Chairman"
-
-#~ msgid "PyCon JP 2011,2012 副座長"
-#~ msgstr "PyConJP 2011,2012 Vice Chairman"
-
-#~ msgid "言語:"
-#~ msgstr "Languages:"
-
-#~ msgid "C++/C/8086/**Python**/Rails/chef"
-#~ msgstr ""
-
-#~ msgid "重要情報"
-#~ msgstr "IMPORTANT"
-
-#~ msgid "PyCon APAC 2013"
-#~ msgstr ""
-
-#~ msgid "2013年9月開催予定！"
-#~ msgstr ""
-
-#~ msgid "ということで"
-#~ msgstr "Then,"
-
-#~ msgid "Sphinxです"
-#~ msgstr "The Sphinx"
-
-#~ msgid "Sphinxとは？"
-#~ msgstr "What is Sphinx?"
-
-#~ msgid "ドキュメント生成のツール"
-#~ msgstr "Document generator tool"
-
-#~ msgid "reStructuredText記法(Wikiっぽい?"
-#~ msgstr "reStructuredText markup (like wiki)"
-
-#~ msgid "ページ間のリンクを自動生成"
-#~ msgstr "Auto linking to other pages"
-
-#~ msgid "強力なコードハイライト"
-#~ msgstr "Powerful code highlighting"
-
-#~ msgid "出力形式: HTML, PDF, ePub, htmlhelp, latex, man..."
-#~ msgstr "Many outputs: HTML, PDF, ePub, htmlhelp, latex, man..."
-
-#~ msgid "Sphinxの記入の例"
-#~ msgstr "Sphinx documented cases"
-
-#~ msgid "Sphinx 1.2b1 リリース"
-#~ msgstr "Sphinx 1.2b1 Released"
-
-#~ msgid "**3/31に1年ぶりにリリース！**"
-#~ msgstr "**Released in one year at Mar 31**"
-
-#~ msgid "複数メンテナ体制で最初のリリース"
-#~ msgstr ""
-
-#~ msgid "国際化(i18n)機能の大幅強化"
-#~ msgstr ""
-
-#~ msgid "マルチバイト言語対応強化"
-#~ msgstr ""
-
-#~ msgid "Sphinxの国際化(i18n)機能の強化"
-#~ msgstr ""
-
-#~ msgid "翻訳対象となっていなかった多くの箇所の対応"
-#~ msgstr ""
-
-#~ msgid "公式ドキュメント多言語化(進行中) Sphinx国際化機能の **モデルケース**"
-#~ msgstr ""
-
-#~ msgid "公式ドキュメント多言語化計画"
-#~ msgstr ""
-
-#~ msgid "日本語公式ドキュメントは今まで直接書き換えていました:"
-#~ msgstr ""
-
-#~ msgid "今は翻訳を Transifex_ で行っています"
-#~ msgstr ""
-
-#~ msgid "デモ"
-#~ msgstr ""

@@ -1,23 +1,15 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: ドキュメントジェネレータ Sphinx 1.0\n"
+"Project-Id-Version: Introduction to Sphinx documentation generator 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-20 17:40\n"
+"POT-Creation-Date: 2013-05-21 19:34\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: ..\..\index.rst:872
-msgid "さいごに"
-msgstr ""
-
-#: ..\..\index.rst:58 ..\..\index.rst:880
-msgid "PyCon APAC 2013 in Japan"
-msgstr ""
 
 #: ..\..\index.rst:3
 msgid "Introduction to **Sphinx** documentation generator"
@@ -57,6 +49,10 @@ msgstr ""
 
 #: ..\..\index.rst:38
 msgid "Python Professional Programming (Chap 4,7)"
+msgstr ""
+
+#: ..\..\index.rst:58 ..\..\index.rst:880
+msgid "PyCon APAC 2013 in Japan"
 msgstr ""
 
 #: ..\..\index.rst:66
@@ -613,99 +609,10 @@ msgstr ""
 msgid "Then you can use ``seqdiag`` directive:"
 msgstr ""
 
+#: ..\..\index.rst:872
+msgid "さいごに"
+msgstr ""
+
 #: ..\..\index.rst:882
 msgid "Sep, 14(Sat), 15(Sun), 16(Mon)"
 msgstr ""
-
-#~ msgid "ドキュメントジェネレータSphinx"
-#~ msgstr "Document Generator Sphinx"
-
-#~ msgid "おまえ、誰よ"
-#~ msgstr "Who are You?"
-
-#~ msgid "活動:"
-#~ msgstr "Activity:"
-
-#~ msgid "Sphinxメンテナ, Sphinx-users.jp会長"
-#~ msgstr "Sphinx Maintainer, Sphinx-users.jp Chairman"
-
-#~ msgid "PyCon JP 2011,2012 副座長"
-#~ msgstr "PyConJP 2011,2012 Vice Chairman"
-
-#~ msgid "言語:"
-#~ msgstr "Languages:"
-
-#~ msgid "C++/C/8086/**Python**/Rails/chef"
-#~ msgstr ""
-
-#~ msgid "重要情報"
-#~ msgstr "IMPORTANT"
-
-#~ msgid "PyCon APAC 2013"
-#~ msgstr ""
-
-#~ msgid "2013年9月開催予定！"
-#~ msgstr ""
-
-#~ msgid "ということで"
-#~ msgstr "Then,"
-
-#~ msgid "Sphinxです"
-#~ msgstr "The Sphinx"
-
-#~ msgid "Sphinxとは？"
-#~ msgstr "What is Sphinx?"
-
-#~ msgid "ドキュメント生成のツール"
-#~ msgstr "Document generator tool"
-
-#~ msgid "reStructuredText記法(Wikiっぽい?"
-#~ msgstr "reStructuredText markup (like wiki)"
-
-#~ msgid "ページ間のリンクを自動生成"
-#~ msgstr "Auto linking to other pages"
-
-#~ msgid "強力なコードハイライト"
-#~ msgstr "Powerful code highlighting"
-
-#~ msgid "出力形式: HTML, PDF, ePub, htmlhelp, latex, man..."
-#~ msgstr "Many outputs: HTML, PDF, ePub, htmlhelp, latex, man..."
-
-#~ msgid "Sphinxの記入の例"
-#~ msgstr "Sphinx documented cases"
-
-#~ msgid "Sphinx 1.2b1 リリース"
-#~ msgstr "Sphinx 1.2b1 Released"
-
-#~ msgid "**3/31に1年ぶりにリリース！**"
-#~ msgstr "**Released in one year at Mar 31**"
-
-#~ msgid "複数メンテナ体制で最初のリリース"
-#~ msgstr ""
-
-#~ msgid "国際化(i18n)機能の大幅強化"
-#~ msgstr ""
-
-#~ msgid "マルチバイト言語対応強化"
-#~ msgstr ""
-
-#~ msgid "Sphinxの国際化(i18n)機能の強化"
-#~ msgstr ""
-
-#~ msgid "翻訳対象となっていなかった多くの箇所の対応"
-#~ msgstr ""
-
-#~ msgid "公式ドキュメント多言語化(進行中) Sphinx国際化機能の **モデルケース**"
-#~ msgstr ""
-
-#~ msgid "公式ドキュメント多言語化計画"
-#~ msgstr ""
-
-#~ msgid "日本語公式ドキュメントは今まで直接書き換えていました:"
-#~ msgstr ""
-
-#~ msgid "今は翻訳を Transifex_ で行っています"
-#~ msgstr ""
-
-#~ msgid "デモ"
-#~ msgstr ""
