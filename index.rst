@@ -27,22 +27,23 @@ http://about.me/shimizukawa,
    Hi everyone.
 
    My name is Takayuki Shimizukawa, I came from Japan.
-   I joined the PyConTW last year, came to Taiwan is the second time.
+   I joined the PyConTW last year, and it is my second time to come to Taiwan.
 
-   (Activity)
+   My activity in Sphinx,
+   I am a Sphinx co-maintainer and a Sphinx-uses.jp chariman.
+   And Python, I was a vice-chairman PyCon JP 2011, 2012.
 
-   I'm member of the Sphinx co-maintainers from last November.
-   And I have served as chairman of the Sphinx-users.jp community this year.
-   And and, I served as vice chairman of the PyConJP last year.
+.. todo:: As co-maintainer, I study about ??????
+
 
 Books
 ========
 
-* Expert Python Programming (translation by 4 members)
+* Expert Python Programming (translation into Japanese)
 
   .. figure:: book-epp.jpg
 
-* Python Professional Programming (Chap 4,7)
+* Python Professional Programming (2 chapters)
 
   .. figure:: book-pypro.png
 
@@ -61,18 +62,20 @@ Books
 
    Books.
 
-   * The "Expert Python Programming" that written by Tarek Ziade in 2008.
-     I and other 3 members translated in 2010, about 3 years ago.
+   * I want to show you my books. There are 2 books so far, each books tell
+     you about Python Programming. Writing books is one of my most
+     interesting skills.
 
-   * The "Python Professional Programming" was written by 14 colleagues of
-     the company I belong in 2012.
+   .. * The "Expert Python Programming" that written by Tarek Ziade in 2008.
+   ..   I and other 3 members translated in 2010, about 3 years ago.
+   ..
+   .. * In 2012, The "Python Professional Programming" was written by 14
+   ..   colleagues of the company I belong. I wrote two chapters.
 
    * These 2 books mentions to Sphinx and Documentation.
 
    * "Python Professional Programming" was already translated into
      'simple chineese charactors' and will publish soon.
-
-
 
 
 anyway.
@@ -92,7 +95,7 @@ The Sphinx
 .. speech::
 
    The Sphinx.
-   Today, I'll talk about documentation generator that called "Sphinx".
+   Today, I'll talk about documentation generator that is called "Sphinx".
 
 
 .. s6:: effect fadeScaleFromUp
@@ -112,7 +115,7 @@ Table of contents
 
 .. speech::
 
-   I will introduce by three parts.
+   I will tell about Sphinx by three parts.
    Introduction, Demonstration and Case studies.
 
 .. s6:: effect slide
@@ -200,15 +203,31 @@ And reStructuredText(reST) **IS**
 * Similer to several wiki markups.
 * Extensible **(important!)**
 
+There is markup sample:
+
+.. code-block:: rst
+
+   reStructuredText_ (*reST*) is **markup** language.
+   :role:`role` and :dir:`directive` is extensible.
+
+   .. _reStructuredText: http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
+
+
 .. speech::
 
-   And reStructuredText(reST) is markup language.
+   And reStructuredText reST is markup language.
 
    * It was written with plain text.
    * reST is similer to other wiki like markups.
      But reST is different from others, it is extensible syntax.
      It's a important point.
 
+   This is a markup sample that contains LINK, EMPHASIS, STRONG and ROLE.
+
+.. s6:: styles
+
+   'ul': {fontSize: '80%'},
+   'div': {fontSize: '80%'},
 
 .. s6:: effect slide
 
@@ -303,34 +322,55 @@ And reStructuredText(reST) **IS**
 Sphinx includes
 ====================
 
-Simple and beautiful html themes.
+Simple and beautiful html themes. Detail information is here: :ref:`builtin-themes`.
 
-.. todo:: テーマの例をいくつか
+.. figure:: theme-default.png
+
+   default
+
+.. figure:: theme-sphinxdoc.png
+
+   sphinxdoc
+
+.. figure:: theme-scrolls.png
+
+   scrolls
+
+.. figure:: theme-agogo.png
+
+   agogo
+
+.. figure:: theme-traditional.png
+
+   traditional
+
+.. figure:: theme-nature.png
+
+   nature
+
+.. figure:: theme-haiku.png
+
+   haiku
+
+.. figure:: theme-pyramid.png
+
+   pyramid
+
+
+.. s6:: styles
+
+   'div[0]': {width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[1]': {width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[2]': {width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[3]': {width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[4]': {width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[5]': {width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[6]': {width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[7]': {width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div': {fontSize:'40%'},
 
 .. s6:: effect slide
 
-
-.. Document generation example
-.. ============================
-.. 
-.. .. code-block:: rst
-.. 
-..    reStructuredText(reST) is
-..    ===========================
-.. 
-..    * Markup language.
-..    * Similer to several wiki markups.
-..    * Written with plain text.
-..    * Extensible **(important!)**
-.. 
-.. 
-.. .. figure:: sphinx-sample.jpg
-.. 
-.. .. s6:: styles
-.. 
-..    'div[0]': {width: '50%', position:'absolute', left:'0', marginTop:'0.3em'},
-..    'div[0]/div/pre': {fontSize:'35%', padding:'1em'},
-..    'div[1]/img': {width:'70%', position:'absolute', right:'-1em', top:'2.5em'}
 
 Table of contents
 ====================
@@ -990,6 +1030,11 @@ The first Sphinx event in the world!
     'div[1]': {width:'30%', position:'absolute', top:'2.5em', right:'0em'},
     'div[2]': {width:'60%', position:'absolute', bottom:'0em', right:'1em'},
 
+Gift
+=======
+
+.. 我們來玩 剪刀石頭布！じゃんけんしよう！
+.. 「剪刀 石頭 布」（ジェンタオ・シートウ・プー）
 
 Thank You!
 ============

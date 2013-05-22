@@ -89,6 +89,13 @@ body {
 	font-size: 60%;
 	margin-bottom: 1em;
 }
+.s6.sphinx .page.default .admonition.speech p.admonition-title {
+	color: black;
+	margin: 0;
+}
+.s6.sphinx .page.default .admonition.speech p.last {
+	margin: 0;
+}
 
 .s6.sphinx .page.default .speech-hover {
 	display: block;

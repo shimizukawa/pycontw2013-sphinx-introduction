@@ -51,7 +51,7 @@ class SpeechDirective(Admonition):
     optional_arguments = 0
 
     def run(self):
-        title = u''
+        title = u'[speech]'
         if self.arguments:
             title += self.arguments[0]
 
