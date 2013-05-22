@@ -2,24 +2,8 @@
 Introduction to **Sphinx** documentation generator
 ===================================================
 
-.. Hi everyone.
-
-
 Who are you?
 =============
-
-.. My name is Takayuki Shimizukawa, came from Japan.
-.. I joined the PyConTW last year, came to Taiwan is the second time.
-.. Activity.
-.. I'm member of the Sphinx co-maintainers from last November.
-.. And I have served as chairman of the Sphinx-users.jp community this year.
-.. And and, I served as vice chairman of the PyConJP last year.
-.. Books.
-.. The "Expert Python Programming" that written by Tarek Ziade in 2008.
-.. I and other 3 members translated in 2010, about 3 years ago.
-.. The "Python Professional Programming" was written by 14 colleagues of the company I belong in 2012.
-.. These 2 books mentions to Sphinx and Documentation.
-.. "Python Professional Programming" was already translated into 'simple chineese charactors' and was published maybe.
 
 .. figure:: face.png
 
@@ -44,6 +28,23 @@ http://about.me/shimizukawa,
     'ul': {fontSize:'65%'},
     'div[0]': {width:'15%', position:'absolute', top:'0'},
 
+.. speech::
+
+   Hi everyone.
+
+   My name is Takayuki Shimizukawa, I came from Japan.
+   I joined the PyConTW last year, came to Taiwan is the second time.
+   Activity.
+   I'm member of the Sphinx co-maintainers from last November.
+   And I have served as chairman of the Sphinx-users.jp community this year.
+   And and, I served as vice chairman of the PyConJP last year.
+   Books.
+   The "Expert Python Programming" that written by Tarek Ziade in 2008.
+   I and other 3 members translated in 2010, about 3 years ago.
+   The "Python Professional Programming" was written by 14 colleagues of the company I belong in 2012.
+   These 2 books mentions to Sphinx and Documentation.
+   "Python Professional Programming" was already translated into 'simple chineese charactors' and was published maybe.
+
 
 .. Important!
 .. =============
@@ -56,10 +57,6 @@ http://about.me/shimizukawa,
 
 PyCon APAC 2013 in Japan
 ==========================
-
-.. I'd like to introduce PyCon APAC 2013 in this autumn.
-.. We will hold 3-days event at September 14, 15, 16.
-.. Registration will start at middle of June, maybe.
 
 .. figure:: pyconapac2013.png
 
@@ -76,6 +73,13 @@ PyCon APAC 2013 in Japan
 
   * Start at middle of June, (maybe)
 
+.. speech::
+
+   I'd like to introduce PyCon APAC 2013 in this autumn.
+   We will hold 3-days event at September 14, 15, 16.
+   Registration will start at middle of June, maybe.
+
+
 .. s6:: styles
 
     'div[0]': {width:'17%', position:'absolute', top:'4em', right:'0'},
@@ -84,10 +88,6 @@ PyCon APAC 2013 in Japan
 
 Sphinx-users.jp
 ================
-
-.. And I'd like to introduce sphinx-users community group in Japan that was called "spinx users jp".
-.. Sphinx-users.jp manage original site that contains full-translated reference, original tutorials and reverse dictionary.
-.. Also we holding monthly event "Sphinx & translation hack-a-thon" and annual event "SphinxCon JP"
 
 .. figure:: sphinxusers.jpg
 
@@ -104,6 +104,12 @@ Sphinx-users.jp
   * Sphinx & translation hack-a-thon
   * SphinxCon JP
 
+.. speech::
+
+   And I'd like to introduce sphinx-users community group in Japan that was called "spinx users jp".
+   Sphinx-users.jp manage original site that contains full-translated reference, original tutorials and reverse dictionary.
+   Also we holding monthly event "Sphinx & translation hack-a-thon" and annual event "SphinxCon JP"
+
 .. s6:: styles
 
     'div[0]': {width:'45%', position:'absolute', top:'0.3em', right:'0'},
@@ -113,11 +119,6 @@ Sphinx-users.jp
 
 SphinxCon JP in PyCon JP 2012
 ==============================
-
-.. SphinxCon JP 2012 was very exciting.
-.. I think it is the first Sphinx event in the world!
-.. About 70 people were gathered on this event.
-.. We would like to do something in PyCon APAC of this year.
 
 .. figure:: sphinxconjp2013-atendees.jpg
 
@@ -130,6 +131,14 @@ The first Sphinx event in the world!
 .. todo:: photos
 
 .. todo:: 今年のPyConAPACでもSphinx何かやるかも
+
+.. speech::
+
+   SphinxCon JP 2012 was very exciting.
+   I think it is the first Sphinx event in the world!
+   About 70 people were gathered on this event.
+   We would like to do something in PyCon APAC of this year.
+
 
 .. s6:: styles
 
@@ -149,10 +158,13 @@ anyway.
 The Sphinx
 ============
 
-.. The Sphinx.
-.. Today, I'll talk about documentation generator that called "Sphinx".
-
 .. figure:: sphinx-logo.png
+
+.. speech::
+
+   The Sphinx.
+   Today, I'll talk about documentation generator that called "Sphinx".
+
 
 .. s6:: effect fadeScaleFromUp
 
@@ -528,9 +540,6 @@ Table of contents
 Sphinx installation
 =====================
 
-.. easy_install is defacto standard package installer.
-.. There are other installation methods: pip, buildout or invoke setup.py.
-
 Install from PyPI:
 
 .. code-block:: bash
@@ -544,6 +553,11 @@ Install from PyPI:
 
 Sphinx and other dependency packages are installed.
 Sphinx 1.2b1 is current newest version.
+
+.. speech::
+
+   easy_install is defacto standard package installer.
+   There are other installation methods: pip, buildout or invoke setup.py.
 
 .. s6:: styles
 
@@ -620,8 +634,6 @@ Make html:
 *demo:* Numbered list
 =====================
 
-.. "number plus dot" or "sharp plus dot" render numbered list.
-
 .. code-block:: rst
 
    1. item 1
@@ -634,6 +646,10 @@ Make html:
 
 
 .. tip:: `#.` rendering auto numbered list. but it is not human readable.
+
+.. speech::
+
+   "number plus dot" or "sharp plus dot" render numbered list.
 
 .. s6:: effect slide
 
