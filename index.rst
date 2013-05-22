@@ -16,16 +16,10 @@ http://about.me/shimizukawa,
   * Sphinx-users.jp chairman
   * PyCon JP 2011,2012 vice-chairman
 
-* Books:
-
-  * Expert Python Programming (translation by 4 members)
-  * Python Professional Programming (Chap 4,7)
-
 .. s6:: effect slide
 
 .. s6:: styles
 
-    'ul': {fontSize:'65%'},
     'div[0]': {width:'15%', position:'absolute', top:'0'},
 
 .. speech::
@@ -34,117 +28,52 @@ http://about.me/shimizukawa,
 
    My name is Takayuki Shimizukawa, I came from Japan.
    I joined the PyConTW last year, came to Taiwan is the second time.
-   Activity.
+
+   (Activity)
+
    I'm member of the Sphinx co-maintainers from last November.
    And I have served as chairman of the Sphinx-users.jp community this year.
    And and, I served as vice chairman of the PyConJP last year.
+
+Books
+========
+
+* Expert Python Programming (translation by 4 members)
+
+  .. figure:: book-epp.jpg
+
+* Python Professional Programming (Chap 4,7)
+
+  .. figure:: book-pypro.png
+
+
+.. s6:: effect slide
+
+.. s6:: styles
+
+   'ul/li[0]/p': {width: '50%', marginBottom:'0.5em'},
+   'ul/li[0]/div': {width:'30%', left:'55%', top:'1em'},
+   'ul/li[1]': {marginLeft: '2em'},
+   'ul/li[1]/p': {width: '50%'},
+   'ul/li[1]/div': {width:'30%', right:'0', bottom:'0em'},
+
+.. speech::
+
    Books.
-   The "Expert Python Programming" that written by Tarek Ziade in 2008.
-   I and other 3 members translated in 2010, about 3 years ago.
-   The "Python Professional Programming" was written by 14 colleagues of the company I belong in 2012.
-   These 2 books mentions to Sphinx and Documentation.
-   "Python Professional Programming" was already translated into 'simple chineese charactors' and was published maybe.
+
+   * The "Expert Python Programming" that written by Tarek Ziade in 2008.
+     I and other 3 members translated in 2010, about 3 years ago.
+
+   * The "Python Professional Programming" was written by 14 colleagues of
+     the company I belong in 2012.
+
+   * These 2 books mentions to Sphinx and Documentation.
+
+   * "Python Professional Programming" was already translated into
+     'simple chineese charactors' and will publish soon.
 
 
-.. Important!
-.. =============
-.. 
-.. .. s6:: effect slide
-.. 
-.. .. s6:: styles
-.. 
-..    'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}
 
-PyCon APAC 2013 in Japan
-==========================
-
-.. figure:: pyconapac2013.png
-
-* Schedule:
-
-  * Conference: Sep, 14(Sat) 15(Sun)
-  * Sprint: Sep, 16(Mon)
-
-* Location:
-
-  * Tokyo Shinjuku, Japan
-
-* Registration:
-
-  * Start at middle of June, (maybe)
-
-.. speech::
-
-   I'd like to introduce PyCon APAC 2013 in this autumn.
-   We will hold 3-days event at September 14, 15, 16.
-   Registration will start at middle of June, maybe.
-
-
-.. s6:: styles
-
-    'div[0]': {width:'17%', position:'absolute', top:'4em', right:'0'},
-
-.. s6:: effect slide
-
-Sphinx-users.jp
-================
-
-.. figure:: sphinxusers.jpg
-
-.. figure:: SphinxConJP2012-logo.png
-
-* Managing http://sphinx-users.jp
-
-  * Full-translated reference : http://docs.sphinx-users.jp/
-  * Original tutorial contents
-  * Reverse dictionary
-
-* Holding events
-
-  * Sphinx & translation hack-a-thon
-  * SphinxCon JP
-
-.. speech::
-
-   And I'd like to introduce sphinx-users community group in Japan that was called "spinx users jp".
-   Sphinx-users.jp manage original site that contains full-translated reference, original tutorials and reverse dictionary.
-   Also we holding monthly event "Sphinx & translation hack-a-thon" and annual event "SphinxCon JP"
-
-.. s6:: styles
-
-    'div[0]': {width:'45%', position:'absolute', top:'0.3em', right:'0'},
-    'div[1]': {width:'50%', position:'absolute', bottom:'1em', right:'1em'},
-
-.. s6:: effect slide
-
-SphinxCon JP in PyCon JP 2012
-==============================
-
-.. figure:: sphinxconjp2013-atendees.jpg
-
-.. figure:: standing-atendees.jpg
-
-.. figure:: sphinxconjp2012-speakers.jpg
-
-The first Sphinx event in the world!
-
-.. todo:: photos
-
-.. todo:: 今年のPyConAPACでもSphinx何かやるかも
-
-.. speech::
-
-   SphinxCon JP 2012 was very exciting.
-   I think it is the first Sphinx event in the world!
-   About 70 people were gathered on this event.
-   We would like to do something in PyCon APAC of this year.
-
-
-.. s6:: styles
-
-    'div[0]': {width:'50%', position:'absolute', top:'3em', left:'0em'},
-    'div[1]': {width:'30%', position:'absolute', top:'2.5em', right:'0em'},
-    'div[2]': {width:'60%', position:'absolute', bottom:'0em', right:'1em'},
 
 anyway.
 =========
@@ -884,24 +813,6 @@ Then you can use ``seqdiag`` directive:
 
 
 
-さいごに
-=========
-
-.. s6:: styles
-
-   'h2': {textAlign:'center', margin:'30% auto', background:'none'}
-
-
-PyCon APAC 2013 in Japan
-===========================
-
-Sep, 14(Sat), 15(Sun), 16(Mon)
-
-.. s6:: effect fadeScaleFromUp
-
-
-
-
 .. Sphinx 1.2b1 リリース
 .. ========================
 .. 
@@ -947,15 +858,125 @@ Sep, 14(Sat), 15(Sun), 16(Mon)
 .. .. _Transifex: https://www.transifex.com/projects/p/sphinx-doc-1_2_0/
 .. 
 .. .. s6:: effect slide
-.. 
-.. デモ
-.. ======
-.. 
-.. .. s6:: effect slide
-.. 
-.. .. s6:: styles
-.. 
-..    'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}
 
 
+Questions?
+==============
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto', background:'none'}
+
+
+さいごに
+=========
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto', background:'none'}
+
+.. speech::
+
+   I'd like to introduce PyCon APAC 2013 in this autumn and
+   Sphinx users community in Japan.
+
+
+PyCon APAC 2013 in Japan
+==========================
+
+.. figure:: pyconapac2013.png
+
+* Schedule:
+
+  * Conference: Sep, 14(Sat) 15(Sun)
+  * Sprint: Sep, 16(Mon)
+
+* Location:
+
+  * Tokyo Shinjuku, Japan
+
+* Registration:
+
+  * Start at middle of June, (maybe)
+
+.. speech::
+
+   We will hold 3-days Python event at September 14, 15, 16.
+
+   We've planed registration of this event will start at middle of June.
+
+
+.. s6:: styles
+
+    'div[0]': {width:'17%', position:'absolute', top:'4em', right:'0'},
+
+.. s6:: effect slide
+
+Sphinx-users.jp
+================
+
+.. figure:: sphinxusers.jpg
+
+.. figure:: SphinxConJP2012-logo.png
+
+* Managing http://sphinx-users.jp
+
+  * Full-translated reference : http://docs.sphinx-users.jp/
+  * Original tutorial contents
+  * Reverse dictionary
+
+* Holding events
+
+  * Sphinx & translation hack-a-thon
+  * SphinxCon JP
+
+.. speech::
+
+   Sphinx users community group in Japan that was called "spinx users jp".
+
+   Sphinx-users.jp manage original site that contains full-translated
+   reference, original tutorials and reverse dictionary.
+
+   Also we holding monthly event "Sphinx & translation hack-a-thon" and
+   annual event "SphinxCon JP"
+
+.. s6:: styles
+
+    'div[0]': {width:'45%', position:'absolute', top:'0.3em', right:'0'},
+    'div[1]': {width:'50%', position:'absolute', bottom:'1em', right:'1em'},
+
+.. s6:: effect slide
+
+SphinxCon JP in PyCon JP 2012
+==============================
+
+.. figure:: sphinxconjp2013-atendees.jpg
+
+.. figure:: standing-atendees.jpg
+
+.. figure:: sphinxconjp2012-speakers.jpg
+
+The first Sphinx event in the world!
+
+.. speech::
+
+   SphinxCon JP 2012 was very exciting.
+   I think it is the first Sphinx event in the world!
+   About 70 people were gathered on this event.
+   We would like to do something in PyCon APAC of this year.
+
+
+.. s6:: styles
+
+    'div[0]': {width:'50%', position:'absolute', top:'3em', left:'0em'},
+    'div[1]': {width:'30%', position:'absolute', top:'2.5em', right:'0em'},
+    'div[2]': {width:'60%', position:'absolute', bottom:'0em', right:'1em'},
+
+
+Thank You!
+============
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto', background:'none'}
 
