@@ -452,6 +452,14 @@ And presentation themes:
 .. _htmlslide: https://pypi.python.org/pypi/sphinxjp.themes.htmlslide
 .. _impressjs: https://pypi.python.org/pypi/sphinxjp.themes.impressjs
 
+Next.
+======
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}
+
+.. s6:: effect slide
 
 Table of contents
 ====================
@@ -489,6 +497,16 @@ There are many 3rd-party extensions
 * Rendering diagrams from plain-text.
 * Some type of html theme.
 * Language domains: ada, coffee, erlan, http, php, ruby.
+
+.. s6:: effect slide
+
+
+Next.
+======
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}
 
 .. s6:: effect slide
 
@@ -590,6 +608,15 @@ What **IS NOT** Sphinx?
 
 .. s6:: effect slide
 
+
+Next.
+======
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}
+
+.. s6:: effect slide
 
 Table of contents
 ====================
