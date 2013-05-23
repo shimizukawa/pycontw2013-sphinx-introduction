@@ -82,18 +82,18 @@ body {
 	border: 1px solid black;
 	width: 80%;
 }
-.s6.sphinx .page.default .admonition.speech ul {
+.s6.sphinx .page.default .admonition.speech > ul {
 	font-size: 80%;
 }
-.s6.sphinx .page.default .admonition.speech p {
+.s6.sphinx .page.default .admonition.speech > p {
 	font-size: 60%;
 	margin-bottom: 1em;
 }
-.s6.sphinx .page.default .admonition.speech p.admonition-title {
+.s6.sphinx .page.default .admonition.speech > p.admonition-title {
 	color: black;
 	margin: 0;
 }
-.s6.sphinx .page.default .admonition.speech p.last {
+.s6.sphinx .page.default .admonition.speech > p.last {
 	margin: 0;
 }
 

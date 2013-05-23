@@ -367,17 +367,90 @@ Simple and beautiful html themes. Detail information is here: :ref:`builtin-them
 
 .. s6:: styles
 
-   'div[0]': {width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[1]': {width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[2]': {width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[3]': {width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[4]': {width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[5]': {width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[6]': {width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[7]': {width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div': {fontSize:'40%'},
+   'div[0]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[1]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[2]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[3]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[4]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[5]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[6]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[7]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
 
 .. s6:: effect slide
+
+There are 3rd party themes
+============================
+
+You can find 3rd-party Sphinx themes at PyPI or else. For example,
+
+.. figure:: theme-bizstyle.png
+   :target: https://pypi.python.org/pypi/sphinxjp.themes.bizstyle
+
+   bizstyle_
+
+.. figure:: theme-dotted.png
+   :target: https://pypi.python.org/pypi/sphinxjp.themes.dotted
+
+   dotted_
+
+.. figure:: theme-basicstrap.png
+   :target: https://pypi.python.org/pypi/sphinxjp.themes.basicstrap
+
+   basicstrap_
+
+.. figure:: theme-sphinxjp.png
+   :target: https://pypi.python.org/pypi/sphinxjp.themes.sphinxjp
+
+   sphinxjp_
+
+And presentation themes:
+
+.. figure:: theme-s6.png
+   :target: https://pypi.python.org/pypi/sphinxjp.themes.s6
+
+   s6_
+
+.. figure:: theme-htmlslide.png
+   :target: https://pypi.python.org/pypi/sphinxjp.themes.htmlslide
+
+   htmlslide_
+
+.. figure:: theme-impressjs.png
+   :target: https://pypi.python.org/pypi/sphinxjp.themes.impressjs
+
+   impressjs_
+
+.. s6:: styles
+
+   'div[0]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[1]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[2]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[3]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[4]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[5]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[6]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'p': {clear:'both'},
+
+.. speech::
+
+   There are 3rd party themes.
+   You can find 3rd-party Sphinx themes at PyPI or else. For example,
+   bizstyle, dotted, basicstrap and sphinxjp.
+
+   And few presentation themes are also exist:
+   s6, htmlslide, impressjs.
+
+
+.. s6:: effect slide
+
+
+.. _bizstyle: https://pypi.python.org/pypi/sphinxjp.themes.bizstyle
+.. _dotted: https://pypi.python.org/pypi/sphinxjp.themes.dotted
+.. _basicstrap: https://pypi.python.org/pypi/sphinxjp.themes.basicstrap
+.. _sphinxjp: https://pypi.python.org/pypi/sphinxjp.themes.sphinxjp
+.. _s6: https://pypi.python.org/pypi/sphinxjp.themes.s6
+.. _htmlslide: https://pypi.python.org/pypi/sphinxjp.themes.htmlslide
+.. _impressjs: https://pypi.python.org/pypi/sphinxjp.themes.impressjs
 
 
 Table of contents
