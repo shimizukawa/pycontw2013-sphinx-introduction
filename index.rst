@@ -151,7 +151,7 @@ What **IS** Sphinx?
 
 .. speech::
 
-   Sphinx is a tool that makes it easy to create intelligent and beautiful documentation. Sphinx generates various formats such as HTML, ePub, PDF from the documentation of reStructuredText (reST) markup like Wiki and/or Python source code.
+   What is Sphinx?
 
 .. s6:: styles
 
@@ -234,8 +234,21 @@ Sphinx provides many useful reST :term:`directive` and :term:`role`.
   Link to other pages roles and directives
 * :rst:dir:`math`: Numerical formula directive
 * :rst:dir:`only`: Conditional output directive.
-* :mod:`sphinx.ext.autodoc`: Auto documenter from .py directive.
+* :rst:dir:`automodule`: Auto documenter from .py directive.
 * :ref:`domains <domains>`: Some domains directives and roles: C, C++, JavaScript, Python, reST.
+
+.. speech:: 
+
+   Sphinx provides many useful reST directive and role.
+
+   * code-block for code highlighting.
+   * doc, ref, term, these roles make link to other pages.
+   * math role and directive render numerical formula.
+   * only directive works as conditional output control.
+   * automodule generate module reference document from .py file.
+   * Some domains directives and roles: C, C++, JavaScript, Python, reST.
+
+.. todo:: domainsの部分がうまく説明出来ていない
 
 .. s6:: styles
 
@@ -468,6 +481,10 @@ Conclusion: Sphinx **IS**
 * Contains many beautiful HTML themes.
 * Extensible.
 
+.. speech::
+
+   (read slide.)
+
 .. s6:: styles
 
     'ul/li': {display:'none'}
@@ -519,14 +536,22 @@ Sphinx include official extensions
 * doctest: ?????
 * coverage: ?????
 
+.. todo:: 書く
+
 .. s6:: effect slide
 
 There are many 3rd-party extensions
 ====================================
 
-* Rendering diagrams from plain-text.
+* blockdiag: Rendering diagrams from plain-text.
 * Some type of html theme.
-* Language domains: ada, coffee, erlan, http, php, ruby.
+* Domains: ada, coffee, erlan, http, php, ruby.
+
+.. speech::
+
+   * blockdiag: Rendering diagrams from plain-text.
+   * Some type of html theme. already I introduced.
+   * Extra domains: ada, coffee, erlan, http, php, ruby.
 
 .. s6:: effect slide
 
@@ -880,7 +905,7 @@ Use :rst:dir:`math` directive to rendering numerical formula.
 
 .. Sphinx provides
 .. ================
-.. *Language domains*
+.. *domains*
 .. 
 .. .. directive & role.
 .. 
