@@ -165,7 +165,7 @@ Sphinx **IS**
 
 * Documentation generator.
 * Sphinx generate documentation from reStructuredText markup.
-* Extensible.
+* Extendable.
 
 .. figure:: sphinx-generate-several-formats.png
 
@@ -177,7 +177,7 @@ Sphinx **IS**
      In other words, Sphinx reads reStructuredText format text file and
      outputs html, epub, pdf, or other several format.
 
-   * Sphinx is extensible, so you can also output in a different format,
+   * Sphinx is extendable, so you can also output in a different format,
      or read the file in a different format.
 
 
@@ -193,14 +193,14 @@ And reStructuredText(reST) **IS**
 * Markup language.
 * Written with plain text.
 * Similer to several wiki markups.
-* Extensible **(important!)**
+* Extendable **(important!)**
 
 There is markup sample:
 
 .. code-block:: rst
 
    reStructuredText_ (*reST*) is **markup** language.
-   :rst:role:`role` and :rst:dir:`directive` is extensible.
+   :rst:role:`role` and :rst:dir:`directive` is extendable.
 
    .. _reStructuredText: http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
 
@@ -211,7 +211,7 @@ There is markup sample:
 
    * It was written with plain text.
    * reST is similer to other wiki like markups.
-     But reST is different from others, it is extensible syntax.
+     But reST is different from others, it is extendable syntax.
      It's a important point.
 
    This is a markup sample that contains LINK, EMPHASIS, STRONG and ROLE.
@@ -320,7 +320,7 @@ Simple and beautiful html themes. Detail information is here: :ref:`builtin-them
 There are 3rd party themes
 ============================
 
-You can find 3rd-party Sphinx themes at PyPI or else. For example,
+You can find 3rd-party Sphinx themes at PyPI or other sites. For example,
 
 .. figure:: theme-bizstyle.png
    :target: https://pypi.python.org/pypi/sphinxjp.themes.bizstyle
@@ -373,7 +373,7 @@ And presentation themes:
 .. speech::
 
    There are 3rd party themes.
-   You can find 3rd-party Sphinx themes at PyPI or else. For example,
+   You can find 3rd-party Sphinx themes at PyPI or other sites. For example,
    bizstyle, dotted, basicstrap and sphinxjp.
 
    And few presentation themes are also exist:
@@ -467,7 +467,8 @@ What **IS NOT** Sphinx?
 
    Do you know Excel HOUGAN-SHI? HOUGAN-SHI means "Squares of paper".
    In Japan, many many documentations has been made with Excel HOUGAN-SHI.
-   It is not confortable I think.
+   It is not feasible I think because it is not easy to maintenance and
+   not easy to recognize difference by changing.
 
 .. s6:: effect slide
 
@@ -479,7 +480,7 @@ Conclusion: Sphinx **IS**
 * Extends reST syntax and provides many useful
   *roles* and *directives*.
 * Contains many beautiful HTML themes.
-* Extensible.
+* Extendable.
 
 .. speech::
 
@@ -773,7 +774,7 @@ Use ``code-block`` directive to rendering code with highlighting.
         end
       end
 
-.. note:: This directive was provided by sphinx. Since docutils-0.9 provides :rst:dir:`code` directive that provides same feature.
+.. note:: This directive was provided by sphinx. The same feature is provided by docutils-0.9 as :rst:dir:`code` directive.
 
 .. s6:: styles
 
@@ -815,8 +816,8 @@ Link between pages by using :rst:dir:`glossary` directive and :rst:role:`term` r
       reStructuredText
          reST is markup language to make structured document.
 
-   These glossary terms are liked from other pages
-   by using `term` role as like as :term:`Sphinx`.
+   These glossary terms are linked from other pages
+   by using `term` role like :term:`Sphinx`.
 
 .. s6:: styles
 
@@ -1194,7 +1195,7 @@ PyCon APAC 2013 in Japan
 
    We will hold 3-days Python event at September 14, 15, 16.
 
-   We've planed registration of this event will start at middle of June.
+   Registration of this event will start at middle of June.
 
 
 .. s6:: styles
