@@ -64,10 +64,10 @@ body {
 	margin: 0.2em 1em;
 	font-size: 80%;
 }
-.s6.sphinx .page.default div.admonition p {
+.s6.sphinx .page.default div.admonition > p {
 	font-size: 60%;
 }
-.s6.sphinx .page.default div.admonition p.admonition-title {
+.s6.sphinx .page.default div.admonition > p.admonition-title {
 	font-style: italic;
 	text-decoration: underline;
 	color: yellow;
@@ -82,8 +82,8 @@ body {
 	border: 1px solid black;
 	width: 80%;
 }
-.s6.sphinx .page.default .admonition.speech > ul {
-	font-size: 80%;
+.s6.sphinx .page.default .admonition.speech > ul > li {
+	font-size: 60%;
 }
 .s6.sphinx .page.default .admonition.speech > p {
 	font-size: 60%;
