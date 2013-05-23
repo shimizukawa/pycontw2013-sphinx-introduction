@@ -111,3 +111,8 @@ body {
 	padding: 0.1em;
 	z-index: 1000;
 }
+
+.s6.sphinx .page.default .figure .caption {
+	font-size: 60%;
+	text-align: center;
+}

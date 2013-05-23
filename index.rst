@@ -133,7 +133,7 @@ Table of contents
 
 .. speech::
 
-   First, I introduce "what is Sphinx" and "what is reStructuredText".
+   First, I'll introduce "what is Sphinx" and "what is reStructuredText".
 
 
 .. s6:: styles
@@ -142,30 +142,22 @@ Table of contents
    'ol/li[0]/ul/li[0]': {color: 'white'},
 
 
+.. todo:: how many people already using Sphinx? or any other documentation tool?
+
+.. todo:: Why do we need the documentation?
+
 What **IS** Sphinx?
 =====================
-
-Sphinx is a tool that makes it easy to create intelligent and beautiful documentation. Sphinx generates various formats such as HTML, ePub, PDF from the documentation of reStructuredText (reST) markup like Wiki and/or Python source code.
 
 .. speech::
 
    Sphinx is a tool that makes it easy to create intelligent and beautiful documentation. Sphinx generates various formats such as HTML, ePub, PDF from the documentation of reStructuredText (reST) markup like Wiki and/or Python source code.
 
-.. s6:: effect slide
-
-Hummm???
-==========
-
-.. figure:: hummm.png
-
-.. speech::
-
-   (TBD)
-
 .. s6:: styles
 
-   'h2': {display: 'none'},
-   'div[0]': {width: '100%', margin:'1em'},
+   'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}
+
+.. s6:: effect slide
 
 
 Sphinx **IS**
@@ -208,7 +200,7 @@ There is markup sample:
 .. code-block:: rst
 
    reStructuredText_ (*reST*) is **markup** language.
-   :role:`role` and :dir:`directive` is extensible.
+   :rst:role:`role` and :rst:dir:`directive` is extensible.
 
    .. _reStructuredText: http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
 
@@ -231,92 +223,26 @@ There is markup sample:
 
 .. s6:: effect slide
 
-.. Sphinx provides
-.. ================
-.. Useful *reST extensions*
-.. 
-.. * Many useful **directives**.
-.. * Many language **roles**.
-.. 
-.. .. s6:: effect slide
-.. 
-.. Sphinx provides
-.. ================
-.. Powerful *code highlighting*
-.. 
-.. .. directive.
-.. 
-.. 
-.. .. code-block:: rst
-.. 
-..    .. code-block:: python
-..       :linenos:
-.. 
-..       SPAM = 'spam'  #: nice meat.
-.. 
-..       class Egg(object):
-..           "Delicious egg!"
-.. 
-..           def __init__(self, ham):
-..               self.ham = ham
-.. 
-.. 
-.. .. code-block:: python
-..    :linenos:
-.. 
-..    SPAM = 'spam'  #: nice meat.
-.. 
-..    class Egg(object):
-..        "Delicious egg!"
-.. 
-..        def __init__(self, ham):
-..            self.ham = ham
-.. 
-.. .. s6:: styles
-.. 
-..    'div[0]': {width:'80%', fontSize: '90%'},
-..    'div[0]/div':     {backgroundColor: '#fff'},
-..    'div[0]/div/pre': {backgroundColor: '#fff'},
-..    'div[1]': {position:'absolute', right:'0em', bottom:'0.5em'},
-.. 
-.. .. s6:: effect slide
-.. 
-.. 
-.. Sphinx provides
-.. ================
-.. *Internal links*
-.. 
-.. .. role.
-.. 
-.. * Linking between internal pages.
-.. 
-.. .. todo:: glossary, doc, ref
-.. 
-.. .. s6:: effect slide
-.. 
-.. Sphinx provides
-.. ================
-.. *Language domains*
-.. 
-.. .. directive & role.
-.. 
-.. * C, C++, JavaScript, Python, reST.
-.. 
-.. What is domain?
-.. 
-.. .. s6:: effect slide
-.. 
-.. Sphinx provides
-.. ================
-.. *External links*
-.. 
-.. .. extension.
-.. 
-.. * Linking to other published Sphinx document.
-.. 
-.. .. todo:: intersphinx の例
-.. 
-.. .. s6:: effect slide
+
+Sphinx extends reST syntax
+===========================
+
+Sphinx provides many useful reST :term:`directive` and :term:`role`.
+
+* :ref:`code-block <code-examples>`: Code highlight directive
+* :rst:role:`doc`, :rst:role:`ref`, :rst:role:`term`:
+  Link to other pages roles and directives
+* :rst:dir:`math`: Numerical formula directive
+* :rst:dir:`only`: Conditional output directive.
+* :mod:`sphinx.ext.autodoc`: Auto documenter from .py directive.
+* :ref:`domains <domains>`: Some domains directives and roles: C, C++, JavaScript, Python, reST.
+
+.. s6:: styles
+
+   'ul': {fontSize: '60%'},
+   'p': {fontSize: '70%'},
+
+.. s6:: effect slide
 
 
 Sphinx includes
@@ -367,14 +293,14 @@ Simple and beautiful html themes. Detail information is here: :ref:`builtin-them
 
 .. s6:: styles
 
-   'div[0]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[1]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[2]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[3]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[4]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[5]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[6]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[7]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[0]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[1]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[2]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[3]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[4]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[5]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[6]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[7]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
 
 .. s6:: effect slide
 
@@ -422,13 +348,13 @@ And presentation themes:
 
 .. s6:: styles
 
-   'div[0]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[1]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[2]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[3]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[4]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[5]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
-   'div[6]': {fontSize:'40%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[0]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[1]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[2]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[3]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[4]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[5]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
+   'div[6]': {fontSize:'60%', width:'23%', float:'left', margin:'0.2em 0 0.2em 0.5em'},
    'p': {clear:'both'},
 
 .. speech::
@@ -451,6 +377,110 @@ And presentation themes:
 .. _s6: https://pypi.python.org/pypi/sphinxjp.themes.s6
 .. _htmlslide: https://pypi.python.org/pypi/sphinxjp.themes.htmlslide
 .. _impressjs: https://pypi.python.org/pypi/sphinxjp.themes.impressjs
+
+
+What **IS NOT** Sphinx?
+========================
+
+.. speech:: So, I'll also introduce Sphinx is not possible.
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}
+
+
+What **IS NOT** Sphinx?
+========================
+
+* Are there *GUI frontend editor?*
+   * **NO.**
+
+.. figure:: sphinx-have-no-gui-frontend.png
+
+   Windows Notepad
+
+.. speech::
+
+   Sphinx did not have GUI frontend as like as Word.
+   But you can choose any GUI editor to edit reST.
+
+.. s6:: styles
+
+   'div': {width:'60%', margin:'1em auto'},
+
+.. s6:: effect slide
+
+What **IS NOT** Sphinx?
+========================
+
+* There is a way to import/export *Word*?
+   * **NO..!**
+
+.. todo:: Image
+
+.. speech::
+
+   Sphinx did not have a way to import Word file.
+   There is a experimental implementation to export to Word file,
+   but it is not stable.
+
+.. s6:: effect slide
+
+What **IS NOT** Sphinx?
+========================
+
+* There is a way to export to *PowerPoint*?
+   * **NO.....!!!**
+
+.. todo:: Image
+
+.. speech::
+
+   3rd-party theme will support to make presentation slide by using Sphinx.
+   But it is controlled by HTML, css and JavaScript.
+   It is not easy to convert PowerPoint file format.
+
+.. s6:: effect slide
+
+What **IS NOT** Sphinx?
+========================
+
+* Are there a way to export to *Excel*?
+   * **What are you saying???**
+
+.. todo:: Image
+
+.. speech::
+
+   Do you know Excel HOUGAN-SHI? HOUGAN-SHI means "Squares of paper".
+   In Japan, many many documentations has been made with Excel HOUGAN-SHI.
+   It is not confortable I think.
+
+.. s6:: effect slide
+
+Conclusion: Sphinx **IS**
+===========================
+
+* Documentation generator.
+* Read reST and write several file formats.
+* Extends reST syntax and provides many useful
+  *roles* and *directives*.
+* Contains many beautiful HTML themes.
+* Extensible.
+
+.. s6:: styles
+
+    'ul/li': {display:'none'}
+
+.. s6:: actions
+
+    ['ul/li[0]', 'fade in', '0.3'],
+    ['ul/li[1]', 'fade in', '0.3'],
+    ['ul/li[2]', 'fade in', '0.3'],
+    ['ul/li[3]', 'fade in', '0.3'],
+    ['ul/li[4]', 'fade in', '0.3'],
+
+.. s6:: effect slide
 
 Next.
 ======
@@ -481,13 +511,13 @@ Table of contents
 Sphinx include official extensions
 ====================================
 
-* autodoc: 
-* pngmath or jsmath: 
-* intersphinx: 
-* graphviz: 
-* todo: 
-* doctest: 
-* coverage: 
+* autodoc: Auto documenter from .py
+* pngmath or jsmath: provides :rst:dir:`math` directive and role.
+* intersphinx: Link other documents over internet.
+* graphviz: Draw graphics by using graphviz.
+* todo: List-up todo directives.
+* doctest: ?????
+* coverage: ?????
 
 .. s6:: effect slide
 
@@ -525,8 +555,6 @@ Table of contents
 
    'ol': {color: 'gray'},
    'ol/li[0]/ul/li[2]': {color: 'white'},
-
-.. s6:: effect slide
 
 Compare with other tools
 =========================
@@ -566,48 +594,6 @@ TBD
 
 
 
-By The Way
-============
-
-.. s6:: effect fadeScaleFromUp
-
-.. s6:: styles
-
-   'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}
-
-
-What **IS NOT** Sphinx?
-========================
-
-* Are there *GUI frontend editor?*
-   * **NO!**
-
-.. s6:: effect slide
-
-What **IS NOT** Sphinx?
-========================
-
-* Are there a way to import *Word*?
-   * **NO!!**
-
-.. s6:: effect slide
-
-What **IS NOT** Sphinx?
-========================
-
-* Are there a way to export to *PowerPoint*?
-   * **NO!!!**
-
-.. s6:: effect slide
-
-What **IS NOT** Sphinx?
-========================
-
-* Are there a way to export to *Excel*?
-   * **What are you saying???**
-
-.. s6:: effect slide
-
 
 Next.
 ======
@@ -628,8 +614,6 @@ Table of contents
 
    'ol': {color: 'gray'},
    'ol/li[1]': {color: 'white'},
-
-.. s6:: effect slide
 
 
 Sphinx installation
@@ -687,13 +671,13 @@ Make html:
 .. s6:: effect slide
 
 
-*demo:* menu
+demo menu
 ==============
 
 * Bullet list
 * Numbered list
 * Code highlight
-* Link to other files
+* Link to other pages
 * Numerical formula
 * autodoc extension
 * blockdiag extension
@@ -774,7 +758,7 @@ Use ``code-block`` directive to rendering code with highlighting.
 .. s6:: effect slide
 
 
-*demo:* Link to other files
+*demo:* Link to other pages
 ===========================
 
 Use :rst:dir:`toctree` directive to build a tree structure.
@@ -791,6 +775,68 @@ Use :rst:dir:`toctree` directive to build a tree structure.
 .. note:: This directive was provided by sphinx.
 
 .. s6:: effect slide
+
+*demo:* Link to other pages
+===========================
+Link between pages by using :rst:dir:`glossary` directive and :rst:role:`term` role:
+
+.. code-block:: rst
+
+   .. glossary::
+
+      Sphinx
+         Sphinx is a docmentation generator.
+
+      reStructuredText
+         reST is markup language to make structured document.
+
+   These glossary terms are liked from other pages
+   by using `term` role as like as :term:`Sphinx`.
+
+.. s6:: styles
+
+   'p': {fontSize:'70%'},
+   'div': {fontSize:'70%'},
+
+*demo:* Link to other pages
+===========================
+Link between pages by using :rst:role:`doc` role:
+
+.. code-block:: rst
+
+   Link to another reST page with :doc:`subdir/index`.
+   `subdir/index` will be replaced with title of
+   that's document file.
+
+.. s6:: styles
+
+   'p': {fontSize:'70%'},
+   'div': {fontSize:'70%'},
+
+
+*demo:* Link to other pages
+===========================
+Link between pages by using reST `label` and :rst:role:`ref` role:
+
+.. code-block:: rst
+
+   .. _title-of-section:
+
+   Title of section
+   ==================
+
+   Make page internal link to section header can
+   be done with `Title of section`_ link syntax.
+   However, if you want to link from other pages
+   as same as this, you can be done with
+   :ref:`title-of-section`. The label name will be
+   replaced with section title.
+
+.. s6:: styles
+
+   'p': {fontSize:'70%'},
+   'div': {fontSize:'70%'},
+
 
 *demo:* Numerical formula
 =========================
@@ -819,6 +865,31 @@ Use :rst:dir:`math` directive to rendering numerical formula.
    'div': {fontSize:'70%'},
 
 .. s6:: effect slide
+
+.. Sphinx provides
+.. ================
+.. *External links*
+.. 
+.. .. extension.
+.. 
+.. * Linking to other published Sphinx document.
+.. 
+.. .. todo:: intersphinx の例
+.. 
+.. .. s6:: effect slide
+
+.. Sphinx provides
+.. ================
+.. *Language domains*
+.. 
+.. .. directive & role.
+.. 
+.. * C, C++, JavaScript, Python, reST.
+.. 
+.. What is domain?
+.. 
+.. .. s6:: effect slide
+.. 
 
 
 *demo:* todo extension
@@ -1024,6 +1095,35 @@ Then you can use ``seqdiag`` directive:
 .. .. _Transifex: https://www.transifex.com/projects/p/sphinx-doc-1_2_0/
 .. 
 .. .. s6:: effect slide
+
+Next.
+======
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto', lineHeight:'1.5em'}
+
+.. s6:: effect slide
+
+Table of contents
+==================
+
+1. Introduction
+2. Demonstration
+3. Case studies
+
+   * Tinkerer http://tinkerer.me/
+   * case B
+   * case C
+
+.. speech::
+
+   At last, I'll introduce few case studies.
+
+.. s6:: styles
+
+   'ol': {color: 'gray'},
+   'ol/li[2]': {color: 'white'},
 
 
 Questions?
