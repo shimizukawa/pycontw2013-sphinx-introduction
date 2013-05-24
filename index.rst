@@ -490,6 +490,7 @@ What **IS NOT** Sphinx?
 .. speech::
 
    Do you know Excel HOUGAN-SHI? HOUGAN-SHI means "Squares of paper".
+   (Fangyan zhi ファン ヤン チィー)
    In Japan, many many documentations has been made with Excel HOUGAN-SHI.
    It is not feasible I think because it is not easy to maintenance and
    not easy to recognize difference by changing.
@@ -1683,6 +1684,8 @@ Gift from Sphinx-users.jp!
 
 Thank You!
 ============
+
+.. 谢谢你 シェシェニ
 
 .. s6:: styles
 
