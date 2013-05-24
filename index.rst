@@ -71,8 +71,7 @@ Books
    Books.
 
    * I want to show you my books. There are 2 books so far, each books tell
-     you about Python Programming. Writing books is one of my most
-     interesting skills.
+     you about Python Programming.
 
    .. * The "Expert Python Programming" that written by Tarek Ziade in 2008.
    ..   I and other 3 members translated in 2010, about 3 years ago.
@@ -83,7 +82,8 @@ Books
    * The books mention to Sphinx and Documentations.
 
    * "Python Professional Programming" was already translated into
-     'simple chineese charactors' and will publish in June.
+     'simple chineese charactors' and will publish in June. (This is chneese
+     version book name).
 
 
 anyway.
@@ -145,6 +145,7 @@ Table of contents
    By the way, how many people already using Sphinx?
 
    OK, please raise your hands for about "Do you know Sphinx?" Thank you.
+
    And next, "Did you use Sphinx already?" Thanks.
 
 
@@ -451,7 +452,7 @@ What **IS NOT** Sphinx?
 
 .. s6:: styles
 
-   'div': {width:'80%', margin:'-1em auto 0', zIndex:'-1', fontSize:'70%'},
+   'div[0]': {width:'80%', margin:'-1em auto 0', zIndex:'-1', fontSize:'70%'},
 
 .. s6:: effect slide
 
@@ -473,7 +474,7 @@ What **IS NOT** Sphinx?
 
 .. s6:: styles
 
-   'div': {width:'75%', margin:'-1em auto 0', zIndex:'-1', fontSize:'70%'},
+   'div[0]': {width:'75%', margin:'-1em auto 0', zIndex:'-1', fontSize:'70%'},
 
 .. s6:: effect slide
 
@@ -489,15 +490,15 @@ What **IS NOT** Sphinx?
 
 .. speech::
 
-   Do you know Excel HOUGAN-SHI? HOUGAN-SHI means "Squares of paper".
-   (Fangyan zhi ファン ヤン チィー)
-   In Japan, many many documentations has been made with Excel HOUGAN-SHI.
+   In Japan, many many documentations has been made with Excel.
    It is not feasible I think because it is not easy to maintenance and
    not easy to recognize difference by changing.
 
+   I think Sphinx will never support to convert to Excel.
+
 .. s6:: styles
 
-   'div': {width:'80%', margin:'-1em auto 0', zIndex:'-1', fontSize:'70%'},
+   'div[0]': {width:'80%', margin:'-1em auto 0', zIndex:'-1', fontSize:'70%'},
 
 .. s6:: effect slide
 
@@ -510,6 +511,7 @@ Conclusion: Sphinx **IS**
   *roles* and *directives*.
 * Contains many beautiful HTML themes.
 * Extendable.
+* **NOT** include office file converter.
 
 .. speech::
 
@@ -526,6 +528,7 @@ Conclusion: Sphinx **IS**
     ['ul/li[2]', 'fade in', '0.3'],
     ['ul/li[3]', 'fade in', '0.3'],
     ['ul/li[4]', 'fade in', '0.3'],
+    ['ul/li[5]', 'fade in', '0.3'],
 
 .. s6:: effect slide
 
@@ -1573,7 +1576,7 @@ PyCon APAC 2013 in Japan
 
 .. speech::
 
-   We will hold 3-days Python event at September 14, 15, 16.
+   We will hold 3-days Python event at September 14, 15, 16 in Tokyo Japan.
 
    Registration of this event will start at middle of June.
 

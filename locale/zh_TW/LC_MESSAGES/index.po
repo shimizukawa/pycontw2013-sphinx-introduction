@@ -15,604 +15,1620 @@ msgstr ""
 msgid "Introduction to **Sphinx** documentation generator"
 msgstr ""
 
-#: ..\..\index.rst:9
+#: ..\..\index.rst:6
 msgid "Who are you?"
 msgstr ""
 
-#: ..\..\index.rst:26
+#: ..\..\index.rst:10
 msgid "http://about.me/shimizukawa, @shimizukawa"
 msgstr ""
 
-#: ..\..\index.rst:29
+#: ..\..\index.rst:13
 msgid "Activity:"
 msgstr ""
 
-#: ..\..\index.rst:31
+#: ..\..\index.rst:15
 msgid "Sphinx co-maintainer"
 msgstr ""
 
-#: ..\..\index.rst:32
+#: ..\..\index.rst:16
 msgid "Sphinx-users.jp chairman"
 msgstr ""
 
-#: ..\..\index.rst:33
+#: ..\..\index.rst:17
 msgid "PyCon JP 2011,2012 vice-chairman"
 msgstr ""
 
-#: ..\..\index.rst:35
-msgid "Books:"
-msgstr ""
-
-#: ..\..\index.rst:37
-msgid "Expert Python Programming (translation by 4 members)"
-msgstr ""
-
-#: ..\..\index.rst:38
-msgid "Python Professional Programming (Chap 4,7)"
-msgstr ""
-
-#: ..\..\index.rst:58 ..\..\index.rst:880
+#: ..\..\index.rst:1557
 msgid "PyCon APAC 2013 in Japan"
 msgstr ""
 
-#: ..\..\index.rst:66
+#: ..\..\index.rst:1561
 msgid "Schedule:"
 msgstr ""
 
-#: ..\..\index.rst:68
+#: ..\..\index.rst:1563
 msgid "Conference: Sep, 14(Sat) 15(Sun)"
 msgstr ""
 
-#: ..\..\index.rst:69
+#: ..\..\index.rst:1564
 msgid "Sprint: Sep, 16(Mon)"
 msgstr ""
 
-#: ..\..\index.rst:71
+#: ..\..\index.rst:1566
 msgid "Location:"
 msgstr ""
 
-#: ..\..\index.rst:73
+#: ..\..\index.rst:1568
 msgid "Tokyo Shinjuku, Japan"
 msgstr ""
 
-#: ..\..\index.rst:75
+#: ..\..\index.rst:1570
 msgid "Registration:"
 msgstr ""
 
-#: ..\..\index.rst:77
+#: ..\..\index.rst:1572
 msgid "Start at middle of June, (maybe)"
 msgstr ""
 
-#: ..\..\index.rst:86
+#: ..\..\index.rst:1588
 msgid "Sphinx-users.jp"
 msgstr ""
 
-#: ..\..\index.rst:96
+#: ..\..\index.rst:1594
 msgid "Managing http://sphinx-users.jp"
 msgstr ""
 
-#: ..\..\index.rst:98
+#: ..\..\index.rst:1596
 msgid "Full-translated reference : http://docs.sphinx-users.jp/"
 msgstr ""
 
-#: ..\..\index.rst:99
+#: ..\..\index.rst:1597
 msgid "Original tutorial contents"
 msgstr ""
 
-#: ..\..\index.rst:100
+#: ..\..\index.rst:1598
 msgid "Reverse dictionary"
 msgstr ""
 
-#: ..\..\index.rst:102
+#: ..\..\index.rst:1600
 msgid "Holding events"
 msgstr ""
 
-#: ..\..\index.rst:104
+#: ..\..\index.rst:1602
 msgid "Sphinx & translation hack-a-thon"
 msgstr ""
 
-#: ..\..\index.rst:105
+#: ..\..\index.rst:1603
 msgid "SphinxCon JP"
 msgstr ""
 
-#: ..\..\index.rst:115
+#: ..\..\index.rst:1623
 msgid "SphinxCon JP in PyCon JP 2012"
 msgstr ""
 
-#: ..\..\index.rst:128
+#: ..\..\index.rst:1631
 msgid "The first Sphinx event in the world!"
 msgstr ""
 
-#: ..\..\index.rst:141
+#: ..\..\index.rst:90
 msgid "anyway."
 msgstr ""
 
-#: ..\..\index.rst:150
+#: ..\..\index.rst:99
 msgid "The Sphinx"
 msgstr ""
 
-#: ..\..\index.rst:166 ..\..\index.rst:175 ..\..\index.rst:368
-#: ..\..\index.rst:407 ..\..\index.rst:515
+#: ..\..\index.rst:118 ..\..\index.rst:132 ..\..\index.rst:542
+#: ..\..\index.rst:625 ..\..\index.rst:761 ..\..\index.rst:1341
 msgid "Table of contents"
 msgstr ""
 
-#: ..\..\index.rst:168 ..\..\index.rst:176 ..\..\index.rst:369
-#: ..\..\index.rst:408 ..\..\index.rst:516
+#: ..\..\index.rst:120 ..\..\index.rst:133 ..\..\index.rst:543
+#: ..\..\index.rst:626 ..\..\index.rst:762 ..\..\index.rst:1343
 msgid "Introduction"
 msgstr ""
 
-#: ..\..\index.rst:169 ..\..\index.rst:182 ..\..\index.rst:375
-#: ..\..\index.rst:414 ..\..\index.rst:517
+#: ..\..\index.rst:121 ..\..\index.rst:139 ..\..\index.rst:549
+#: ..\..\index.rst:632 ..\..\index.rst:763 ..\..\index.rst:1344
 msgid "Demonstration"
 msgstr ""
 
-#: ..\..\index.rst:170 ..\..\index.rst:183 ..\..\index.rst:376
-#: ..\..\index.rst:415 ..\..\index.rst:518
+#: ..\..\index.rst:122 ..\..\index.rst:140 ..\..\index.rst:550
+#: ..\..\index.rst:633 ..\..\index.rst:764 ..\..\index.rst:1345
 msgid "Case studies"
 msgstr ""
 
-#: ..\..\index.rst:178 ..\..\index.rst:371 ..\..\index.rst:410
+#: ..\..\index.rst:135 ..\..\index.rst:545 ..\..\index.rst:628
 msgid "Introduces the Sphinx and reStructuredText."
 msgstr ""
 
-#: ..\..\index.rst:179 ..\..\index.rst:372 ..\..\index.rst:411
+#: ..\..\index.rst:136 ..\..\index.rst:546 ..\..\index.rst:629
 msgid "Sphinx extensions."
 msgstr ""
 
-#: ..\..\index.rst:180 ..\..\index.rst:373 ..\..\index.rst:412
+#: ..\..\index.rst:137 ..\..\index.rst:547 ..\..\index.rst:630
 msgid "Comparison with other documentation tools."
 msgstr ""
 
-#: ..\..\index.rst:192
+#: ..\..\index.rst:158
 msgid "What **IS** Sphinx?"
 msgstr ""
 
-#: ..\..\index.rst:194
-msgid ""
-"Sphinx is a tool that makes it easy to create intelligent and beautiful "
-"documentation. Sphinx generates various formats such as HTML, ePub, PDF from"
-" the documentation of reStructuredText (reST) markup like Wiki and/or Python"
-" source code."
-msgstr ""
-
-#: ..\..\index.rst:199
-msgid "Hummm???"
-msgstr ""
-
-#: ..\..\index.rst:210
+#: ..\..\index.rst:172
 msgid "Sphinx **IS**"
 msgstr ""
 
-#: ..\..\index.rst:212
+#: ..\..\index.rst:174 ..\..\index.rst:507
 msgid "Documentation generator."
 msgstr ""
 
-#: ..\..\index.rst:213
+#: ..\..\index.rst:175
 msgid "Sphinx generate documentation from reStructuredText markup."
 msgstr ""
 
-#: ..\..\index.rst:214
-msgid "Extensible."
-msgstr ""
-
-#: ..\..\index.rst:225
-msgid "and reStructuredText(reST) **IS**"
-msgstr ""
-
-#: ..\..\index.rst:227
+#: ..\..\index.rst:201
 msgid "Markup language."
 msgstr ""
 
-#: ..\..\index.rst:228
+#: ..\..\index.rst:203
 msgid "Similer to several wiki markups."
 msgstr ""
 
-#: ..\..\index.rst:229
+#: ..\..\index.rst:202
 msgid "Written with plain text."
 msgstr ""
 
-#: ..\..\index.rst:230
-msgid "Extensible **(important!)**"
-msgstr ""
-
-#: ..\..\index.rst:235 ..\..\index.rst:244 ..\..\index.rst:286
-#: ..\..\index.rst:298 ..\..\index.rst:310
-msgid "Sphinx provides"
-msgstr ""
-
-#: ..\..\index.rst:236
-msgid "Useful *reST extensions*"
-msgstr ""
-
-#: ..\..\index.rst:238
-msgid "Many useful **directives**."
-msgstr ""
-
-#: ..\..\index.rst:239
-msgid "Many language **roles**."
-msgstr ""
-
-#: ..\..\index.rst:245
-msgid "Powerful *code highlighting*"
-msgstr ""
-
-#: ..\..\index.rst:287
-msgid "*Internal links*"
-msgstr ""
-
-#: ..\..\index.rst:291
-msgid "Linking between internal pages."
-msgstr ""
-
-#: ..\..\index.rst:299
-msgid "*Language domains*"
-msgstr ""
-
-#: ..\..\index.rst:303
-msgid "C, C++, JavaScript, Python, reST."
-msgstr ""
-
-#: ..\..\index.rst:305
-msgid "What is domain?"
-msgstr ""
-
-#: ..\..\index.rst:311
-msgid "*External links*"
-msgstr ""
-
-#: ..\..\index.rst:315
-msgid "Linking to other published Sphinx document."
-msgstr ""
-
-#: ..\..\index.rst:323
-msgid "Sphinx generates"
-msgstr ""
-
-#: ..\..\index.rst:324
-msgid "several output formats as:"
-msgstr ""
-
-#: ..\..\index.rst:326
-msgid "HTML"
-msgstr ""
-
-#: ..\..\index.rst:327
-msgid "PDF"
-msgstr ""
-
-#: ..\..\index.rst:328
-msgid "ePub"
-msgstr ""
-
-#: ..\..\index.rst:329
-msgid "htmlhelp"
-msgstr ""
-
-#: ..\..\index.rst:330
-msgid "latex"
-msgstr ""
-
-#: ..\..\index.rst:331
-msgid "man"
-msgstr ""
-
-#: ..\..\index.rst:336
+#: ..\..\index.rst:269
 msgid "Sphinx includes"
 msgstr ""
 
-#: ..\..\index.rst:338
-msgid "Simple and beautiful html themes."
-msgstr ""
-
-#: ..\..\index.rst:385
-msgid "Sphinx include official extensions"
-msgstr ""
-
-#: ..\..\index.rst:387
-msgid "autodoc:"
-msgstr ""
-
-#: ..\..\index.rst:388
-msgid "pngmath or jsmath:"
-msgstr ""
-
-#: ..\..\index.rst:389
-msgid "intersphinx:"
-msgstr ""
-
-#: ..\..\index.rst:390
-msgid "graphviz:"
-msgstr ""
-
-#: ..\..\index.rst:391
-msgid "todo:"
-msgstr ""
-
-#: ..\..\index.rst:392
-msgid "doctest:"
-msgstr ""
-
-#: ..\..\index.rst:393
-msgid "coverage:"
-msgstr ""
-
-#: ..\..\index.rst:398
-msgid "There are many 3rd-party extensions"
-msgstr ""
-
-#: ..\..\index.rst:400
-msgid "Rendering diagrams from plain-text."
-msgstr ""
-
-#: ..\..\index.rst:401
-msgid "Some type of html theme."
-msgstr ""
-
-#: ..\..\index.rst:402
-msgid "Language domains: ada, coffee, erlan, http, php, ruby."
-msgstr ""
-
-#: ..\..\index.rst:425 ..\..\index.rst:434
+#: ..\..\index.rst:641
 msgid "Compare with other tools"
 msgstr ""
 
-#: ..\..\index.rst:436
-msgid "Word"
-msgstr ""
-
-#: ..\..\index.rst:437
-msgid "Excel"
-msgstr ""
-
-#: ..\..\index.rst:438
+#: ..\..\index.rst:644 ..\..\index.rst:710
 msgid "Wiki"
 msgstr ""
 
-#: ..\..\index.rst:443
-msgid "Sphinx vs Word"
-msgstr ""
-
-#: ..\..\index.rst:445 ..\..\index.rst:454 ..\..\index.rst:463
-msgid "TBD"
-msgstr ""
-
-#: ..\..\index.rst:452
-msgid "Sphinx vs Excel"
-msgstr ""
-
-#: ..\..\index.rst:461
+#: ..\..\index.rst:701
 msgid "Sphinx vs Wiki"
 msgstr ""
 
-#: ..\..\index.rst:472
-msgid "By The Way"
-msgstr ""
-
-#: ..\..\index.rst:482 ..\..\index.rst:490 ..\..\index.rst:498
-#: ..\..\index.rst:506
+#: ..\..\index.rst:406 ..\..\index.rst:416 ..\..\index.rst:437
+#: ..\..\index.rst:459 ..\..\index.rst:481
 msgid "What **IS NOT** Sphinx?"
 msgstr ""
 
-#: ..\..\index.rst:485
+#: ..\..\index.rst:419
 msgid "Are there *GUI frontend editor?*"
 msgstr ""
 
-#: ..\..\index.rst:485
-msgid "**NO!**"
-msgstr ""
-
-#: ..\..\index.rst:493
-msgid "Are there a way to import *Word*?"
-msgstr ""
-
-#: ..\..\index.rst:493
-msgid "**NO!!**"
-msgstr ""
-
-#: ..\..\index.rst:501
-msgid "Are there a way to export to *PowerPoint*?"
-msgstr ""
-
-#: ..\..\index.rst:501
-msgid "**NO!!!**"
-msgstr ""
-
-#: ..\..\index.rst:509
+#: ..\..\index.rst:484
 msgid "Are there a way to export to *Excel*?"
 msgstr ""
 
-#: ..\..\index.rst:509
+#: ..\..\index.rst:484
 msgid "**What are you saying???**"
 msgstr ""
 
-#: ..\..\index.rst:529
+#: ..\..\index.rst:773
 msgid "Sphinx installation"
 msgstr ""
 
-#: ..\..\index.rst:534
+#: ..\..\index.rst:775
 msgid "Install from PyPI:"
 msgstr ""
 
-#: ..\..\index.rst:545
+#: ..\..\index.rst:786
 msgid ""
 "Sphinx and other dependency packages are installed. Sphinx 1.2b1 is current "
 "newest version."
 msgstr ""
 
-#: ..\..\index.rst:556
+#: ..\..\index.rst:808
 msgid "Sphinx quick start"
 msgstr ""
 
-#: ..\..\index.rst:558
-msgid "Generate scaffold by sphinx-quickstart:"
-msgstr ""
-
-#: ..\..\index.rst:565
-msgid "Make html:"
-msgstr ""
-
-#: ..\..\index.rst:582
-msgid "*demo:* menu"
-msgstr ""
-
-#: ..\..\index.rst:584
+#: ..\..\index.rst:852
 msgid "Bullet list"
 msgstr ""
 
-#: ..\..\index.rst:585
+#: ..\..\index.rst:853
 msgid "Numbered list"
 msgstr ""
 
-#: ..\..\index.rst:586
+#: ..\..\index.rst:854
 msgid "Code highlight"
 msgstr ""
 
-#: ..\..\index.rst:587
-msgid "Link to other files"
-msgstr ""
-
-#: ..\..\index.rst:588
+#: ..\..\index.rst:856
 msgid "Numerical formula"
 msgstr ""
 
-#: ..\..\index.rst:589
+#: ..\..\index.rst:858
 msgid "autodoc extension"
 msgstr ""
 
-#: ..\..\index.rst:590
+#: ..\..\index.rst:862
 msgid "blockdiag extension"
 msgstr ""
 
-#: ..\..\index.rst:595
+#: ..\..\index.rst:876
 msgid "*demo:* Bullet list"
 msgstr ""
 
-#: ..\..\index.rst:610
-msgid ""
-"Need blank line before and after nested items. And nested items need 2 "
-"spaces before ``*``."
-msgstr ""
-
-#: ..\..\index.rst:621
+#: ..\..\index.rst:902
 msgid "*demo:* Numbered list"
 msgstr ""
 
-#: ..\..\index.rst:636
+#: ..\..\index.rst:915
 msgid "`#.` rendering auto numbered list. but it is not human readable."
 msgstr ""
 
-#: ..\..\index.rst:642
+#: ..\..\index.rst:925
 msgid "*demo:* Code highlight"
 msgstr ""
 
-#: ..\..\index.rst:644
+#: ..\..\index.rst:927
 msgid "Use ``code-block`` directive to rendering code with highlighting."
 msgstr ""
 
-#: ..\..\index.rst:656
-msgid ""
-"This directive was provided by sphinx. Since docutils-0.9 provides "
-":rst:dir:`code` directive that provides same feature."
-msgstr ""
-
-#: ..\..\index.rst:667
-msgid "*demo:* Link to other files"
-msgstr ""
-
-#: ..\..\index.rst:669
+#: ..\..\index.rst:952
 msgid "Use :rst:dir:`toctree` directive to build a tree structure."
 msgstr ""
 
-#: ..\..\index.rst:680
+#: ..\..\index.rst:963
 msgid "This directive was provided by sphinx."
 msgstr ""
 
-#: ..\..\index.rst:685
+#: ..\..\index.rst:1030
 msgid "*demo:* Numerical formula"
 msgstr ""
 
-#: ..\..\index.rst:687
+#: ..\..\index.rst:1032
 msgid "Use :rst:dir:`math` directive to rendering numerical formula."
 msgstr ""
 
-#: ..\..\index.rst:703
+#: ..\..\index.rst:1048
 msgid ""
 "This directive was provided by sphinx. Same name directive was provided by "
 "docutils-0.8 or later, but it is bit different."
 msgstr ""
 
-#: ..\..\index.rst:714
+#: ..\..\index.rst:1059
 msgid "*demo:* todo extension"
 msgstr ""
 
-#: ..\..\index.rst:716
-msgid "Add :mod:`sphinx.ext.todo` extention in conf.py:"
-msgstr ""
-
-#: ..\..\index.rst:724
+#: ..\..\index.rst:1069
 msgid "Then you can use :rst:dir:`todo` directive:"
 msgstr ""
 
-#: ..\..\index.rst:730
+#: ..\..\index.rst:1075
 msgid "and  :rst:dir:`todolist` directive:"
 msgstr ""
 
-#: ..\..\index.rst:741
+#: ..\..\index.rst:1086
 msgid "*demo:* autodoc extension"
 msgstr ""
 
-#: ..\..\index.rst:743
-msgid "Add :mod:`sphinx.ext.autodoc` extention in conf.py:"
-msgstr ""
-
-#: ..\..\index.rst:751
+#: ..\..\index.rst:1096
 msgid "Then you can use :rst:dir:`automodule` directive:"
 msgstr ""
 
-#: ..\..\index.rst:761
+#: ..\..\index.rst:1234
 msgid "*demo:* blockdiag extensions"
 msgstr ""
 
-#: ..\..\index.rst:763
+#: ..\..\index.rst:1236
 msgid ""
 "Blockdiag extensions is 3rd party extension for sphinx. Install :ref"
 ":`sphinxcontrib-blockdiag` extension:"
 msgstr ""
 
-#: ..\..\index.rst:777
+#: ..\..\index.rst:1250
 msgid ""
 "Pillow is successor of PIL (Python Imaging Library) that support Python3 and"
 " 64bit binary distributions."
 msgstr ""
 
-#: ..\..\index.rst:788
+#: ..\..\index.rst:1261
 msgid "*demo:* blockdiag extension"
 msgstr ""
 
-#: ..\..\index.rst:790
-msgid "Add ``sphinxcontrib.blockdiag`` extention in conf.py:"
-msgstr ""
-
-#: ..\..\index.rst:799
+#: ..\..\index.rst:1273
 msgid "Then you can use ``blockdiag`` directive:"
 msgstr ""
 
-#: ..\..\index.rst:822
+#: ..\..\index.rst:1296
 msgid "*demo:* seqdiag extension"
 msgstr ""
 
-#: ..\..\index.rst:824
-msgid "Add ``sphinxcontrib.seqdiag`` extention in conf.py:"
-msgstr ""
-
-#: ..\..\index.rst:834
+#: ..\..\index.rst:1309
 msgid "Then you can use ``seqdiag`` directive:"
 msgstr ""
 
-#: ..\..\index.rst:872
-msgid "さいごに"
+#: ..\..\index.rst:27
+msgid ""
+"Hi everyone. Today I'll talk about Sphinx documentation generator. Thank you"
+" for opportunity of this presentation. Before that, let me introduce myself."
 msgstr ""
 
-#: ..\..\index.rst:882
-msgid "Sep, 14(Sat), 15(Sun), 16(Mon)"
+#: ..\..\index.rst:32
+msgid ""
+"My name is Takayuki Shimizukawa, I came from Japan. I joined the PyConTW "
+"last year, and it is my second time to come to Taiwan."
 msgstr ""
+
+#: ..\..\index.rst:35
+msgid ""
+"My activity in Sphinx, I am a Sphinx co-maintainer and a Sphinx-uses.jp "
+"chariman. And Python, I was a vice-chairman PyCon JP in last 2 years."
+msgstr ""
+
+#: ..\..\index.rst:41
+msgid "Books"
+msgstr ""
+
+#: ..\..\index.rst:43
+msgid "Expert Python Programming (translation into Japanese)"
+msgstr ""
+
+#: ..\..\index.rst:47
+msgid "Python Professional Programming (2 chapters)"
+msgstr ""
+
+#: ..\..\index.rst:51
+msgid "**Python開発実戦**"
+msgstr ""
+
+#: ..\..\index.rst:71
+msgid "Books."
+msgstr ""
+
+#: ..\..\index.rst:73
+msgid ""
+"I want to show you my books. There are 2 books so far, each books tell you "
+"about Python Programming. Writing books is one of my most interesting "
+"skills."
+msgstr ""
+
+#: ..\..\index.rst:83
+msgid "The books mention to Sphinx and Documentations."
+msgstr ""
+
+#: ..\..\index.rst:85
+msgid ""
+"\"Python Professional Programming\" was already translated into 'simple "
+"chineese charactors' and will publish in June."
+msgstr ""
+
+#: ..\..\index.rst:105
+msgid ""
+"The Sphinx. Today, I'll talk about documentation generator that is called "
+"\"Sphinx\"."
+msgstr ""
+
+#: ..\..\index.rst:126
+msgid ""
+"I will tell about Sphinx by three parts. Introduction, Demonstration and "
+"Case studies."
+msgstr ""
+
+#: ..\..\index.rst:144
+msgid ""
+"First, I'll introduce \"what is Sphinx\" and \"what is reStructuredText\". "
+"By the way, how many people already using Sphinx?"
+msgstr ""
+
+#: ..\..\index.rst:147
+msgid ""
+"OK, please raise your hands for about \"Do you know Sphinx?\" Thank you. And"
+" next, \"Did you use Sphinx already?\" Thanks."
+msgstr ""
+
+#: ..\..\index.rst:162
+msgid "What is Sphinx?"
+msgstr ""
+
+#: ..\..\index.rst:176 ..\..\index.rst:512
+msgid "Extendable."
+msgstr ""
+
+#: ..\..\index.rst:182
+msgid ""
+"Sphinx is a documentation generator. Sphinx generate documentation from "
+"reStructuredText markup."
+msgstr ""
+
+#: ..\..\index.rst:185
+msgid ""
+"In other words, Sphinx reads reST text file and outputs html, epub, pdf, or "
+"other several formats."
+msgstr ""
+
+#: ..\..\index.rst:188
+msgid ""
+"Sphinx is extendable, so you can also output in a different format, or read "
+"the file in a different format."
+msgstr ""
+
+#: ..\..\index.rst:199
+msgid "And reStructuredText(reST) **IS**"
+msgstr ""
+
+#: ..\..\index.rst:204
+msgid "Extendable **(important!)**"
+msgstr ""
+
+#: ..\..\index.rst:206
+msgid "There is markup sample:"
+msgstr ""
+
+#: ..\..\index.rst:218
+msgid "And reStructuredText reST is markup language."
+msgstr ""
+
+#: ..\..\index.rst:220
+msgid "It was written with plain text."
+msgstr ""
+
+#: ..\..\index.rst:221
+msgid ""
+"reST is similer to other wiki like markups but different from others, the "
+"reST syntax is extendable. It's a important point."
+msgstr ""
+
+#: ..\..\index.rst:224
+msgid "This is a markup sample that contains LINK, EMPHASIS, STRONG and ROLE."
+msgstr ""
+
+#: ..\..\index.rst:235
+msgid "Sphinx extends reST syntax"
+msgstr ""
+
+#: ..\..\index.rst:237
+msgid "Sphinx provides many useful reST :term:`directive` and :term:`role`."
+msgstr ""
+
+#: ..\..\index.rst:239
+msgid ":ref:`code-block <code-examples>`: Code highlight directive"
+msgstr ""
+
+#: ..\..\index.rst:240
+msgid ""
+":rst:role:`doc`, :rst:role:`ref`, :rst:role:`term`: Link to other pages "
+"roles and directives"
+msgstr ""
+
+#: ..\..\index.rst:242
+msgid ":rst:dir:`math`: Numerical formula directive"
+msgstr ""
+
+#: ..\..\index.rst:243
+msgid ":rst:dir:`only`: Conditional output directive."
+msgstr ""
+
+#: ..\..\index.rst:244
+msgid ":rst:dir:`automodule`: Auto documenter from .py directive."
+msgstr ""
+
+#: ..\..\index.rst:245
+msgid ""
+":ref:`domains <domains>`: Some domains directives and roles: C, C++, "
+"JavaScript, Python, reST."
+msgstr ""
+
+#: ..\..\index.rst:249
+msgid "Sphinx provides many useful reST directive and role."
+msgstr ""
+
+#: ..\..\index.rst:251
+msgid "*code-block* for code highlighting."
+msgstr ""
+
+#: ..\..\index.rst:252
+msgid "*doc*, *ref*, *term*, these roles make link to other pages."
+msgstr ""
+
+#: ..\..\index.rst:253
+msgid "*math* role and directive render numerical formula."
+msgstr ""
+
+#: ..\..\index.rst:254
+msgid "*only* directive works as conditional output control."
+msgstr ""
+
+#: ..\..\index.rst:255
+msgid "*automodule* generate module reference document from .py file."
+msgstr ""
+
+#: ..\..\index.rst:256
+msgid ""
+"Some domains directives and roles: C, C++, JavaScript, Python, reST to easy "
+"to write class or function's descriptions. I'll do demonstration later."
+msgstr ""
+
+#: ..\..\index.rst:271
+msgid ""
+"Simple and beautiful html themes. Detail information is here: :ref:`builtin-"
+"themes`."
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "default"
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "sphinxdoc"
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "scrolls"
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "agogo"
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "traditional"
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "nature"
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "haiku"
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "pyramid"
+msgstr ""
+
+#: ..\..\index.rst:308
+msgid ""
+"Sphinx includes simple and beautiful html themes. Each themes are called: "
+"default, sphinxdoc, scrolls, agogo, traditional, nature, haiku and pyramid."
+msgstr ""
+
+#: ..\..\index.rst:312
+msgid "Detail information is written at builtin themes page."
+msgstr ""
+
+#: ..\..\index.rst:329
+msgid "There are 3rd party themes"
+msgstr ""
+
+#: ..\..\index.rst:331
+msgid ""
+"You can find 3rd-party Sphinx themes at PyPI or other sites. For example,"
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "bizstyle_"
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "dotted_"
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "basicstrap_"
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "sphinxjp_"
+msgstr ""
+
+#: ..\..\index.rst:353
+msgid "And presentation themes:"
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "s6_"
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "htmlslide_"
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "impressjs_"
+msgstr ""
+
+#: ..\..\index.rst:383
+msgid ""
+"There are 3rd party themes. You can find 3rd-party Sphinx themes at PyPI or "
+"other sites. For example, bizstyle, dotted, basicstrap and sphinxjp."
+msgstr ""
+
+#: ..\..\index.rst:387
+msgid "And few presentation themes are also exist: s6, htmlslide, impressjs."
+msgstr ""
+
+#: ..\..\index.rst:390
+msgid "BTW, this presentation slide was also built by Sphinx with s6 theme."
+msgstr ""
+
+#: ..\..\index.rst:408
+msgid "So, I'll also introduce Sphinx is not possible."
+msgstr ""
+
+#: ..\..\index.rst:419
+msgid "**NO.**"
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "Windows Notepad"
+msgstr ""
+
+#: ..\..\index.rst:427
+msgid ""
+"Sphinx did not have GUI frontend as like as Word. But you can choose any GUI"
+" editor to edit reST plain text."
+msgstr ""
+
+#: ..\..\index.rst:440
+msgid "There is a way to import/export *Word*?"
+msgstr ""
+
+#: ..\..\index.rst:440
+msgid "**NO..!**"
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid ""
+"`Some rights reserved by motorpsykhos "
+"<http://www.flickr.com/photos/motorpsykhos/74145785/>`_"
+msgstr ""
+
+#: ..\..\index.rst:448
+msgid ""
+"Sphinx did not have a way to import Word file. However, there is a "
+"experimental implementation to build Word docx file, but it is not stable."
+msgstr ""
+
+#: ..\..\index.rst:462
+msgid "There is a way to export to *PowerPoint*?"
+msgstr ""
+
+#: ..\..\index.rst:462
+msgid "**NO.....!!!**"
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid ""
+"`Some rights reserved by el__vaquero "
+"<http://www.flickr.com/photos/twbriggs/4245079902/>`_"
+msgstr ""
+
+#: ..\..\index.rst:470
+msgid ""
+"3rd-party theme will support to make presentation slide by using Sphinx. But"
+" it is controlled by HTML, css and JavaScript. It is not easy to convert "
+"PowerPoint file format."
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid ""
+"`Some rights reserved by extranoise "
+"<http://www.flickr.com/photos/extranoise/270597628/>`_"
+msgstr ""
+
+#: ..\..\index.rst:492
+msgid ""
+"Do you know Excel HOUGAN-SHI? HOUGAN-SHI means \"Squares of paper\". "
+"(Fangyan zhi ファン ヤン チィー) In Japan, many many documentations has been made "
+"with Excel HOUGAN-SHI. It is not feasible I think because it is not easy to "
+"maintenance and not easy to recognize difference by changing."
+msgstr ""
+
+#: ..\..\index.rst:505
+msgid "Conclusion: Sphinx **IS**"
+msgstr ""
+
+#: ..\..\index.rst:508
+msgid "Read reST and write several file formats."
+msgstr ""
+
+#: ..\..\index.rst:509
+msgid "Extends reST syntax and provides many useful *roles* and *directives*."
+msgstr ""
+
+#: ..\..\index.rst:511
+msgid "Contains many beautiful HTML themes."
+msgstr ""
+
+#: ..\..\index.rst:516
+msgid "(read slide.)"
+msgstr ""
+
+#: ..\..\index.rst:533 ..\..\index.rst:616 ..\..\index.rst:752
+#: ..\..\index.rst:1332
+msgid "Next."
+msgstr ""
+
+#: ..\..\index.rst:559
+msgid "Included official extensions"
+msgstr ""
+
+#: ..\..\index.rst:561
+msgid "*autodoc*: Auto documenter for Python modules."
+msgstr ""
+
+#: ..\..\index.rst:562
+msgid "*pngmath* or *jsmath*: provides :rst:dir:`math` directive and role."
+msgstr ""
+
+#: ..\..\index.rst:563
+msgid "*intersphinx*: Link other documents over internet."
+msgstr ""
+
+#: ..\..\index.rst:564
+msgid "*graphviz*: Draw graphics by using graphviz."
+msgstr ""
+
+#: ..\..\index.rst:565
+msgid "*todo*: List-up todo directives."
+msgstr ""
+
+#: ..\..\index.rst:566
+msgid "*doctest*: run doctesting for code snippets in the document."
+msgstr ""
+
+#: ..\..\index.rst:567
+msgid ""
+"*coverage*: provide \"make coverage\" feature to get documentation coverage."
+msgstr ""
+
+#: ..\..\index.rst:571
+msgid ""
+"Several official extensions are included in the Sphinx that are maintained "
+"by sphinx comitters."
+msgstr ""
+
+#: ..\..\index.rst:574
+msgid ""
+"autodoc, math, intersphinx, graphviz, todo, ... For about some extensions, "
+"I'll do demonstration later."
+msgstr ""
+
+#: ..\..\index.rst:584
+msgid "Many 3rd-party extensions"
+msgstr ""
+
+#: ..\..\index.rst:586
+msgid "Contributed extensions:"
+msgstr ""
+
+#: ..\..\index.rst:588
+msgid ""
+"*blockdiag*: Rendering some type of diagrams from plain-text like graphviz."
+msgstr ""
+
+#: ..\..\index.rst:589
+msgid "Domains: ada, coffee, erlan, http, php, ruby."
+msgstr ""
+
+#: ..\..\index.rst:590
+msgid "or else."
+msgstr ""
+
+#: ..\..\index.rst:592
+msgid "And other extensions:"
+msgstr ""
+
+#: ..\..\index.rst:594
+msgid "Some type of html themes (bizstyle, s6, ...)"
+msgstr ""
+
+#: ..\..\index.rst:595
+msgid "Some type of builders (textile, docx, ...)"
+msgstr ""
+
+#: ..\..\index.rst:599
+msgid ""
+"You can find several extensions contributed by users in the `Sphinx "
+"Contrib`_ repository like these:"
+msgstr ""
+
+#: ..\..\index.rst:602
+msgid ""
+"And you can find some extensions in PyPI. For example, Some type of html "
+"themes like bizstyle or s6. and some type of builders like textile or docx."
+msgstr ""
+
+#: ..\..\index.rst:643
+msgid "Word like office app"
+msgstr ""
+
+#: ..\..\index.rst:649
+msgid "Sphinx vs Office"
+msgstr ""
+
+#: ..\..\index.rst:656 ..\..\index.rst:708
+msgid "VS"
+msgstr ""
+
+#: ..\..\index.rst:657 ..\..\index.rst:709
+msgid "Sphinx"
+msgstr ""
+
+#: ..\..\index.rst:658
+msgid "Office"
+msgstr ""
+
+#: ..\..\index.rst:660
+msgid "Files"
+msgstr ""
+
+#: ..\..\index.rst:661
+msgid "Many files/dirs"
+msgstr ""
+
+#: ..\..\index.rst:662
+msgid "1 monolithic file"
+msgstr ""
+
+#: ..\..\index.rst:664
+msgid "Format"
+msgstr ""
+
+#: ..\..\index.rst:665
+msgid "Plain text"
+msgstr ""
+
+#: ..\..\index.rst:666
+msgid "Binary file"
+msgstr ""
+
+#: ..\..\index.rst:668
+msgid "GUI"
+msgstr ""
+
+#: ..\..\index.rst:669
+msgid "No GUI frontend"
+msgstr ""
+
+#: ..\..\index.rst:670
+msgid "Must use GUI"
+msgstr ""
+
+#: ..\..\index.rst:672
+msgid "Begin"
+msgstr ""
+
+#: ..\..\index.rst:673
+msgid "Need learning to write"
+msgstr ""
+
+#: ..\..\index.rst:674
+msgid "Easy to use"
+msgstr ""
+
+#: ..\..\index.rst:676
+msgid "Restructuring"
+msgstr ""
+
+#: ..\..\index.rst:677
+msgid "Easy"
+msgstr ""
+
+#: ..\..\index.rst:678
+msgid "Difficult"
+msgstr ""
+
+#: ..\..\index.rst:680
+msgid "Versioning"
+msgstr ""
+
+#: ..\..\index.rst:681
+msgid "With hg/git/.."
+msgstr ""
+
+#: ..\..\index.rst:682
+msgid "By self"
+msgstr ""
+
+#: ..\..\index.rst:684 ..\..\index.rst:732
+msgid "Match to"
+msgstr ""
+
+#: ..\..\index.rst:685
+msgid "Work with program source"
+msgstr ""
+
+#: ..\..\index.rst:686
+msgid "Others"
+msgstr ""
+
+#: ..\..\index.rst:690
+msgid ""
+"Honestly, Word have powerful features as versioning or parallel editiong or "
+"some other features. But I think these features are hid to casual users."
+msgstr ""
+
+#: ..\..\index.rst:712
+msgid "Structure"
+msgstr ""
+
+#: ..\..\index.rst:713
+msgid "1 tree"
+msgstr ""
+
+#: ..\..\index.rst:714
+msgid "Semi-lattice"
+msgstr ""
+
+#: ..\..\index.rst:716
+msgid "Root and path"
+msgstr ""
+
+#: ..\..\index.rst:717
+msgid "1 root and 1 path from start to end"
+msgstr ""
+
+#: ..\..\index.rst:718
+msgid "No root and no order to read"
+msgstr ""
+
+#: ..\..\index.rst:720
+msgid "Cross reference"
+msgstr ""
+
+#: ..\..\index.rst:721 ..\..\index.rst:722 ..\..\index.rst:725
+#: ..\..\index.rst:726 ..\..\index.rst:729 ..\..\index.rst:730
+msgid "exists"
+msgstr ""
+
+#: ..\..\index.rst:724
+msgid "Glossary"
+msgstr ""
+
+#: ..\..\index.rst:728
+msgid "Index"
+msgstr ""
+
+#: ..\..\index.rst:733
+msgid "Books, order to read is important"
+msgstr ""
+
+#: ..\..\index.rst:734
+msgid "Dictionary"
+msgstr ""
+
+#: ..\..\index.rst:738
+msgid "Sphinx is suitable for the text like a book or a paper."
+msgstr ""
+
+#: ..\..\index.rst:740
+msgid ""
+"The particle size of Wiki pages are small, it is suitable for the dictionary"
+" that does not depend on the order in which they read."
+msgstr ""
+
+#: ..\..\index.rst:791
+msgid "Install from PyPI by using easy_install."
+msgstr ""
+
+#: ..\..\index.rst:793
+msgid ""
+"easy_install is defacto standard package installer. There are other "
+"installation methods: pip, buildout or invoke setup.py. In this case I used "
+"easy_install."
+msgstr ""
+
+#: ..\..\index.rst:797
+msgid ""
+"This command installed Sphinx and other dependency packages. Sphinx 1.2b1 is"
+" current newest version."
+msgstr ""
+
+#: ..\..\index.rst:810
+msgid "Generate a scaffold by using sphinx-quickstart:"
+msgstr ""
+
+#: ..\..\index.rst:817
+msgid "Generated files are:"
+msgstr ""
+
+#: ..\..\index.rst:826
+msgid "Run :command:`make html` to build html output:"
+msgstr ""
+
+#: ..\..\index.rst:834
+msgid ""
+"sphinx-quickstart command generate Sphinx documentation scaffold. And then, "
+"you can use ``make html`` command to build html output soon."
+msgstr ""
+
+#: ..\..\index.rst:838
+msgid "Generated html files are in _build/html directory."
+msgstr ""
+
+#: ..\..\index.rst:850
+msgid "Demo menu"
+msgstr ""
+
+#: ..\..\index.rst:855
+msgid "Link to other pages"
+msgstr ""
+
+#: ..\..\index.rst:857
+msgid "todo extension"
+msgstr ""
+
+#: ..\..\index.rst:859
+msgid "Link over internet"
+msgstr ""
+
+#: ..\..\index.rst:860
+msgid "Domains"
+msgstr ""
+
+#: ..\..\index.rst:861
+msgid "Internationalization"
+msgstr ""
+
+#: ..\..\index.rst:870
+msgid "Ok, preparation is done. Let me show you the demonstrations."
+msgstr ""
+
+#: ..\..\index.rst:891
+msgid ""
+"You need blank line before and after nested items. And nested items need 2 "
+"spaces before ``*``."
+msgstr ""
+
+#: ..\..\index.rst:919
+msgid "\"number plus dot\" or \"sharp plus dot\" render numbered list."
+msgstr ""
+
+#: ..\..\index.rst:939
+msgid ""
+"This directive was provided by sphinx. The same feature is provided by "
+"docutils-0.9 as :rst:dir:`code` directive."
+msgstr ""
+
+#: ..\..\index.rst:950 ..\..\index.rst:968 ..\..\index.rst:990
+#: ..\..\index.rst:1006
+msgid "*demo:* Link to other pages"
+msgstr ""
+
+#: ..\..\index.rst:969
+msgid ""
+"Link between pages by using :rst:dir:`glossary` directive and "
+":rst:role:`term` role:"
+msgstr ""
+
+#: ..\..\index.rst:991
+msgid "Link between pages by using :rst:role:`doc` role:"
+msgstr ""
+
+#: ..\..\index.rst:1007
+msgid "Link between pages by using reST `label` and :rst:role:`ref` role:"
+msgstr ""
+
+#: ..\..\index.rst:1061
+msgid "Add :mod:`sphinx.ext.todo` extension in conf.py:"
+msgstr ""
+
+#: ..\..\index.rst:1088
+msgid "Add :mod:`sphinx.ext.autodoc` extension in conf.py:"
+msgstr ""
+
+#: ..\..\index.rst:1107
+msgid "*demo:* Link over internet"
+msgstr ""
+
+#: ..\..\index.rst:1109
+msgid ""
+"Add :mod:`sphinx.ext.intersphinx` extension and intersphinx setting in "
+"conf.py:"
+msgstr ""
+
+#: ..\..\index.rst:1122
+msgid "Then your linking markups link remote pages:"
+msgstr ""
+
+#: ..\..\index.rst:1131
+msgid ""
+"Linking to other published Sphinx document by using same syntax to link to "
+"internal pages."
+msgstr ""
+
+#: ..\..\index.rst:1142
+msgid "*demo:* Domains"
+msgstr ""
+
+#: ..\..\index.rst:1144
+msgid ""
+"A domain is a collection of markup (directives and roles) to describe and "
+"link to objects belonging together."
+msgstr ""
+
+#: ..\..\index.rst:1154
+msgid ""
+"``:py:func:`event.register``` is *py* domain's *func* role that make lnik to"
+" the declaration line."
+msgstr ""
+
+#: ..\..\index.rst:1155 ..\..\index.rst:1165
+msgid ""
+"``.. py:function:: event.register(event_id, user_name)`` is *py* domain's "
+"*function* directive that make declaration of the function and create "
+"Sphinx's index page entry."
+msgstr ""
+
+#: ..\..\index.rst:1159
+msgid ""
+"What is domain? A domain is a collection of markup (reStructuredText "
+"directives and roles) to describe and link to objects belonging together."
+msgstr ""
+
+#: ..\..\index.rst:1162
+msgid ""
+"For example. In this case, ``:py:func:`event.register``` is *py* domain's"
+msgstr ""
+
+#: ..\..\index.rst:1163
+msgid "*func* role that make lnik to the declaration line."
+msgstr ""
+
+#: ..\..\index.rst:1169
+msgid ""
+"Sphinx contains several domains and sphinx-contrib contains more useful "
+"domains."
+msgstr ""
+
+#: ..\..\index.rst:1182
+msgid "*demo:* Internationalization"
+msgstr ""
+
+#: ..\..\index.rst:1184
+msgid ""
+"Sphinx generate po files for internationalization(i18n). `sphinx-intl`_ also"
+" support your work."
+msgstr ""
+
+#: ..\..\index.rst:1191
+msgid "Generate pot files and create specified po files."
+msgstr ""
+
+#: ..\..\index.rst:1198
+msgid ""
+"And next, you need translate po files in `locale/` sub dirs. When you did "
+"that, set `language='zh_TW'` in the conf.py to use translated po files."
+msgstr ""
+
+#: ..\..\index.rst:1207
+msgid "Ok, you can get the translated HTML."
+msgstr ""
+
+#: ..\..\index.rst:1211
+msgid ""
+"Sphinx generate pot files for internationalization(i18n). `sphinx-intl`_ "
+"also support your work that is 3rd-party tool then you need install this by "
+"using easy_install."
+msgstr ""
+
+#: ..\..\index.rst:1215
+msgid ""
+"Generate po files can be done with :command:`make getext` command. And next,"
+" you need translate po files in `locale/` sub dirs. When you did that, set "
+"`language='zh_TW'` in the conf.py to use translated po files."
+msgstr ""
+
+#: ..\..\index.rst:1220
+msgid ""
+":command:`sphinx-intl build` compile po files into mo files. Finally you can"
+" get the translated html by :command:`make html`."
+msgstr ""
+
+#: ..\..\index.rst:1263
+msgid "Add ``sphinxcontrib.blockdiag`` extension in conf.py:"
+msgstr ""
+
+#: ..\..\index.rst:1298
+msgid "Add ``sphinxcontrib.seqdiag`` extension in conf.py:"
+msgstr ""
+
+#: ..\..\index.rst:1347 ..\..\index.rst:1363 ..\..\index.rst:1382
+msgid "Sphinx official reference"
+msgstr ""
+
+#: ..\..\index.rst:1348 ..\..\index.rst:1458
+msgid "Blog"
+msgstr ""
+
+#: ..\..\index.rst:1352
+msgid "At last, I'll introduce few case studies."
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "http://sphinx-doc.org/index.html"
+msgstr ""
+
+#: ..\..\index.rst:1372
+msgid "Of course, Sphinx official reference is created by using Sphinx."
+msgstr ""
+
+#: ..\..\index.rst:1384
+msgid "Using :mod:`sphinx.ext.autodoc`."
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "source"
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid ":ref:`storagebackends`"
+msgstr ""
+
+#: ..\..\index.rst:1399
+msgid ""
+"For instance, Sphinx API part for developers is describing reference of "
+"functions and classes that was generated by autodoc."
+msgstr ""
+
+#: ..\..\index.rst:1411
+msgid "Sphinx Japanese reference"
+msgstr ""
+
+#: ..\..\index.rst:1413
+msgid "Using :ref:`intl` and Transifex_."
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "http://docs.sphinx-users.jp/"
+msgstr ""
+
+#: ..\..\index.rst:1421
+msgid "`sphinx-intl`_ also support your work."
+msgstr ""
+
+#: ..\..\index.rst:1426
+msgid ""
+"And internationalization. This Japanese translated reference page in the "
+"sphinx-users.jp was generated by Sphinx with Japanese translation catalog "
+"that was imported from Transifex."
+msgstr ""
+
+#: ..\..\index.rst:1430
+msgid ""
+"Transifex will help you to translate in a team. And `sphinx-intl`_ also "
+"support your work."
+msgstr ""
+
+#: ..\..\index.rst:0
+msgid "http://tinkerer.me/"
+msgstr ""
+
+#: ..\..\index.rst:1467
+msgid ""
+"Tinkerer is a blog tool made by using the Sphinx. You can be written your "
+"blog in reStructuredText format. In addition, you can use the rich Sphinx "
+"extensions."
+msgstr ""
+
+#: ..\..\index.rst:1480
+msgid "Blog with Tinkerer"
+msgstr ""
+
+#: ..\..\index.rst:1482
+msgid "Create a new blog:"
+msgstr ""
+
+#: ..\..\index.rst:1490
+msgid "And setup blog title or else:"
+msgstr ""
+
+#: ..\..\index.rst:1496
+msgid "And create a blog entry file and write in reST:"
+msgstr ""
+
+#: ..\..\index.rst:1503
+msgid "Finally, build command generates HTML and RSS:"
+msgstr ""
+
+#: ..\..\index.rst:1511
+msgid ""
+"Tinkerer provides original commands to manage your blog; create a new blog, "
+"create a blog entry, build html."
+msgstr ""
+
+#: ..\..\index.rst:1514
+msgid "(read slide)"
+msgstr ""
+
+#: ..\..\index.rst:1516
+msgid "Tinkerer make it easier to write a blog."
+msgstr ""
+
+#: ..\..\index.rst:1529
+msgid "That's all"
+msgstr ""
+
+#: ..\..\index.rst:1536
+msgid "Questions?"
+msgstr ""
+
+#: ..\..\index.rst:1544
+msgid "Information"
+msgstr ""
+
+#: ..\..\index.rst:1552
+msgid ""
+"I'd like to introduce PyCon APAC 2013 in this autumn and Sphinx users "
+"community in Japan."
+msgstr ""
+
+#: ..\..\index.rst:1576
+msgid "We will hold 3-days Python event at September 14, 15, 16."
+msgstr ""
+
+#: ..\..\index.rst:1578
+msgid "Registration of this event will start at middle of June."
+msgstr ""
+
+#: ..\..\index.rst:1607
+msgid "Sphinx users community group in Japan that was called \"spinx users jp\"."
+msgstr ""
+
+#: ..\..\index.rst:1609
+msgid ""
+"The group manage original site that contains full-translated reference, "
+"original tutorials and reverse dictionary."
+msgstr ""
+
+#: ..\..\index.rst:1612
+msgid ""
+"Also we holding monthly event \"Sphinx & translation hack-a-thon\" and "
+"annual event named \"SphinxCon JP\""
+msgstr ""
+
+#: ..\..\index.rst:1635
+msgid ""
+"SphinxCon JP at last year was very exciting. I think it is the first Sphinx "
+"event in the world! About 70 people were gathered on this event. We would "
+"like to do something in PyCon APAC of this year too. Please join to PyCon "
+"APAC!"
+msgstr ""
+
+#: ..\..\index.rst:1649
+msgid "Gift from Sphinx-users.jp!"
+msgstr ""
+
+#: ..\..\index.rst:1653
+msgid "2 Sphinx T-Shirt, SIZE S and XXL"
+msgstr ""
+
+#: ..\..\index.rst:1654
+msgid "Let's decide by rock-paper-scissors!"
+msgstr ""
+
+#: ..\..\index.rst:1656
+msgid "我們來玩 剪刀石頭布！"
+msgstr ""
+
+#: ..\..\index.rst:1661
+msgid ""
+"I've brought 2 Sphinx T-Shirt, this is gift from Sphinx-users.jp. But I have"
+" only 2 size; S or XXL."
+msgstr ""
+
+#: ..\..\index.rst:1664
+msgid ""
+"Do you want this T-shirt? please raise your hands! Ok, Let's decide by "
+"\"rock-paper-scissors\" (ジェンタオ・シートウ・プー)! (What did you call to do that?) "
+"(Please let me know anytime.)"
+msgstr ""
+
+#: ..\..\index.rst:1686
+msgid "Thank You!"
+msgstr ""
+
+#~ msgid "Books:"
+#~ msgstr ""
+
+#~ msgid "Expert Python Programming (translation by 4 members)"
+#~ msgstr ""
+
+#~ msgid "Python Professional Programming (Chap 4,7)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sphinx is a tool that makes it easy to create intelligent and beautiful "
+#~ "documentation. Sphinx generates various formats such as HTML, ePub, PDF from"
+#~ " the documentation of reStructuredText (reST) markup like Wiki and/or Python"
+#~ " source code."
+#~ msgstr ""
+
+#~ msgid "Hummm???"
+#~ msgstr ""
+
+#~ msgid "Extensible."
+#~ msgstr ""
+
+#~ msgid "and reStructuredText(reST) **IS**"
+#~ msgstr ""
+
+#~ msgid "Extensible **(important!)**"
+#~ msgstr ""
+
+#~ msgid "Sphinx provides"
+#~ msgstr ""
+
+#~ msgid "Useful *reST extensions*"
+#~ msgstr ""
+
+#~ msgid "Many useful **directives**."
+#~ msgstr ""
+
+#~ msgid "Many language **roles**."
+#~ msgstr ""
+
+#~ msgid "Powerful *code highlighting*"
+#~ msgstr ""
+
+#~ msgid "*Internal links*"
+#~ msgstr ""
+
+#~ msgid "Linking between internal pages."
+#~ msgstr ""
+
+#~ msgid "*Language domains*"
+#~ msgstr ""
+
+#~ msgid "C, C++, JavaScript, Python, reST."
+#~ msgstr ""
+
+#~ msgid "What is domain?"
+#~ msgstr ""
+
+#~ msgid "*External links*"
+#~ msgstr ""
+
+#~ msgid "Linking to other published Sphinx document."
+#~ msgstr ""
+
+#~ msgid "Sphinx generates"
+#~ msgstr ""
+
+#~ msgid "several output formats as:"
+#~ msgstr ""
+
+#~ msgid "HTML"
+#~ msgstr ""
+
+#~ msgid "PDF"
+#~ msgstr ""
+
+#~ msgid "ePub"
+#~ msgstr ""
+
+#~ msgid "htmlhelp"
+#~ msgstr ""
+
+#~ msgid "latex"
+#~ msgstr ""
+
+#~ msgid "man"
+#~ msgstr ""
+
+#~ msgid "Simple and beautiful html themes."
+#~ msgstr ""
+
+#~ msgid "Sphinx include official extensions"
+#~ msgstr ""
+
+#~ msgid "autodoc:"
+#~ msgstr ""
+
+#~ msgid "pngmath or jsmath:"
+#~ msgstr ""
+
+#~ msgid "intersphinx:"
+#~ msgstr ""
+
+#~ msgid "graphviz:"
+#~ msgstr ""
+
+#~ msgid "todo:"
+#~ msgstr ""
+
+#~ msgid "doctest:"
+#~ msgstr ""
+
+#~ msgid "coverage:"
+#~ msgstr ""
+
+#~ msgid "There are many 3rd-party extensions"
+#~ msgstr ""
+
+#~ msgid "Rendering diagrams from plain-text."
+#~ msgstr ""
+
+#~ msgid "Some type of html theme."
+#~ msgstr ""
+
+#~ msgid "Language domains: ada, coffee, erlan, http, php, ruby."
+#~ msgstr ""
+
+#~ msgid "Word"
+#~ msgstr ""
+
+#~ msgid "Excel"
+#~ msgstr ""
+
+#~ msgid "Sphinx vs Word"
+#~ msgstr ""
+
+#~ msgid "TBD"
+#~ msgstr ""
+
+#~ msgid "Sphinx vs Excel"
+#~ msgstr ""
+
+#~ msgid "By The Way"
+#~ msgstr ""
+
+#~ msgid "**NO!**"
+#~ msgstr ""
+
+#~ msgid "Are there a way to import *Word*?"
+#~ msgstr ""
+
+#~ msgid "**NO!!**"
+#~ msgstr ""
+
+#~ msgid "Are there a way to export to *PowerPoint*?"
+#~ msgstr ""
+
+#~ msgid "**NO!!!**"
+#~ msgstr ""
+
+#~ msgid "Generate scaffold by sphinx-quickstart:"
+#~ msgstr ""
+
+#~ msgid "Make html:"
+#~ msgstr ""
+
+#~ msgid "*demo:* menu"
+#~ msgstr ""
+
+#~ msgid "Link to other files"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Need blank line before and after nested items. And nested items need 2 "
+#~ "spaces before ``*``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This directive was provided by sphinx. Since docutils-0.9 provides "
+#~ ":rst:dir:`code` directive that provides same feature."
+#~ msgstr ""
+
+#~ msgid "*demo:* Link to other files"
+#~ msgstr ""
+
+#~ msgid "Add :mod:`sphinx.ext.todo` extention in conf.py:"
+#~ msgstr ""
+
+#~ msgid "Add :mod:`sphinx.ext.autodoc` extention in conf.py:"
+#~ msgstr ""
+
+#~ msgid "Add ``sphinxcontrib.blockdiag`` extention in conf.py:"
+#~ msgstr ""
+
+#~ msgid "Add ``sphinxcontrib.seqdiag`` extention in conf.py:"
+#~ msgstr ""
+
+#~ msgid "さいごに"
+#~ msgstr ""
+
+#~ msgid "Sep, 14(Sat), 15(Sun), 16(Mon)"
+#~ msgstr ""
