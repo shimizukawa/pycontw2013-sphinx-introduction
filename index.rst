@@ -1635,6 +1635,7 @@ The first Sphinx event in the world!
    I think it is the first Sphinx event in the world!
    About 70 people were gathered on this event.
    We would like to do something in PyCon APAC of this year too.
+   Please join to PyCon APAC!
 
 
 .. s6:: styles
