@@ -831,14 +831,21 @@ Run :command:`make html` to build html output:
 Demo menu
 ==============
 
-* Bullet list
-* Numbered list
-* Code highlight
-* Link to other pages
-* Numerical formula
-* autodoc extension
-* blockdiag extension
-* Internationalization
+#. Bullet list
+#. Numbered list
+#. Code highlight
+#. Link to other pages
+#. Numerical formula
+#. todo extension
+#. autodoc extension
+#. Link over internet
+#. Domains
+#. Internationalization
+#. blockdiag extension
+
+.. s6:: styles
+
+   'ol': {fontSize:'60%'},
 
 .. speech::
 
@@ -1153,6 +1160,57 @@ A domain is a collection of markup (directives and roles) to describe and link t
 .. s6:: effect slide
 
 
+*demo:* Internationalization
+================================
+
+Sphinx generate po files for internationalization(i18n).
+`sphinx-intl`_ also support your work.
+
+.. code-block:: bash
+
+   $ easy_install sphinx-intl
+
+Generate pot files and create specified po files.
+
+.. code-block:: bash
+
+   $ make gettext
+   $ sphinx-intl update -p _build/locale -l zh_TW
+
+And next, you need translate po files in `locale/` sub dirs.
+When you did that, set `language='zh_TW'` in the conf.py to use translated
+po files.
+
+.. code-block:: bash
+
+   $ sphinx-intl build
+   $ make html
+
+Ok, you can get the translated HTML.
+
+.. speech::
+
+   Sphinx generate pot files for internationalization(i18n).
+   `sphinx-intl`_ also support your work that is 3rd-party tool
+   then you need install this by using easy_install.
+
+   Generate po files can be done with :command:`make getext` command.
+   And next, you need translate po files in `locale/` sub dirs.
+   When you did that, set `language='zh_TW'` in the conf.py to use
+   translated po files.
+
+   :command:`sphinx-intl build` compile po files into mo files.
+   Finally you can get the translated html by :command:`make html`.
+
+.. s6:: styles
+
+   'p': {fontSize:'60%'},
+   'div': {fontSize:'60%'},
+
+.. s6:: effect slide
+
+
+
 
 *demo:* blockdiag extensions
 =============================
@@ -1248,14 +1306,6 @@ Then you can use ``seqdiag`` directive:
 
    'p': {fontSize:'60%'},
    'div': {fontSize:'60%'},
-
-.. s6:: effect slide
-
-
-*demo:* Internationalization
-================================
-
-.. todo:: 書く
 
 .. s6:: effect slide
 
