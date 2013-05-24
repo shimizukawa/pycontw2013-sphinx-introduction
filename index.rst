@@ -36,8 +36,6 @@ http://about.me/shimizukawa,
    I am a Sphinx co-maintainer and a Sphinx-uses.jp chariman.
    And Python, I was a vice-chairman PyCon JP in last 2 years.
 
-.. todo:: As co-maintainer, I study about ??????
-
 
 Books
 ========
@@ -50,6 +48,7 @@ Books
 
   .. figure:: images/book-pypro.png
 
+  * **Python開発実戦**
 
 .. s6:: effect slide
 
@@ -60,6 +59,12 @@ Books
    'ul/li[1]': {marginLeft: '2em'},
    'ul/li[1]/p': {width: '50%'},
    'ul/li[1]/div': {width:'30%', right:'0', bottom:'0em'},
+   'ul/li[1]/ul/li[0]': {display:'none'},
+   'ul': {fontSize:'70%'},
+
+.. s6:: actions
+
+   ['ul/li[1]/ul/li', 'fade in', '0.3'],
 
 .. speech::
 
@@ -79,8 +84,6 @@ Books
 
    * "Python Professional Programming" was already translated into
      'simple chineese charactors' and will publish in June.
-
-.. todo:: "Python開発実戦"
 
 
 anyway.
@@ -150,10 +153,6 @@ Table of contents
    'ol': {color: 'gray'},
    'ol/li[0]/ul/li[0]': {color: 'white'},
 
-
-.. todo:: how many people already using Sphinx? or any other documentation tool?
-
-.. todo:: Why do we need the documentation?
 
 What **IS** Sphinx?
 =====================
@@ -440,13 +439,19 @@ What **IS NOT** Sphinx?
 * There is a way to import/export *Word*?
    * **NO..!**
 
-.. todo:: Image
+.. figure:: images/no1.jpg
+
+   `Some rights reserved by motorpsykhos <http://www.flickr.com/photos/motorpsykhos/74145785/>`_
 
 .. speech::
 
    Sphinx did not have a way to import Word file.
    However, there is a experimental implementation to build Word docx file,
    but it is not stable.
+
+.. s6:: styles
+
+   'div': {width:'80%', margin:'-1em auto 0', zIndex:'-1', fontSize:'70%'},
 
 .. s6:: effect slide
 
@@ -456,13 +461,19 @@ What **IS NOT** Sphinx?
 * There is a way to export to *PowerPoint*?
    * **NO.....!!!**
 
-.. todo:: Image
+.. figure:: images/no2.jpg
+
+   `Some rights reserved by el__vaquero <http://www.flickr.com/photos/twbriggs/4245079902/>`_
 
 .. speech::
 
    3rd-party theme will support to make presentation slide by using Sphinx.
    But it is controlled by HTML, css and JavaScript.
    It is not easy to convert PowerPoint file format.
+
+.. s6:: styles
+
+   'div': {width:'75%', margin:'-1em auto 0', zIndex:'-1', fontSize:'70%'},
 
 .. s6:: effect slide
 
@@ -472,7 +483,9 @@ What **IS NOT** Sphinx?
 * Are there a way to export to *Excel*?
    * **What are you saying???**
 
-.. todo:: Image
+.. figure:: images/no3_what.jpg
+
+   `Some rights reserved by extranoise <http://www.flickr.com/photos/extranoise/270597628/>`_
 
 .. speech::
 
@@ -480,6 +493,10 @@ What **IS NOT** Sphinx?
    In Japan, many many documentations has been made with Excel HOUGAN-SHI.
    It is not feasible I think because it is not easy to maintenance and
    not easy to recognize difference by changing.
+
+.. s6:: styles
+
+   'div': {width:'80%', margin:'-1em auto 0', zIndex:'-1', fontSize:'70%'},
 
 .. s6:: effect slide
 
