@@ -31,7 +31,7 @@ http://about.me/shimizukawa,
 
    My activity in Sphinx,
    I am a Sphinx co-maintainer and a Sphinx-uses.jp chariman.
-   And Python, I was a vice-chairman PyCon JP 2011, 2012.
+   And Python, I was a vice-chairman PyCon JP in last 2 years.
 
 .. todo:: As co-maintainer, I study about ??????
 
@@ -75,7 +75,9 @@ Books
    * These 2 books mentions to Sphinx and Documentation.
 
    * "Python Professional Programming" was already translated into
-     'simple chineese charactors' and will publish soon.
+     'simple chineese charactors' and will publish in June.
+
+.. todo:: "Python開発実戦"
 
 
 anyway.
@@ -661,8 +663,14 @@ Sphinx 1.2b1 is current newest version.
 
 .. speech::
 
+   Install from PyPI by using easy_install.
+
    easy_install is defacto standard package installer.
    There are other installation methods: pip, buildout or invoke setup.py.
+   In this case I used easy_install.
+
+   This command installed Sphinx and other dependency packages.
+   Sphinx 1.2b1 is current newest version.
 
 .. s6:: styles
 
@@ -674,19 +682,35 @@ Sphinx 1.2b1 is current newest version.
 Sphinx quick start
 =====================
 
-Generate scaffold by sphinx-quickstart:
+Generate a scaffold by using sphinx-quickstart:
 
 .. code-block:: bash
 
-  $ sphinx-quickstart sample
-  (many interactive questions)
+   $ sphinx-quickstart sample
+   (many interactive questions)
 
-Make html:
+Generated files are:
 
 .. code-block:: bash
 
-  $ cd sample
-  $ make html
+   $ cd sample
+   $ ls -a
+   ./          Makefile    _static/    conf.py*    make.bat*
+   ../         _build/     _templates/ index.rst
+
+Run :command:`make html` to build html output:
+
+.. code-block:: bash
+
+   $ make html
+
+.. speech::
+
+   sphinx-quickstart command generate Sphinx documentation scaffold.
+   And then, you can use ``make html`` command to build html output
+   soon.
+
+   Generated html files are in _build/html directory.
 
 .. s6:: styles
 
@@ -697,7 +721,7 @@ Make html:
 .. s6:: effect slide
 
 
-demo menu
+Demo menu
 ==============
 
 * Bullet list
@@ -707,6 +731,11 @@ demo menu
 * Numerical formula
 * autodoc extension
 * blockdiag extension
+
+.. speech::
+
+   Ok, preparation is done.
+   Let me show you the demonstrations.
 
 .. s6:: effect slide
 
@@ -726,7 +755,7 @@ demo menu
 
    * item 3
 
-.. tip:: Need blank line before and after nested items. And nested items need 2 spaces before ``*``.
+.. tip:: You need blank line before and after nested items. And nested items need 2 spaces before ``*``.
 
 .. s6:: styles
 
@@ -1160,8 +1189,8 @@ Questions?
    'h2': {textAlign:'center', margin:'30% auto', background:'none'}
 
 
-さいごに
-=========
+Information
+============
 
 .. s6:: styles
 
@@ -1226,11 +1255,11 @@ Sphinx-users.jp
 
    Sphinx users community group in Japan that was called "spinx users jp".
 
-   Sphinx-users.jp manage original site that contains full-translated
+   The group manage original site that contains full-translated
    reference, original tutorials and reverse dictionary.
 
    Also we holding monthly event "Sphinx & translation hack-a-thon" and
-   annual event "SphinxCon JP"
+   annual event named "SphinxCon JP"
 
 .. s6:: styles
 
@@ -1252,10 +1281,10 @@ The first Sphinx event in the world!
 
 .. speech::
 
-   SphinxCon JP 2012 was very exciting.
+   SphinxCon JP at last year was very exciting.
    I think it is the first Sphinx event in the world!
    About 70 people were gathered on this event.
-   We would like to do something in PyCon APAC of this year.
+   We would like to do something in PyCon APAC of this year too.
 
 
 .. s6:: styles
@@ -1264,11 +1293,32 @@ The first Sphinx event in the world!
     'div[1]': {width:'30%', position:'absolute', top:'2.5em', right:'0em'},
     'div[2]': {width:'60%', position:'absolute', bottom:'0em', right:'1em'},
 
-Gift
-=======
+Gift from Sphinx-users.jp!
+===========================
+
+.. figure:: sphinx-tshirt.jpg
+
+* 2 Sphinx T-Shirt, SIZE S and XXL
+
+  * Let's decide by rock-paper-scissors!
+  * 我們來玩 剪刀石頭布！
+
+
+.. speech::
+
+   I've brought 2 Sphinx T-Shirt, this is gift from Sphinx-users.jp.
+   But I have only 2 size; S or XXL.
+
+   Do you want this T-shirt? please raise your hands!
+   Ok, Let's decide by "rock-paper-scissors" (ジェンタオ・シートウ・プー)!
+   (Please let me know anytime.)
 
 .. 我們來玩 剪刀石頭布！じゃんけんしよう！
 .. 「剪刀 石頭 布」（ジェンタオ・シートウ・プー）
+
+.. s6:: styles
+
+   'div': {width: '50%', margin:'1em auto 0'},
 
 Thank You!
 ============
