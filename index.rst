@@ -1334,8 +1334,8 @@ Gift from Sphinx-users.jp!
 .. figure:: images/sphinx-tshirt.jpg
 
 * 2 Sphinx T-Shirt, SIZE S and XXL
+* Let's decide by rock-paper-scissors!
 
-  * Let's decide by rock-paper-scissors!
   * 我們來玩 剪刀石頭布！
 
 
@@ -1346,14 +1346,24 @@ Gift from Sphinx-users.jp!
 
    Do you want this T-shirt? please raise your hands!
    Ok, Let's decide by "rock-paper-scissors" (ジェンタオ・シートウ・プー)!
+   (What did you call to do that?)
    (Please let me know anytime.)
+
 
 .. 我們來玩 剪刀石頭布！じゃんけんしよう！
 .. 「剪刀 石頭 布」（ジェンタオ・シートウ・プー）
 
 .. s6:: styles
 
-   'div': {width: '50%', margin:'1em auto 0'},
+   'div': {width: '50%', margin:'1em auto 0', display:'none'},
+   'ul/li': {display:'none'},
+
+.. s6:: actions
+
+   ['div', 'fade in', '0.3'],
+   ['ul/li[0]', 'fade in', '0.3'],
+   ['ul/li[1]', 'fade in', '0.3'],
+
 
 Thank You!
 ============
