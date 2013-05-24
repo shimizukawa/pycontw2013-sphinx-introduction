@@ -766,6 +766,7 @@ Demo menu
 * Numerical formula
 * autodoc extension
 * blockdiag extension
+* Internationalization
 
 .. speech::
 
@@ -956,36 +957,11 @@ Use :rst:dir:`math` directive to rendering numerical formula.
 
 .. s6:: effect slide
 
-.. Sphinx provides
-.. ================
-.. *External links*
-.. 
-.. .. extension.
-.. 
-.. * Linking to other published Sphinx document.
-.. 
-.. .. todo:: intersphinx の例
-.. 
-.. .. s6:: effect slide
-
-.. Sphinx provides
-.. ================
-.. *domains*
-.. 
-.. .. directive & role.
-.. 
-.. * C, C++, JavaScript, Python, reST.
-.. 
-.. What is domain?
-.. 
-.. .. s6:: effect slide
-.. 
-
 
 *demo:* todo extension
 =========================
 
-Add :mod:`sphinx.ext.todo` extention in conf.py:
+Add :mod:`sphinx.ext.todo` extension in conf.py:
 
 .. code-block:: python
 
@@ -1012,7 +988,7 @@ and  :rst:dir:`todolist` directive:
 *demo:* autodoc extension
 =========================
 
-Add :mod:`sphinx.ext.autodoc` extention in conf.py:
+Add :mod:`sphinx.ext.autodoc` extension in conf.py:
 
 .. code-block:: python
 
@@ -1028,6 +1004,55 @@ Then you can use :rst:dir:`automodule` directive:
       :members:
 
 .. s6:: effect slide
+
+
+*demo:* Link over internet
+===========================
+
+Add :mod:`sphinx.ext.intersphinx` extension and intersphinx setting in conf.py:
+
+.. code-block:: python
+
+   extensions = [
+       'sphinx.ext.autodoc',
+       'sphinx.ext.intersphinx',  #<- added
+   ]
+
+   intersphinx_mapping = {
+      'py': ('http://docs.python.jp/2/', None),
+   }
+
+Then your linking markups link remote pages:
+
+.. code-block:: rst
+
+   This markup link to Python's official reference page:
+   :py:function:`urllib.urlopen` on the :mod:`urllib` page.
+
+.. speech::
+
+   Linking to other published Sphinx document by using same syntax to link
+   to internal pages.
+
+.. s6:: styles
+
+   'p': {fontSize:'60%'},
+   'div': {fontSize:'70%'},
+
+.. s6:: effect slide
+
+*demo:* Domains
+================
+
+What is domain?
+
+* C, C++, JavaScript, Python, reST.
+
+.. todo:: 書く
+
+.. s6:: effect slide
+
+
 
 *demo:* blockdiag extensions
 =============================
@@ -1059,12 +1084,13 @@ Install :ref:`sphinxcontrib-blockdiag` extension:
 *demo:* blockdiag extension
 ===========================
 
-Add ``sphinxcontrib.blockdiag`` extention in conf.py:
+Add ``sphinxcontrib.blockdiag`` extension in conf.py:
 
 .. code-block:: python
 
    extensions = [
        'sphinx.ext.autodoc',
+       'sphinx.ext.intersphinx',
        'sphinxcontrib.blockdiag',  #<- added
    ]
 
@@ -1085,7 +1111,7 @@ Then you can use ``blockdiag`` directive:
 .. s6:: styles
 
    'p': {fontSize:'60%'},
-   'div': {fontSize:'70%'},
+   'div': {fontSize:'60%'},
 
 .. s6:: effect slide
 
@@ -1093,12 +1119,13 @@ Then you can use ``blockdiag`` directive:
 *demo:* seqdiag extension
 ===========================
 
-Add ``sphinxcontrib.seqdiag`` extention in conf.py:
+Add ``sphinxcontrib.seqdiag`` extension in conf.py:
 
 .. code-block:: python
 
    extensions = [
        'sphinx.ext.autodoc',
+       'sphinx.ext.intersphinx',
        'sphinxcontrib.blockdiag',
        'sphinxcontrib.seqdiag',  #<- added
    ]
@@ -1125,49 +1152,18 @@ Then you can use ``seqdiag`` directive:
 .. s6:: effect slide
 
 
+*demo:* Internationalization
+================================
+
+.. todo:: 書く
+
+.. s6:: effect slide
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.. Sphinx 1.2b1 リリース
-.. ========================
-.. 
-.. * **3/31に1年ぶりにリリース！**
-.. 
-.. * 複数メンテナ体制で最初のリリース
-.. * 国際化(i18n)機能の大幅強化
-.. * マルチバイト言語対応強化
-.. 
-.. .. s6:: effect fadeScale
-.. 
-.. .. s6:: styles
-.. 
-..    'ul/li[0]': {fontSize: '120%'},
-.. 
-.. 
-.. Sphinxの国際化(i18n)機能の強化
-.. ===============================
-.. 
-.. * 翻訳対象となっていなかった多くの箇所の対応
 .. * 公式ドキュメント多言語化(進行中)
 ..   Sphinx国際化機能の **モデルケース**
 .. 
-.. .. s6:: effect slide
-.. 
-.. 
 .. 公式ドキュメント多言語化計画
-.. =============================
 .. 
 .. * 日本語公式ドキュメントは今まで直接書き換えていました:
 .. 
@@ -1183,8 +1179,6 @@ Then you can use ``seqdiag`` directive:
 .. * 今は翻訳を Transifex_ で行っています
 .. 
 .. .. _Transifex: https://www.transifex.com/projects/p/sphinx-doc-1_2_0/
-.. 
-.. .. s6:: effect slide
 
 Next.
 ======
