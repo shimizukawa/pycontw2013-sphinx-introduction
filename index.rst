@@ -537,16 +537,16 @@ Table of contents
    'ol/li[0]/ul/li[1]': {color: 'white'},
 
 
-Sphinx include official extensions
-====================================
+Included official extensions
+==============================
 
-* autodoc: Auto documenter from .py
-* pngmath or jsmath: provides :rst:dir:`math` directive and role.
-* intersphinx: Link other documents over internet.
-* graphviz: Draw graphics by using graphviz.
-* todo: List-up todo directives.
-* doctest: run doctesting for code snippets in the document.
-* coverage: provide "make coverage" feature to get documentation coverage.
+* *autodoc*: Auto documenter for Python modules.
+* *pngmath* or *jsmath*: provides :rst:dir:`math` directive and role.
+* *intersphinx*: Link other documents over internet.
+* *graphviz*: Draw graphics by using graphviz.
+* *todo*: List-up todo directives.
+* *doctest*: run doctesting for code snippets in the document.
+* *coverage*: provide "make coverage" feature to get documentation coverage.
 
 .. speech::
 
@@ -556,24 +556,39 @@ Sphinx include official extensions
    autodoc, math, intersphinx, graphviz, todo, ...
    For about some extensions, I'll do demonstration later.
 
+.. s6:: styles
+
+   'ul/li': {fontSize: '80%'},
 
 .. s6:: effect slide
 
-There are many 3rd-party extensions
-====================================
+Many 3rd-party extensions
+===========================
 
-You can find several extensions contributed by users in the `Sphinx Contrib`_
-repository like these:
+Contributed extensions:
 
-* blockdiag: Rendering some type of diagrams from plain-text like graphviz.
+* *blockdiag*: Rendering some type of diagrams from plain-text like graphviz.
 * Domains: ada, coffee, erlan, http, php, ruby.
 * or else.
 
-And you can find some extensions in PyPI. For example:
+And other extensions:
 
 * Some type of html themes (bizstyle, s6, ...)
 * Some type of builders (textile, docx, ...)
 
+.. speech::
+
+   You can find several extensions contributed by users in the
+   `Sphinx Contrib`_ repository like these:
+
+   And you can find some extensions in PyPI. For example, Some type of html
+   themes like bizstyle or s6. and some type of builders like textile or docx.
+
+
+.. s6:: styles
+
+   'ul/li': {fontSize: '80%'},
+   'p': {fontSize: '80%'},
 
 .. s6:: effect slide
 
