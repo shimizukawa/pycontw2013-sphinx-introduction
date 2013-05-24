@@ -5,7 +5,7 @@ Introduction to **Sphinx** documentation generator
 Who are you?
 =============
 
-.. figure:: face.png
+.. figure:: images/face.png
 
 http://about.me/shimizukawa,
 @shimizukawa
@@ -44,11 +44,11 @@ Books
 
 * Expert Python Programming (translation into Japanese)
 
-  .. figure:: book-epp.jpg
+  .. figure:: images/book-epp.jpg
 
 * Python Professional Programming (2 chapters)
 
-  .. figure:: book-pypro.png
+  .. figure:: images/book-pypro.png
 
 
 .. s6:: effect slide
@@ -95,7 +95,7 @@ anyway.
 The Sphinx
 ============
 
-.. figure:: sphinx-logo.png
+.. figure:: images/sphinx-logo.png
 
 .. speech::
 
@@ -176,7 +176,7 @@ Sphinx **IS**
 * Sphinx generate documentation from reStructuredText markup.
 * Extendable.
 
-.. figure:: sphinx-generate-several-formats.png
+.. figure:: images/sphinx-generate-several-formats.png
 
 .. speech::
 
@@ -271,35 +271,35 @@ Sphinx includes
 
 Simple and beautiful html themes. Detail information is here: :ref:`builtin-themes`.
 
-.. figure:: theme-default.png
+.. figure:: images/theme-default.png
 
    default
 
-.. figure:: theme-sphinxdoc.png
+.. figure:: images/theme-sphinxdoc.png
 
    sphinxdoc
 
-.. figure:: theme-scrolls.png
+.. figure:: images/theme-scrolls.png
 
    scrolls
 
-.. figure:: theme-agogo.png
+.. figure:: images/theme-agogo.png
 
    agogo
 
-.. figure:: theme-traditional.png
+.. figure:: images/theme-traditional.png
 
    traditional
 
-.. figure:: theme-nature.png
+.. figure:: images/theme-nature.png
 
    nature
 
-.. figure:: theme-haiku.png
+.. figure:: images/theme-haiku.png
 
    haiku
 
-.. figure:: theme-pyramid.png
+.. figure:: images/theme-pyramid.png
 
    pyramid
 
@@ -331,39 +331,39 @@ There are 3rd party themes
 
 You can find 3rd-party Sphinx themes at PyPI or other sites. For example,
 
-.. figure:: theme-bizstyle.png
+.. figure:: images/theme-bizstyle.png
    :target: https://pypi.python.org/pypi/sphinxjp.themes.bizstyle
 
    bizstyle_
 
-.. figure:: theme-dotted.png
+.. figure:: images/theme-dotted.png
    :target: https://pypi.python.org/pypi/sphinxjp.themes.dotted
 
    dotted_
 
-.. figure:: theme-basicstrap.png
+.. figure:: images/theme-basicstrap.png
    :target: https://pypi.python.org/pypi/sphinxjp.themes.basicstrap
 
    basicstrap_
 
-.. figure:: theme-sphinxjp.png
+.. figure:: images/theme-sphinxjp.png
    :target: https://pypi.python.org/pypi/sphinxjp.themes.sphinxjp
 
    sphinxjp_
 
 And presentation themes:
 
-.. figure:: theme-s6.png
+.. figure:: images/theme-s6.png
    :target: https://pypi.python.org/pypi/sphinxjp.themes.s6
 
    s6_
 
-.. figure:: theme-htmlslide.png
+.. figure:: images/theme-htmlslide.png
    :target: https://pypi.python.org/pypi/sphinxjp.themes.htmlslide
 
    htmlslide_
 
-.. figure:: theme-impressjs.png
+.. figure:: images/theme-impressjs.png
    :target: https://pypi.python.org/pypi/sphinxjp.themes.impressjs
 
    impressjs_
@@ -419,7 +419,7 @@ What **IS NOT** Sphinx?
 * Are there *GUI frontend editor?*
    * **NO.**
 
-.. figure:: sphinx-have-no-gui-frontend.png
+.. figure:: images/sphinx-have-no-gui-frontend.png
 
    Windows Notepad
 
@@ -1240,7 +1240,7 @@ Information
 PyCon APAC 2013 in Japan
 ==========================
 
-.. figure:: pyconapac2013.png
+.. figure:: images/pyconapac2013.png
 
 * Schedule:
 
@@ -1271,9 +1271,9 @@ PyCon APAC 2013 in Japan
 Sphinx-users.jp
 ================
 
-.. figure:: sphinxusers.jpg
+.. figure:: images/sphinxusers.jpg
 
-.. figure:: SphinxConJP2012-logo.png
+.. figure:: images/SphinxConJP2012-logo.png
 
 * Managing http://sphinx-users.jp
 
@@ -1306,11 +1306,11 @@ Sphinx-users.jp
 SphinxCon JP in PyCon JP 2012
 ==============================
 
-.. figure:: sphinxconjp2013-atendees.jpg
+.. figure:: images/sphinxconjp2013-atendees.jpg
 
-.. figure:: standing-atendees.jpg
+.. figure:: images/standing-atendees.jpg
 
-.. figure:: sphinxconjp2012-speakers.jpg
+.. figure:: images/sphinxconjp2012-speakers.jpg
 
 The first Sphinx event in the world!
 
@@ -1331,7 +1331,7 @@ The first Sphinx event in the world!
 Gift from Sphinx-users.jp!
 ===========================
 
-.. figure:: sphinx-tshirt.jpg
+.. figure:: images/sphinx-tshirt.jpg
 
 * 2 Sphinx T-Shirt, SIZE S and XXL
 
