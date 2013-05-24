@@ -734,10 +734,10 @@ Sphinx vs Wiki
 
 .. speech::
 
-   Sphinxは、本や論文のように読む順番が重要な文章に適しています。
-   Wikiは個々の粒度が小さく、順番に依存しないため辞書に適しています。
+   Sphinx is suitable for the text like a book or a paper.
 
-.. todo:: 翻訳
+   The particle size of Wiki pages are small, it is suitable for the
+   dictionary that does not depend on the order in which they read.
 
 
 .. s6:: styles
