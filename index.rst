@@ -25,6 +25,9 @@ http://about.me/shimizukawa,
 .. speech::
 
    Hi everyone.
+   Today I'll talk about Sphinx documentation generator.
+   Thank you for opportunity of this presentation.
+   Before that, let me introduce myself.
 
    My name is Takayuki Shimizukawa, I came from Japan.
    I joined the PyConTW last year, and it is my second time to come to Taiwan.
@@ -72,7 +75,7 @@ Books
    .. * In 2012, The "Python Professional Programming" was written by 14
    ..   colleagues of the company I belong. I wrote two chapters.
 
-   * These 2 books mentions to Sphinx and Documentation.
+   * The books mention to Sphinx and Documentations.
 
    * "Python Professional Programming" was already translated into
      'simple chineese charactors' and will publish in June.
@@ -136,6 +139,10 @@ Table of contents
 .. speech::
 
    First, I'll introduce "what is Sphinx" and "what is reStructuredText".
+   By the way, how many people already using Sphinx?
+
+   OK, please raise your hands for about "Do you know Sphinx?" Thank you.
+   And next, "Did you use Sphinx already?" Thanks.
 
 
 .. s6:: styles
@@ -176,8 +183,8 @@ Sphinx **IS**
    * Sphinx is a documentation generator.
      Sphinx generate documentation from reStructuredText markup.
 
-     In other words, Sphinx reads reStructuredText format text file and
-     outputs html, epub, pdf, or other several format.
+     In other words, Sphinx reads reST text file and
+     outputs html, epub, pdf, or other several formats.
 
    * Sphinx is extendable, so you can also output in a different format,
      or read the file in a different format.
@@ -212,9 +219,8 @@ There is markup sample:
    And reStructuredText reST is markup language.
 
    * It was written with plain text.
-   * reST is similer to other wiki like markups.
-     But reST is different from others, it is extendable syntax.
-     It's a important point.
+   * reST is similer to other wiki like markups but different from others,
+     the reST syntax is extendable. It's a important point.
 
    This is a markup sample that contains LINK, EMPHASIS, STRONG and ROLE.
 
@@ -243,14 +249,14 @@ Sphinx provides many useful reST :term:`directive` and :term:`role`.
 
    Sphinx provides many useful reST directive and role.
 
-   * code-block for code highlighting.
-   * doc, ref, term, these roles make link to other pages.
-   * math role and directive render numerical formula.
-   * only directive works as conditional output control.
-   * automodule generate module reference document from .py file.
-   * Some domains directives and roles: C, C++, JavaScript, Python, reST.
-
-.. todo:: domainsの部分がうまく説明出来ていない
+   * *code-block* for code highlighting.
+   * *doc*, *ref*, *term*, these roles make link to other pages.
+   * *math* role and directive render numerical formula.
+   * *only* directive works as conditional output control.
+   * *automodule* generate module reference document from .py file.
+   * Some domains directives and roles: C, C++, JavaScript, Python, reST
+     to easy to write class or function's descriptions.
+     I'll do demonstration later.
 
 .. s6:: styles
 
@@ -301,6 +307,7 @@ Simple and beautiful html themes. Detail information is here: :ref:`builtin-them
 .. speech::
 
    Sphinx includes simple and beautiful html themes.
+   Each themes are called:
    default, sphinxdoc, scrolls, agogo, traditional, nature, haiku and pyramid.
 
    Detail information is written at builtin themes page.
@@ -381,6 +388,8 @@ And presentation themes:
    And few presentation themes are also exist:
    s6, htmlslide, impressjs.
 
+   BTW, this presentation slide was also built by Sphinx with s6 theme.
+
 
 .. s6:: effect slide
 
@@ -417,7 +426,7 @@ What **IS NOT** Sphinx?
 .. speech::
 
    Sphinx did not have GUI frontend as like as Word.
-   But you can choose any GUI editor to edit reST.
+   But you can choose any GUI editor to edit reST plain text.
 
 .. s6:: styles
 
@@ -436,7 +445,7 @@ What **IS NOT** Sphinx?
 .. speech::
 
    Sphinx did not have a way to import Word file.
-   There is a experimental implementation to export to Word file,
+   However, there is a experimental implementation to build Word docx file,
    but it is not stable.
 
 .. s6:: effect slide
@@ -536,28 +545,39 @@ Sphinx include official extensions
 * intersphinx: Link other documents over internet.
 * graphviz: Draw graphics by using graphviz.
 * todo: List-up todo directives.
-* doctest: ?????
-* coverage: ?????
+* doctest: run doctesting for code snippets in the document.
+* coverage: provide "make coverage" feature to get documentation coverage.
 
-.. todo:: 書く
+.. speech::
+
+   Several official extensions are included in the Sphinx
+   that are maintained by sphinx comitters.
+
+   autodoc, math, intersphinx, graphviz, todo, ...
+   For about some extensions, I'll do demonstration later.
+
 
 .. s6:: effect slide
 
 There are many 3rd-party extensions
 ====================================
 
-* blockdiag: Rendering diagrams from plain-text.
-* Some type of html theme.
+You can find several extensions contributed by users in the `Sphinx Contrib`_
+repository like these:
+
+* blockdiag: Rendering some type of diagrams from plain-text like graphviz.
 * Domains: ada, coffee, erlan, http, php, ruby.
+* or else.
 
-.. speech::
+And you can find some extensions in PyPI. For example:
 
-   * blockdiag: Rendering diagrams from plain-text.
-   * Some type of html theme. already I introduced.
-   * Extra domains: ada, coffee, erlan, http, php, ruby.
+* Some type of html themes (bizstyle, s6, ...)
+* Some type of builders (textile, docx, ...)
+
 
 .. s6:: effect slide
 
+.. _Sphinx Contrib: https://www.bitbucket.org/birkenfeld/sphinx-contrib
 
 Next.
 ======
