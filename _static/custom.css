@@ -116,3 +116,41 @@ body {
 	font-size: 60%;
 	text-align: center;
 }
+
+.s6.sphinx .page.default table {
+	border: 1px black solid;
+	border-width: 1px 0 0 1px;
+	color: black;
+}
+
+.s6.sphinx .page.default table th,
+.s6.sphinx .page.default table td {
+	border: 1px black solid;
+	border-width: 0 1px 1px 0;
+}
+
+.s6.sphinx .page.default table tr.row-even th.stub,
+.s6.sphinx .page.default table tr.row-even td.stub {
+	background-color: #c0c0c0;
+}
+
+.s6.sphinx .page.default table tr.row-odd th.stub,
+.s6.sphinx .page.default table tr.row-odd td.stub {
+	background-color: #a0a0c0;
+}
+
+.s6.sphinx .page.default table tr.row-even th.head,
+.s6.sphinx .page.default table tr.row-even td.head,
+.s6.sphinx .page.default table tr.row-odd th.head,
+.s6.sphinx .page.default table tr.row-odd td.head {
+	background-color: gray;
+}
+
+.s6.sphinx .page.default table tr.row-even td {
+	background-color: white;
+}
+
+.s6.sphinx .page.default table tr.row-odd td {
+	background-color: #ccccff;
+}
+

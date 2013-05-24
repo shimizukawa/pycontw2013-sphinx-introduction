@@ -622,40 +622,112 @@ Table of contents
 Compare with other tools
 =========================
 
-* Word
-* Excel
+* Word like office app
 * Wiki
 
 .. s6:: effect slide
 
-Sphinx vs Word
-================
-
-TBD
-
-.. todo:: write
-
-.. s6:: effect slide
-
-Sphinx vs Excel
+Sphinx vs Office
 =================
 
-TBD
+.. list-table::
+   :header-rows: 1
+   :stub-columns: 1
+   :widths: 10 45 45
 
-.. todo:: write
+   - - VS
+     - Sphinx
+     - Office
+
+   - - Files
+     - Many files/dirs
+     - 1 monolithic file
+
+   - - Format
+     - Plain text
+     - Binary file
+
+   - - GUI
+     - No GUI frontend
+     - Must use GUI
+
+   - - Begin
+     - Need learning to write
+     - Easy to use
+
+   - - Restructuring
+     - Easy
+     - Difficult
+
+   - - Versioning
+     - With hg/git/..
+     - By self
+
+   - - Match to
+     - Work with program source
+     - Others
+
+.. speech::
+
+   Honestly, Word have powerful features as versioning or parallel editiong or
+   some other features. But I think these features are hid to casual users.
+
+.. s6:: styles
+
+   'table': {fontSize:'60%', margin:'1em'},
 
 .. s6:: effect slide
+
 
 Sphinx vs Wiki
 ================
 
-TBD
+.. list-table::
+   :header-rows: 1
+   :stub-columns: 1
+   :widths: 15 40 40
 
-.. todo:: write
+   - - VS
+     - Sphinx
+     - Wiki
+
+   - - Structure
+     - 1 tree
+     - Semi-lattice
+
+   - - Root and path
+     - 1 root and 1 path from start to end
+     - No root and no order to read
+
+   - - Cross reference
+     - exists
+     - exists
+
+   - - Glossary
+     - exists
+     - exists
+
+   - - Index
+     - exists
+     - exists
+
+   - - Match to
+     - Books, order to read is important
+     - Dictionary
+
+.. speech::
+
+   Sphinxは、本や論文のように読む順番が重要な文章に適しています。
+   Wikiは個々の粒度が小さく、順番に依存しないため辞書に適しています。
+
+.. todo:: 翻訳
+
+
+.. s6:: styles
+
+   'table': {fontSize:'60%', margin:'1em'},
 
 .. s6:: effect slide
-
-
 
 
 Next.
@@ -1044,11 +1116,39 @@ Then your linking markups link remote pages:
 *demo:* Domains
 ================
 
-What is domain?
+A domain is a collection of markup (directives and roles) to describe and link to objects belonging together.
 
-* C, C++, JavaScript, Python, reST.
+.. code-block:: rst
 
-.. todo:: 書く
+   .. py:function:: event.register(event_id, user_name)
+
+      (description for this function here).
+
+   You can use :py:func:`event.register` to register.
+
+* ``:py:func:`event.register``` is *py* domain's *func* role that make lnik to the declaration line.
+* ``.. py:function:: event.register(event_id, user_name)`` is *py* domain's *function* directive that make declaration of the function and create Sphinx's index page entry.
+
+.. speech::
+
+   What is domain? A domain is a collection of markup (reStructuredText
+   directives and roles) to describe and link to objects belonging together.
+
+   For example. In this case, ``:py:func:`event.register``` is *py* domain's
+  *func* role that make lnik to the declaration line.
+
+   ``.. py:function:: event.register(event_id, user_name)`` is *py* domain's
+   *function* directive that make declaration of the function and create
+   Sphinx's index page entry.
+
+   Sphinx contains several domains and sphinx-contrib contains more useful
+   domains.
+
+.. s6:: styles
+
+   'p': {fontSize:'60%'},
+   'div': {fontSize:'60%'},
+   'ul': {fontSize:'60%'},
 
 .. s6:: effect slide
 
@@ -1160,26 +1260,6 @@ Then you can use ``seqdiag`` directive:
 .. s6:: effect slide
 
 
-.. * 公式ドキュメント多言語化(進行中)
-..   Sphinx国際化機能の **モデルケース**
-.. 
-.. 公式ドキュメント多言語化計画
-.. 
-.. * 日本語公式ドキュメントは今まで直接書き換えていました:
-.. 
-..   .. code-block:: rst
-.. 
-..       .. Available builders
-..       .. ==================
-.. 
-..       利用可能なビルダー
-..       ==================
-.. 
-.. 
-.. * 今は翻訳を Transifex_ で行っています
-.. 
-.. .. _Transifex: https://www.transifex.com/projects/p/sphinx-doc-1_2_0/
-
 Next.
 ======
 
@@ -1196,9 +1276,8 @@ Table of contents
 2. Demonstration
 3. Case studies
 
-   * Tinkerer http://tinkerer.me/
-   * case B
-   * case C
+   * Sphinx official reference
+   * Blog
 
 .. speech::
 
@@ -1209,6 +1288,181 @@ Table of contents
    'ol': {color: 'gray'},
    'ol/li[2]': {color: 'white'},
 
+.. s6:: effect slide
+
+
+Sphinx official reference
+==========================
+
+.. figure:: images/sphinx-doc.png
+   :target: http://sphinx-doc.org/index.html
+
+   http://sphinx-doc.org/index.html
+
+.. speech::
+
+   Of course, Sphinx official reference is created by using Sphinx.
+
+.. s6:: styles
+
+   'div': {width:'60%', margin:'1em auto'},
+
+
+.. s6:: effect slide
+
+Sphinx official reference
+==========================
+
+Using :mod:`sphinx.ext.autodoc`.
+
+.. figure:: images/sphinx-doc-storagebackend-src.png
+   :target: http://sphinx-doc.org/web/storagebackends.html
+
+   source
+
+.. figure:: images/sphinx-doc-storagebackend.png
+   :target: http://sphinx-doc.org/web/storagebackends.html
+
+   :ref:`storagebackends`
+
+
+.. speech::
+
+   For instance, Sphinx API part for developers is describing
+   reference of functions and classes that was generated by autodoc.
+
+.. s6:: styles
+
+   'div[0]': {width:'45%', position:'absolute', left:'1em', top:'3em'},
+   'div[1]': {width:'60%', position:'absolute', right:'0', bottom:'1em'},
+
+.. s6:: effect slide
+
+
+Sphinx Japanese reference
+==========================
+
+Using :ref:`intl` and Transifex_.
+
+
+.. figure:: images/docs-sphinx-users-jp.png
+   :target: http://docs.sphinx-users.jp/
+
+   http://docs.sphinx-users.jp/
+
+`sphinx-intl`_ also support your work.
+
+
+.. speech::
+
+   And internationalization. This Japanese translated reference page in the
+   sphinx-users.jp was generated by Sphinx with Japanese translation
+   catalog that was imported from Transifex.
+
+   Transifex will help you to translate in a team.
+   And `sphinx-intl`_ also support your work.
+
+
+.. s6:: styles
+
+   'p': {fontSize:'70%'},
+   'div': {width:'55%', margin:'1em auto 0', fontSize:'70%'},
+
+.. s6:: effect slide
+
+.. _Transifex: https://www.transifex.com/projects/p/sphinx-doc-1_2_0/
+.. _`sphinx-intl`: http://pypi.python.org/pypi/sphinx-intl
+
+
+.. Sphinx Japanese reference
+.. ==========================
+.. 
+.. .. speech::
+.. 
+..    BTW, Japanese translated reference is generated and is uploaded
+..    automatically at translation on the Transifex was changed.
+..    Transifex's web hook invoke `drone.io`_ CI service.
+.. 
+.. .. s6:: effect slide
+
+
+Blog
+=====
+
+.. figure:: images/tinkerer.png
+   :target: http://tinkerer.me/
+
+   http://tinkerer.me/
+
+.. speech::
+
+   Tinkerer is a blog tool made by using the Sphinx.
+   You can be written your blog in reStructuredText format.
+   In addition, you can use the rich Sphinx extensions.
+
+
+.. s6:: styles
+
+   'div': {width:'80%', margin:'1em auto 0', fontSize:'80%'},
+
+.. s6:: effect slide
+
+
+Blog with Tinkerer
+====================
+
+Create a new blog:
+
+.. code-block:: bash
+
+   $ mkdir blog
+   $ cd blog
+   $ tinker -s
+
+And setup blog title or else:
+
+.. code-block:: bash
+
+   $ vi conf.py
+
+And create a blog entry file and write in reST:
+
+.. code-block:: bash
+
+   $ tinker -p "first post"
+   $ vi 2013/05/25/first_post.rst
+
+Finally, build command generates HTML and RSS:
+
+.. code-block:: bash
+
+   $ tinker -b
+
+.. speech::
+
+   Tinkerer provides original commands to manage your blog;
+   create a new blog, create a blog entry, build html.
+
+   (read slide)
+
+   Tinkerer make it easier to write a blog.
+
+
+.. s6:: styles
+
+   'div': {fontSize:'70%', margin:'0 auto'},
+   'p': {fontSize:'60%', margin:'0'},
+
+.. s6:: effect slide
+
+
+
+That's all
+==============
+
+.. s6:: styles
+
+   'h2': {textAlign:'center', margin:'30% auto', background:'none'}
 
 Questions?
 ==============
