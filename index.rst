@@ -438,11 +438,12 @@ What **IS NOT** Sphinx?
 ========================
 
 * There is a way to import/export *Word*?
-   * **NO..!**
 
-.. figure:: images/no1.jpg
+  * **NO..!**
 
-   `Some rights reserved by motorpsykhos <http://www.flickr.com/photos/motorpsykhos/74145785/>`_
+    .. figure:: images/no1.jpg
+
+       `Some rights reserved by motorpsykhos <http://www.flickr.com/photos/motorpsykhos/74145785/>`_
 
 .. speech::
 
@@ -452,7 +453,12 @@ What **IS NOT** Sphinx?
 
 .. s6:: styles
 
-   'div[0]': {width:'80%', margin:'-1em auto 0', zIndex:'-1', fontSize:'70%'},
+   'ul/li[0]/ul': {margin:'0 1em', display:'none'},
+   'ul/li[0]/ul/li[0]/div': {width:'100%', margin:'-1.5em -1em 0', zIndex:'-1', position:'relative', fontSize:'70%'},
+
+.. s6:: actions
+
+    ['ul/li[0]/ul', 'fade in', '0.3'],
 
 .. s6:: effect slide
 
@@ -460,11 +466,12 @@ What **IS NOT** Sphinx?
 ========================
 
 * There is a way to export to *PowerPoint*?
-   * **NO.....!!!**
 
-.. figure:: images/no2.jpg
+  * **NO.....!!!**
 
-   `Some rights reserved by el__vaquero <http://www.flickr.com/photos/twbriggs/4245079902/>`_
+    .. figure:: images/no2.jpg
+
+       `Some rights reserved by el__vaquero <http://www.flickr.com/photos/twbriggs/4245079902/>`_
 
 .. speech::
 
@@ -474,7 +481,12 @@ What **IS NOT** Sphinx?
 
 .. s6:: styles
 
-   'div[0]': {width:'75%', margin:'-1em auto 0', zIndex:'-1', fontSize:'70%'},
+   'ul/li[0]/ul': {margin:'0 1em', display:'none'},
+   'ul/li[0]/ul/li[0]/div': {width:'100%', margin:'-1.5em -1em 0', zIndex:'-1', position:'relative', fontSize:'70%'},
+
+.. s6:: actions
+
+    ['ul/li[0]/ul', 'fade in', '0.3'],
 
 .. s6:: effect slide
 
@@ -482,11 +494,12 @@ What **IS NOT** Sphinx?
 ========================
 
 * Are there a way to export to *Excel*?
-   * **What are you saying???**
 
-.. figure:: images/no3_what.jpg
+  * **What are you saying???**
 
-   `Some rights reserved by extranoise <http://www.flickr.com/photos/extranoise/270597628/>`_
+    .. figure:: images/no3_what.jpg
+
+       `Some rights reserved by extranoise <http://www.flickr.com/photos/extranoise/270597628/>`_
 
 .. speech::
 
@@ -498,7 +511,12 @@ What **IS NOT** Sphinx?
 
 .. s6:: styles
 
-   'div[0]': {width:'80%', margin:'-1em auto 0', zIndex:'-1', fontSize:'70%'},
+   'ul/li[0]/ul': {margin:'0 1em', display:'none'},
+   'ul/li[0]/ul/li[0]/div': {width:'100%', margin:'-1.5em -1em 0', zIndex:'-1', position:'relative', fontSize:'70%'},
+
+.. s6:: actions
+
+    ['ul/li[0]/ul', 'fade in', '0.3'],
 
 .. s6:: effect slide
 
