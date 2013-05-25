@@ -1671,41 +1671,41 @@ The first Sphinx event in the world!
     'div[1]': {width:'30%', position:'absolute', top:'2.5em', right:'0em'},
     'div[2]': {width:'60%', position:'absolute', bottom:'0em', right:'1em'},
 
-Gift from Sphinx-users.jp!
-===========================
-
-.. figure:: images/sphinx-tshirt.jpg
-
-* 2 Sphinx T-Shirt, SIZE S and XXL
-* Let's decide by rock-paper-scissors!
-
-  * 我們來玩 剪刀石頭布！
-
-
-.. speech::
-
-   I've brought 2 Sphinx T-Shirt, this is gift from Sphinx-users.jp.
-   But I have only 2 size; S or XXL.
-
-   Do you want this T-shirt? please raise your hands!
-   Ok, Let's decide by "rock-paper-scissors" (ジェンタオ・シートウ・プー)!
-   (What did you call to do that?)
-   (Please let me know anytime.)
-
-
-.. 我們來玩 剪刀石頭布！じゃんけんしよう！
-.. 「剪刀 石頭 布」（ジェンタオ・シートウ・プー）
-
-.. s6:: styles
-
-   'div': {width: '50%', margin:'1em auto 0', display:'none'},
-   'ul/li': {display:'none'},
-
-.. s6:: actions
-
-   ['div', 'fade in', '0.3'],
-   ['ul/li[0]', 'fade in', '0.3'],
-   ['ul/li[1]', 'fade in', '0.3'],
+.. Gift from Sphinx-users.jp!
+.. ===========================
+.. 
+.. .. figure:: images/sphinx-tshirt.jpg
+.. 
+.. * 2 Sphinx T-Shirt, SIZE S and XXL
+.. * Let's decide by rock-paper-scissors!
+.. 
+..   * 我們來玩 剪刀石頭布！
+.. 
+.. 
+.. .. speech::
+.. 
+..    I've brought 2 Sphinx T-Shirt, this is gift from Sphinx-users.jp.
+..    But I have only 2 size; S or XXL.
+.. 
+..    Do you want this T-shirt? please raise your hands!
+..    Ok, Let's decide by "rock-paper-scissors" (ジェンタオ・シートウ・プー)!
+..    (What did you call to do that?)
+..    (Please let me know anytime.)
+.. 
+.. 
+.. .. 我們來玩 剪刀石頭布！じゃんけんしよう！
+.. .. 「剪刀 石頭 布」（ジェンタオ・シートウ・プー）
+.. 
+.. .. s6:: styles
+.. 
+..    'div': {width: '50%', margin:'1em auto 0', display:'none'},
+..    'ul/li': {display:'none'},
+.. 
+.. .. s6:: actions
+.. 
+..    ['div', 'fade in', '0.3'],
+..    ['ul/li[0]', 'fade in', '0.3'],
+..    ['ul/li[1]', 'fade in', '0.3'],
 
 
 Thank You!
