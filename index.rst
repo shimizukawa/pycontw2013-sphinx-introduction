@@ -209,7 +209,7 @@ There is markup sample:
 .. rstdemo::
 
    reStructuredText_ (*reST*) is **markup** language.
-   :rst:role:`role` and :rst:dir:`directive` is extendable.
+   :term:`role` and :term:`directive` is extendable.
 
    .. _reStructuredText: http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
 
@@ -222,7 +222,7 @@ There is markup sample:
    * reST is similer to other wiki like markups but different from others,
      the reST syntax is extendable. It's a important point.
 
-   This is a markup sample that contains LINK, EMPHASIS, STRONG and ROLE.
+   This is a markup sample that contains LINK, EMPHASIS, STRONG and TERM role.
 
 .. s6:: styles
 
