@@ -22,3 +22,18 @@ $(function(){
 		}
 	});
 });
+
+$(function(){
+	$('.rstdemo').each(function(i, elem){
+		elem = $(elem);
+		var hover = $('<span>').addClass('rstdemo-hover').text('D');
+		hover.click(function(evt){
+			console.log(evt);
+			elem.find('.highlight-rst').toggle();
+			elem.find('.rstdemo-rendered').toggle();
+			evt.stopPropagation();
+			return false;
+		});
+		elem.append(hover);
+	});
+});

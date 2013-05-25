@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import sys, os
+sys.path.append('_ext')
 
 language = 'en'
 
@@ -18,6 +19,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.intersphinx',
     'sphinxcontrib.blockdiag',
+    'demo',
 ]
 html_logo = 'sphinx-logo.png'
 html_static_path = ['_static']

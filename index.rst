@@ -896,7 +896,9 @@ Demo menu
 *demo:* Bullet list
 =====================
 
-.. code-block:: rst
+.. .. code-block:: rst
+
+.. rstdemo::
 
    Some text line.
    Second line will joined to 1st line.
