@@ -157,13 +157,21 @@ body {
 }
 
 .s6.sphinx .page.default .rstdemo-rendered {
-	font-size: 85%;
+	font-size: 80%;
 	background-color: #ffeedd;
 	color: black;
 	width: 90%;
 	margin: 0.3em 1em;
 	padding: 0.3em;
 	display: none;
+}
+
+.s6.sphinx .page.default div.admonition > p.admonition-title,
+.s6.sphinx .page.default .rstdemo-rendered em {
+	color: red;
+}
+.s6.sphinx .page.default .rstdemo-rendered .todo-source {
+	font-size: 70%;
 }
 
 .s6.sphinx .page.default .rstdemo-hover {

@@ -206,7 +206,7 @@ And reStructuredText(reST) **IS**
 
 There is markup sample:
 
-.. code-block:: rst
+.. rstdemo::
 
    reStructuredText_ (*reST*) is **markup** language.
    :rst:role:`role` and :rst:dir:`directive` is extendable.
@@ -896,8 +896,6 @@ Demo menu
 *demo:* Bullet list
 =====================
 
-.. .. code-block:: rst
-
 .. rstdemo::
 
    Some text line.
@@ -924,7 +922,7 @@ Demo menu
 *demo:* Numbered list
 =====================
 
-.. code-block:: rst
+.. rstdemo::
 
    1. item 1
    2. item 2
@@ -949,7 +947,7 @@ Demo menu
 
 Use ``code-block`` directive to rendering code with highlighting.
 
-.. code-block:: rst
+.. rstdemo::
 
    .. code-block:: ruby
 
@@ -974,7 +972,7 @@ Use ``code-block`` directive to rendering code with highlighting.
 
 Use :rst:dir:`toctree` directive to build a tree structure.
 
-.. code-block:: rst
+.. rstdemo::
 
    .. toctree::
       :numbered:
@@ -991,7 +989,7 @@ Use :rst:dir:`toctree` directive to build a tree structure.
 ===========================
 Link between pages by using :rst:dir:`glossary` directive and :rst:role:`term` role:
 
-.. code-block:: rst
+.. rstdemo::
 
    .. glossary::
 
@@ -1013,7 +1011,7 @@ Link between pages by using :rst:dir:`glossary` directive and :rst:role:`term` r
 ===========================
 Link between pages by using :rst:role:`doc` role:
 
-.. code-block:: rst
+.. rstdemo::
 
    Link to another reST page with :doc:`subdir/index`.
    `subdir/index` will be replaced with title of
@@ -1025,28 +1023,28 @@ Link between pages by using :rst:role:`doc` role:
    'div': {fontSize:'70%'},
 
 
-*demo:* Link to other pages
-===========================
-Link between pages by using reST `label` and :rst:role:`ref` role:
-
-.. code-block:: rst
-
-   .. _title-of-section:
-
-   Title of section
-   ==================
-
-   Make page internal link to section header can
-   be done with `Title of section`_ link syntax.
-   However, if you want to link from other pages
-   as same as this, you can be done with
-   :ref:`title-of-section`. The label name will be
-   replaced with section title.
-
-.. s6:: styles
-
-   'p': {fontSize:'70%'},
-   'div': {fontSize:'70%'},
+.. *demo:* Link to other pages
+.. ===========================
+.. Link between pages by using reST `label` and :rst:role:`ref` role:
+.. 
+.. .. rstdemo::
+.. 
+..    .. _title-of-section:
+.. 
+..    Title of section
+..    ==================
+.. 
+..    Make page internal link to section header can
+..    be done with `Title of section`_ link syntax.
+..    However, if you want to link from other pages
+..    as same as this, you can be done with
+..    :ref:`title-of-section`. The label name will be
+..    replaced with section title.
+.. 
+.. .. s6:: styles
+.. 
+..    'p': {fontSize:'70%'},
+..    'div': {fontSize:'70%'},
 
 
 *demo:* Numerical formula
@@ -1054,7 +1052,7 @@ Link between pages by using reST `label` and :rst:role:`ref` role:
 
 Use :rst:dir:`math` directive to rendering numerical formula.
 
-.. code-block:: rst
+.. rstdemo::
 
    Pythagoras theorem is :math:`a^2 + b^2 = c^2`.
 
@@ -1088,16 +1086,21 @@ Add :mod:`sphinx.ext.todo` extension in conf.py:
    extensions = [
        'sphinx.ext.todo',
    ]
+   todo_include_todos = True
 
 Then you can use :rst:dir:`todo` directive:
 
-.. code-block:: rst
+.. rstdemo::
 
    .. todo:: write test for this function.
 
-and  :rst:dir:`todolist` directive:
 
-.. code-block:: rst
+*demo:* todo extension
+=========================
+
+... and  :rst:dir:`todolist` directive:
+
+.. rstdemo::
 
    .. todolist::
 
@@ -1118,7 +1121,7 @@ Add :mod:`sphinx.ext.autodoc` extension in conf.py:
 
 Then you can use :rst:dir:`automodule` directive:
 
-.. code-block:: rst
+.. rstdemo::
 
    .. automodule:: person
       :members:
@@ -1144,10 +1147,10 @@ Add :mod:`sphinx.ext.intersphinx` extension and intersphinx setting in conf.py:
 
 Then your linking markups link remote pages:
 
-.. code-block:: rst
+.. rstdemo::
 
    This markup link to Python's official reference page:
-   :py:function:`urllib.urlopen` on the :mod:`urllib` page.
+   :py:func:`urllib.urlopen` on the :mod:`urllib` page.
 
 .. speech::
 
@@ -1166,7 +1169,7 @@ Then your linking markups link remote pages:
 
 A domain is a collection of markup (directives and roles) to describe and link to objects belonging together.
 
-.. code-block:: rst
+.. rstdemo::
 
    .. py:function:: event.register(event_id, user_name)
 
@@ -1295,12 +1298,12 @@ Add ``sphinxcontrib.blockdiag`` extension in conf.py:
 
 Then you can use ``blockdiag`` directive:
 
-.. code-block:: rst
+.. rstdemo::
 
    .. blockdiag::
 
       {
-          A [label="自己"];
+          A [label="ME"];
           A -> B [label="Open"];
           A -> C;
 
@@ -1331,7 +1334,7 @@ Add ``sphinxcontrib.seqdiag`` extension in conf.py:
 
 Then you can use ``seqdiag`` directive:
 
-.. code-block:: rst
+.. rstdemo::
 
    .. seqdiag::
 

@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import sys, os
+sys.path.append('.')
 sys.path.append('_ext')
 
 language = 'en'
@@ -18,9 +19,13 @@ extensions = [
     'sphinxjp.themecore',
     'sphinx.ext.todo',
     'sphinx.ext.intersphinx',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.pngmath',
     'sphinxcontrib.blockdiag',
+    'sphinxcontrib.seqdiag',
     'demo',
 ]
+todo_include_todos = True
 html_logo = 'sphinx-logo.png'
 html_static_path = ['_static']
 html_use_index = False
