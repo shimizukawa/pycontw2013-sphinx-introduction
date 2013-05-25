@@ -158,7 +158,8 @@ body {
 
 .s6.sphinx .page.default .rstdemo-rendered {
 	font-size: 85%;
-	background-color: #004411;
+	background-color: #ffeedd;
+	color: black;
 	width: 90%;
 	margin: 0.3em 1em;
 	padding: 0.3em;
