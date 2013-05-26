@@ -26,7 +26,7 @@ extensions = [
     'demo',
 ]
 todo_include_todos = True
-html_logo = 'sphinx-logo.png'
+html_logo = 'images/sphinx-logo.png'
 html_static_path = ['_static']
 html_use_index = False
 html_theme = 's6'
