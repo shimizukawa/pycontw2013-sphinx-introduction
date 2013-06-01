@@ -454,7 +454,7 @@ What **IS NOT** Sphinx?
 .. s6:: styles
 
    'ul/li[0]/ul': {margin:'0 1em', display:'none'},
-   'ul/li[0]/ul/li[0]/div': {width:'100%', margin:'-1.5em -1em 0', zIndex:'-1', position:'relative', fontSize:'70%'},
+   'ul/li[0]/ul/li[0]/div': {width:'100%', margin:'-2em 0 0 -2em', zIndex:'-1', position:'relative', fontSize:'70%'},
 
 .. s6:: actions
 
@@ -482,7 +482,7 @@ What **IS NOT** Sphinx?
 .. s6:: styles
 
    'ul/li[0]/ul': {margin:'0 1em', display:'none'},
-   'ul/li[0]/ul/li[0]/div': {width:'100%', margin:'-1.5em -1em 0', zIndex:'-1', position:'relative', fontSize:'70%'},
+   'ul/li[0]/ul/li[0]/div': {width:'100%', margin:'-2em 0 0 -2em', zIndex:'-1', position:'relative', fontSize:'70%'},
 
 .. s6:: actions
 
@@ -512,7 +512,7 @@ What **IS NOT** Sphinx?
 .. s6:: styles
 
    'ul/li[0]/ul': {margin:'0 1em', display:'none'},
-   'ul/li[0]/ul/li[0]/div': {width:'100%', margin:'-1.5em -1em 0', zIndex:'-1', position:'relative', fontSize:'70%'},
+   'ul/li[0]/ul/li[0]/div': {width:'100%', margin:'-2em 0 0 -2em', zIndex:'-1', position:'relative', fontSize:'70%'},
 
 .. s6:: actions
 

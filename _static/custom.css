@@ -4,28 +4,28 @@ body {
 	background-position: 100% 100%;
 }
 
-.s6 .page strong {
+.s6.sphinx .page strong {
 	font-size: 100%;
 }
 
-.s6 .page em {
+.s6.sphinx .page em {
 	font-style: italic;
 	color: #ccffcc;
 }
 
-.s6 h1.page.default {
+.s6.sphinx h1.page.default {
 	margin: 1.0em 0.1em;
-	font-size: 200% !important;
+	font-size: 200%;
 }
 
-.s6 .page.default h2 {
-	padding: 0.1em 3% !important;
+.s6.sphinx .page.default h2 {
+	padding: 0.1em 3%;
 	line-height: 1.2em;
 }
 
-.s6 .page.default > p,
-.s6 .page.default > ol,
-.s6 .page.default > ul {
+.s6.sphinx .page.default > p,
+.s6.sphinx .page.default > ol,
+.s6.sphinx .page.default > ul {
 	margin: 0.1em;
 }
 
