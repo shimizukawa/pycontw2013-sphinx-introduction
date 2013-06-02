@@ -1094,6 +1094,7 @@ Then you can use :rst:dir:`todo` directive:
 
    .. todo:: write test for this function.
 
+.. s6:: effect slide
 
 *demo:* todo extension
 =========================

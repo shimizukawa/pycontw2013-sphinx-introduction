@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-import sys, os
-sys.path.append('.')
-sys.path.append('_ext')
+import os, sys
+sys.path.append(os.path.abspath('.'))
 
 language = 'en'
 
@@ -23,7 +22,7 @@ extensions = [
     'sphinx.ext.pngmath',
     'sphinxcontrib.blockdiag',
     'sphinxcontrib.seqdiag',
-    'demo',
+    'sphinxcontrib.rstdemo',
 ]
 todo_include_todos = True
 html_logo = 'images/sphinx-logo.png'
