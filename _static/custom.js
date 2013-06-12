@@ -11,8 +11,8 @@ $(function(){
 					hover.offset().left + hover.outerWidth() > evt.pageX &&
 					hover.offset().top < evt.pageY &&
 					hover.offset().top + hover.outerHeight() > evt.pageY) {
-						speech_elem.css('top', evt.pageY + 1);
-						speech_elem.css('left', evt.pageX - 1 - speech_elem.outerWidth() - page.offset().left);
+						speech_elem.css('top', evt.pageY - speech_elem.outerHeight());
+						speech_elem.css('left', evt.pageX - page.offset().left);
 						speech_elem.show();
 				} else {
 					speech_elem.hide();
