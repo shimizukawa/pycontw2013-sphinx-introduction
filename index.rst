@@ -55,10 +55,10 @@ Books
 .. s6:: styles
 
    'ul/li[0]/p': {width: '50%', marginBottom:'0.5em'},
-   'ul/li[0]/div': {width:'30%', left:'55%', top:'1em'},
+   'ul/li[0]/div': {width:'30%', position:'absolute', left:'55%', top:'1em'},
    'ul/li[1]': {marginLeft: '2em'},
    'ul/li[1]/p': {width: '50%'},
-   'ul/li[1]/div': {width:'30%', right:'0', bottom:'0em'},
+   'ul/li[1]/div': {width:'30%', position:'absolute', right:'0', top:'4em'},
    'ul/li[1]/ul/li[0]': {display:'none'},
    'ul': {fontSize:'70%'},
 
@@ -111,7 +111,7 @@ The Sphinx
 .. s6:: styles
 
    'h2': {fontSize:'120%', textAlign:'center'},
-   'div[0]/img': {margin:'20% 10%', width:'90%'},
+   'div[0]/img': {margin:'20% 10%', width:'80%'},
    'div/img': {border:'0.1em gray outset'},
 
 Table of contents
