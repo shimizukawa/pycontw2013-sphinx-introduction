@@ -1,4 +1,5 @@
-body {
+body,
+.s6.sphinx .page.index {
 	background: url(sphinx-slide-bg.png);
 	background-size: 100%;
 	background-position: 100% 100%;

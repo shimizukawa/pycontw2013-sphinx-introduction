@@ -20,7 +20,7 @@ http://about.me/shimizukawa,
 
 .. s6:: styles
 
-    'div[0]': {width:'15%', position:'absolute', top:'0'},
+    'div[0]': {width:'15%', position:'absolute', top:'0', right:'1em'},
 
 .. speech::
 
